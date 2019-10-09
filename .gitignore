@@ -103,7 +103,10 @@ venv.bak/
 # mypy
 .mypy_cache/
 
+# local folders
+curated/
+data/
+prototyping/
+
 # local files
 test.py
-ideas.txt
-/curated

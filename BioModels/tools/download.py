@@ -1,5 +1,5 @@
 import requests
-from tools.timeit import timeit
+from BioModels.tools.timeit import timeit
 
 
 @timeit
