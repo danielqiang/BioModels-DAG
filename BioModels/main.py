@@ -6,7 +6,8 @@ from BioModels import SBMLParser, build_graph
 
 def main():
     filepaths = (os.path.join('curated', model) for model in os.listdir("curated"))
-    data = SBMLParser(filepaths).as_generator()
+
+    data = SBMLParser(filepaths).to_generator()
     graph = build_graph(data)
     networkx.write_graphml(graph, "data/g.graphml")
 

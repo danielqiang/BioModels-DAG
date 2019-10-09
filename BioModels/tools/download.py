@@ -1,8 +1,8 @@
 import requests
-from BioModels.tools.timeit import timeit
+
+__all__ = ['download_curated_models']
 
 
-@timeit
 def download_curated_models(dirpath, chunk_size=10):
     """
     Downloads all curated models from https://www.ebi.ac.uk/biomodels and stores

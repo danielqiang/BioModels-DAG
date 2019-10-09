@@ -1,5 +1,6 @@
 import requests
-from pprint import pprint
+
+__all__ = ['get_go_json']
 
 
 def get_go_json(go_id: str, session: requests.Session = None):
@@ -27,6 +28,3 @@ def get_go_json(go_id: str, session: requests.Session = None):
     with session or requests.Session() as s:
         params = {'wt': 'json', 'q': 'id:"{}"'.format(go_id)}
         return s.get("http://golr.berkeleybop.org/select", params=params).json()
-
-
-pprint(get_go_json("GO:0005634"))

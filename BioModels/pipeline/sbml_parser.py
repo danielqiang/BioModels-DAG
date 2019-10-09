@@ -20,7 +20,7 @@ class SBMLParser:
         """
         self._filepaths = filepaths
 
-    def as_generator(self):
+    def to_generator(self):
         """
         Returns a generator over all (Child Model Data, Edge, Parent Model Data)
         3-tuples in this parser.
