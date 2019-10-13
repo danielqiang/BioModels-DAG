@@ -14,7 +14,7 @@ def download_curated_models(dirpath, chunk_size=10):
                     Note that the BioModels search API allows a maximum of 100
                     files with each request.
     """
-    # Biomodels API documentation can be found at https://www.ebi.ac.uk/biomodels/docs/#/.
+    # Biomodels API documentation can be found at https://www.ebi.ac.uk/biomodels/docs.
 
     # With chunk_size = 10, download_curated_models took 783.2160873413086 seconds
     # (13m 3s) to download all curated model SBML files on UW Wifi.

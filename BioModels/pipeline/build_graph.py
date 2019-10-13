@@ -1,12 +1,15 @@
 import networkx
-from typing import Iterable
+from typing import Iterable, Tuple
 
 __all__ = ['build_graph']
 
 
-def build_graph(data: Iterable):
+def build_graph(data: Iterable[Tuple[dict, dict, dict]]):
     """
     Builds a NetworkX DiGraph object from (Child, Edge, Parent) 3-tuples.
+
+    Child and Parent must be dictionaries containing a 'name' key; this
+    is the name of the node in the DiGraph.
 
     :param data: Iterable of (Child, Edge, Parent) 3-tuples.
     :rtype: networkx.DiGraph
@@ -14,11 +17,6 @@ def build_graph(data: Iterable):
     g = networkx.DiGraph()
 
     for child_attrs, edge, parent_attrs in data:
-        # Color pubmed nodes red, biomodel nodes green
-        if parent_attrs['provider'] in ('biomodels.db', 'pubmed'):
-            parent_attrs['color'] = 'red' if parent_attrs['provider'] == 'pubmed' else 'green'
-        child_attrs['color'] = 'green'
-
         child_name, parent_name = child_attrs.pop('name'), parent_attrs.pop('name')
 
         g.add_node(child_name, **child_attrs)

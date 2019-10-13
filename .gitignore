@@ -107,7 +107,9 @@ venv.bak/
 curated/
 data/
 prototyping/
+legacy/
 
 # local files
 test.py
+parser.py
 .idea
