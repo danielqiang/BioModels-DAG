@@ -11,15 +11,13 @@ def parse_mcmp_model(file: TextIO, all_go_compartments: Collection, skip_single_
     (Model, Edge, Parent Model) 3-tuples each representing a relationship
     between an SBML model and one of its defined compartments.
 
-    If
-
     :param file: SBML file handle.
     :param all_go_compartments: Collection of all known GO compartment names.
                             Acts as a preprocessed data reference for the
                             parser; can be obtained by calling
                             get_all_go_compartments().
     :param skip_single_cmp_models: If True, does not parse 'file' if it
-                            is a single compartment models.
+                            is a single compartment model.
     :rtype: generator
     """
     soup = BeautifulSoup(file, features='lxml')
