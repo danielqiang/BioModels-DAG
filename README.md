@@ -12,7 +12,7 @@ from SBML [BioModels](https://www.ebi.ac.uk/biomodels/). An example network is d
 
 ![](https://imgur.com/oOglAcV.gif)
 <sub><sup>
-Visual subset of relational data network between derived BioModels.
+Relational data network representing parent-child relationships between BioModels.
 PubMed models are displayed in red, curated EBI models are displayed in green.
 </sup></sub>
 
