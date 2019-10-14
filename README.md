@@ -8,7 +8,7 @@ _**This project is under active development as part of semantic data research wi
 
 Biomodels-ETL is an ETL pipeline for generating and visualizing semantic data networks 
 from SBML [BioModels](https://www.ebi.ac.uk/biomodels/). An example network is displayed below
-(via Cytoscape):
+(generated with Cytoscape):
 
 ![](https://imgur.com/oOglAcV.gif)
 <sub><sup>
