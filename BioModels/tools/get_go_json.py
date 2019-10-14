@@ -1,5 +1,4 @@
 import requests
-import difflib
 
 __all__ = ['get_go_json']
 
