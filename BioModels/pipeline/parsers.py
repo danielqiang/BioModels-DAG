@@ -110,7 +110,8 @@ def get_all_go_compartments(dirpath):
             for tag in compartment_tags:
                 try:
                     go_id = tag.find("rdf:li")['rdf:resource'].split('/')[-1]
-                    compartment_name = get_go_json(go_id)['response']['docs'][0]['annotation_class_label']
+                    compartment_name = get_go_json(go_id)['response']['docs'][0][
+                        'annotation_class_label']
                     all_compartments.add(compartment_name)
                 except (ValueError, TypeError):
                     pass

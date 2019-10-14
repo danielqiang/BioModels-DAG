@@ -13,7 +13,7 @@ def timeit(method):
         start = time.time()
         result = method(*args, **kw)
         end = time.time()
-        print(method.__name__ + ' took ' + str(end - start) + ' seconds.')
+        print("{} took {} seconds.".format(method.__name__, str(end - start)))
         return result
 
     return timed

@@ -14,22 +14,25 @@ def main():
     # networkx.write_graphml(graph, "data/derived_models.graphml")
 
     # Extracted using get_all_go_compartments("curated")
-    all_compartments = {'mitochondrion', 'extraorganismal space', 'endoplasmic reticulum',
-                        'obsolete intracellular part', 'sarcoplasmic reticulum', 'endosome lumen', 'endosome membrane',
-                        'extracellular membrane-bounded organelle', 'cell', 'autophagosome', 'early phagosome',
-                        'proteasome complex', 'spindle pole body', 'smooth endoplasmic reticulum', 'plasma membrane',
-                        'DNA binding', 'glycosome', 'mitochondrial matrix', 'extracellular region',
-                        'mitochondrial inner membrane', 'cytoplasmic side of plasma membrane', 'cytosol',
-                        'mitochondrial intermembrane space', 'Golgi membrane', 'nucleus', 'lysosome', 'endosome',
-                        'endoplasmic reticulum membrane', 'hepatocyte homeostasis', 'Golgi apparatus',
-                        'extracellular space', 'membrane', 'cell surface', 'nuclear membrane', 'vesicle',
-                        'chloroplast stroma', 'intracellular', 'cytoplasm'}
+    all_compartments = {'vesicle', 'glycosome', 'Golgi apparatus', 'endoplasmic reticulum',
+                        'sarcoplasmic reticulum', 'hepatocyte homeostasis', 'cytoplasm',
+                        'early phagosome', 'smooth endoplasmic reticulum', 'endosome lumen',
+                        'extracellular region', 'autophagosome', 'nucleus', 'mitochondrial matrix',
+                        'obsolete intracellular part', 'cell', 'extraorganismal space',
+                        'extracellular membrane-bounded organelle', 'endosome membrane', 'membrane',
+                        'lysosome', 'endosome', 'proteasome complex', 'intracellular',
+                        'cytoplasmic side of plasma membrane', 'endoplasmic reticulum membrane',
+                        'DNA binding', 'cell surface', 'mitochondrion', 'spindle pole body',
+                        'plasma membrane', 'chloroplast stroma', 'Golgi membrane',
+                        'mitochondrial intermembrane space', 'extracellular space',
+                        'nuclear membrane', 'mitochondrial inner membrane', 'cytosol'}
 
-    data = GraphDataBuilder(filepaths,
-                            parser=parse_mcmp_model,
-                            preprocessed_data=all_compartments).to_generator()
-    graph = build_graph(data)
-    networkx.write_graphml(graph, "data/multicompartment_models.graphml")
+    # data = GraphDataBuilder(filepaths,
+    #                         parser=parse_mcmp_model,
+    #                         preprocessed_data=all_compartments).to_generator()
+    # graph = build_graph(data)
+    # networkx.write_graphml(graph, "data/multicompartment_models.graphml")
+    print(all_compartments)
 
 
 if __name__ == '__main__':
