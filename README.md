@@ -1,17 +1,17 @@
 
-_**This project is under active development as part of research with
-[UW BIME](http://bime.uw.edu/) semantic data.**_
+_**This project is under active development as part of semantic data research with
+[UW BIME](http://bime.uw.edu/).**_
 
 # BioModels-ETL
 
-<sub><sup>_In collaboration with [Dr. John Gennari](http://bime.uw.edu/faculty/john-gennari/)._</sup></sub>
+<sub>_In collaboration with [Dr. John Gennari](http://bime.uw.edu/faculty/john-gennari/)._</sub>
 
 Biomodels-ETL is an ETL pipeline for generating and visualizing semantic data networks 
 from SBML [BioModels](https://www.ebi.ac.uk/biomodels/). An example network is displayed below
 (via Cytoscape):
 
 ![](https://imgur.com/oOglAcV.gif)
-<sub><sup>Subset of relational network between derived BioModels.</sup></sub>
+<sub><sup>Small subset of relational data network between derived EBI BioModels.</sup></sub>
 
 The pipeline:
 - Integrates and extracts semantic data from multiple RDF/XML SBML BioModel providers
