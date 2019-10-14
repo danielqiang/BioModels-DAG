@@ -5,8 +5,7 @@ __all__ = ['get_go_json']
 
 def get_go_json(go_id: str, session: requests.Session = None):
     """
-    Requests and returns JSON data from GOlr (http://golr.berkeleybop.org)
-    for the element specified by go_id.
+    Requests and returns JSON data from GOlr for the element specified by go_id.
 
     :param go_id: Seven digit identifier prefixed by GO (e.g. GO:0005634) that
                 uniquely identifies a gene ontology term element.
