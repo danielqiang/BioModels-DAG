@@ -1,4 +1,4 @@
-from typing import Iterable, Generator, Callable, Collection, Tuple, TextIO, Collection
+from typing import Iterable, Callable, Collection
 
 __all__ = ['GraphDataBuilder']
 
@@ -8,19 +8,22 @@ class GraphDataBuilder:
         usable by NetworkX.
     """
 
-    def __init__(self, filepaths: Iterable[str],
-                 parser: Callable[[TextIO], Generator[Tuple[dict, dict, dict], None, None]]):
+    def __init__(self, filepaths: Iterable[str], parser: Callable, preprocessed_data=None):
         """
         Constructor. Uses a user-provided SBML parser to generate child-edge-parent 3-tuples
         each representing a parent-child relationship between two biological entities.
 
         :param filepaths: Paths to SBML files.
-        :param parser: Callable that takes an SBML file handle and returns an iterator over
-                        child-edge-parent 3-tuples. Both the child and parent must contain
-                        a 'name' key.
+        :param parser: Callable that takes an SBML file handle and (optionally) preprocessed data
+                        and returns an iterator over child-edge-parent 3-tuples. Both the child
+                        and parent must contain a 'name' key.
+        :param preprocessed_data: Data to pass to parser as a second argument, called with
+                        parser(file: TextIO, preprocessed_data). If None, no second argument
+                        is passed to parser().
         """
         self._filepaths = filepaths
         self._parser = parser
+        self._preprocessed_data = preprocessed_data
 
     def to_generator(self):
         """
@@ -64,4 +67,7 @@ class GraphDataBuilder:
             if print_fpath:
                 print(filepath)
             with open(filepath, "r", encoding='utf8') as file:
-                yield from self._parser(file)
+                if self._preprocessed_data is None:
+                    yield from self._parser(file)
+                else:
+                    yield from self._parser(file, self._preprocessed_data)
