@@ -11,7 +11,10 @@ from SBML [BioModels](https://www.ebi.ac.uk/biomodels/). An example network is d
 (via Cytoscape):
 
 ![](https://imgur.com/oOglAcV.gif)
-<sub><sup>Small subset of relational data network between derived EBI BioModels.</sup></sub>
+<sub><sup>
+Small subset of relational data network between derived BioModels.
+PubMed models are displayed in red, EBI models are displayed in green.
+</sup></sub>
 
 The pipeline:
 - Integrates and extracts semantic data from multiple RDF/XML SBML BioModel providers
