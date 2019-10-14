@@ -5,17 +5,21 @@ from os.path import basename
 __all__ = ['parse_derived_model', 'parse_mcmp_model', 'get_all_go_compartments']
 
 
-def parse_mcmp_model(file: TextIO, all_go_compartments: Collection):
+def parse_mcmp_model(file: TextIO, all_go_compartments: Collection, skip_single_cmp_models=True):
     """
     Extracts all compartments from an SBML file and returns a generator of
     (Model, Edge, Parent Model) 3-tuples each representing a relationship
     between an SBML model and one of its defined compartments.
 
+    If
+
     :param file: SBML file handle.
     :param all_go_compartments: Collection of all known GO compartment names.
-                                Acts as a preprocessed data reference for the
-                                parser; can be obtained by calling
-                                get_all_go_compartments().
+                            Acts as a preprocessed data reference for the
+                            parser; can be obtained by calling
+                            get_all_go_compartments().
+    :param skip_single_cmp_models: If True, does not parse 'file' if it
+                            is a single compartment models.
     :rtype: generator
     """
     soup = BeautifulSoup(file, features='lxml')
@@ -59,9 +63,9 @@ def get_name(compartment_tag: BeautifulSoup, all_go_compartments):
     :param compartment_tag: BeautifulSoup Tag for a single compartment
                             in a multi-compartment model.
     :param all_go_compartments: Collection of all known GO compartment names.
-                                Acts as a preprocessed data reference for the
-                                parser; can be obtained by calling
-                                get_all_go_compartments()
+                            Acts as a preprocessed data reference for the
+                            parser; can be obtained by calling
+                            get_all_go_compartments()
     :rtype: str
     """
     from BioModels.tools import get_go_json
