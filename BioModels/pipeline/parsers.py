@@ -29,11 +29,11 @@ def parse_mcmp_model(file: TextIO, all_go_compartments: Collection, skip_single_
     model_name = str(basename(file.name).split('.')[0])
     model_provider = 'biomodels.db'
     model_URI = 'http://identifiers.org/biomodels.db/' + model_name
-    model_publication_date = extract_publication_date(soup)
+    model_publication_date = _extract_publication_date(soup)
 
     for compartment_tag in compartment_tags:
         compartment_data = {
-            'name': get_name(compartment_tag, all_go_compartments).lower(),
+            'name': _get_name(compartment_tag, all_go_compartments).lower(),
             # Color compartments yellow
             'color': 'yellow'
         }
@@ -49,7 +49,7 @@ def parse_mcmp_model(file: TextIO, all_go_compartments: Collection, skip_single_
         yield model_data, 'isPartOf', compartment_data
 
 
-def get_name(compartment_tag: BeautifulSoup, all_go_compartments):
+def _get_name(compartment_tag: BeautifulSoup, all_go_compartments):
     """
     Extracts and returns the compartment name from a compartment tag.
 
@@ -132,9 +132,9 @@ def parse_derived_model(file: TextIO):
     child_name = str(basename(file.name).split('.')[0])
     child_provider = 'biomodels.db'
     child_URI = 'http://identifiers.org/biomodels.db/' + child_name
-    child_publication_date = extract_publication_date(soup)
+    child_publication_date = _extract_publication_date(soup)
 
-    for parent_URI in extract_parent_URIs(soup):
+    for parent_URI in _extract_parent_URIs(soup):
         parent_name = parent_URI.split("http://identifiers.org/")[-1].split('/')[-1]
         parent_provider = parent_URI.split("http://identifiers.org/")[-1].split('/')[0]
 
@@ -158,13 +158,13 @@ def parse_derived_model(file: TextIO):
         yield child_data, 'isDerivedFrom', parent_data
 
 
-def extract_parent_URIs(soup: BeautifulSoup):
+def _extract_parent_URIs(soup: BeautifulSoup):
     for resource in soup.find_all('bqmodel:isderivedfrom'):
         for tag in resource.find_all('rdf:li'):
             yield tag['rdf:resource']
 
 
-def extract_publication_date(soup: BeautifulSoup):
+def _extract_publication_date(soup: BeautifulSoup):
     from dateutil import parser
 
     dt = soup.find("dcterms:created").find("dcterms:w3cdtf").text
