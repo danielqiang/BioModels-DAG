@@ -1,0 +1,4087 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key attr.name="label" attr.type="string" for="edge" id="d4"/>
+<key attr.name="color" attr.type="string" for="node" id="d3"/>
+<key attr.name="created" attr.type="string" for="node" id="d2"/>
+<key attr.name="URI" attr.type="string" for="node" id="d1"/>
+<key attr.name="provider" attr.type="string" for="node" id="d0"/>
+<graph edgedefault="directed"><node id="BIOMD0000000013">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000013</data>
+  <data key="d2">2008-06-25</data>
+  <data key="d3">green</data>
+</node>
+<node id="chloroplast stroma">
+  <data key="d3">yellow</data>
+</node>
+<node id="cytosol">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000016">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000016</data>
+  <data key="d2">2005-06-29</data>
+  <data key="d3">green</data>
+</node>
+<node id="default">
+  <data key="d3">yellow</data>
+</node>
+<node id="cytoplasm">
+  <data key="d3">yellow</data>
+</node>
+<node id="nucleus">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000018">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000018</data>
+  <data key="d2">2005-06-29</data>
+  <data key="d3">green</data>
+</node>
+<node id="extracellular space">
+  <data key="d3">yellow</data>
+</node>
+<node id="cell">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000019">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000019</data>
+  <data key="d2">2005-08-15</data>
+  <data key="d3">green</data>
+</node>
+<node id="endosome">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000021">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000021</data>
+  <data key="d2">2005-06-29</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000022">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000022</data>
+  <data key="d2">2005-09-21</data>
+  <data key="d3">green</data>
+</node>
+<node id="drosophilia">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000032">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000032</data>
+  <data key="d2">2005-06-08</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000034">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000034</data>
+  <data key="d2">2005-06-24</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000036">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000036</data>
+  <data key="d2">2005-07-07</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000039">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000039</data>
+  <data key="d2">2005-07-15</data>
+  <data key="d3">green</data>
+</node>
+<node id="smooth endoplasmic reticulum">
+  <data key="d3">yellow</data>
+</node>
+<node id="mitochondrion">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000041">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000041</data>
+  <data key="d2">2005-06-29</data>
+  <data key="d3">green</data>
+</node>
+<node id="mitochondrial intermembrane space">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000043">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000043</data>
+  <data key="d2">2005-07-08</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000044">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000044</data>
+  <data key="d2">2005-07-08</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000045">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000045</data>
+  <data key="d2">2005-07-08</data>
+  <data key="d3">green</data>
+</node>
+<node id="intravesicular2">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000047">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000047</data>
+  <data key="d2">2005-08-25</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000049">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000049</data>
+  <data key="d2">2005-12-21</data>
+  <data key="d3">green</data>
+</node>
+<node id="cytoplasmic side of plasma membrane">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000051">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000051</data>
+  <data key="d2">2006-01-18</data>
+  <data key="d3">green</data>
+</node>
+<node id="extracellular region">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000059">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000059</data>
+  <data key="d2">2006-06-20</data>
+  <data key="d3">green</data>
+</node>
+<node id="endoplasmic reticulum">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000061">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000061</data>
+  <data key="d2">2006-07-12</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000063">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000063</data>
+  <data key="d2">2006-08-13</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000064">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000064</data>
+  <data key="d2">2008-09-16</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000071">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000071</data>
+  <data key="d2">2008-10-09</data>
+  <data key="d3">green</data>
+</node>
+<node id="total cell">
+  <data key="d3">yellow</data>
+</node>
+<node id="glycosome">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000075">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000075</data>
+  <data key="d2">2008-10-23</data>
+  <data key="d3">green</data>
+</node>
+<node id="plasma membrane">
+  <data key="d3">yellow</data>
+</node>
+<node id="intracellular">
+  <data key="d3">yellow</data>
+</node>
+<node id="nuclear membrane">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000081">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000081</data>
+  <data key="d2">2006-11-09</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000087">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000087</data>
+  <data key="d2">2006-10-16</data>
+  <data key="d3">green</data>
+</node>
+<node id="membrane">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000088">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000088</data>
+  <data key="d2">2006-09-30</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000090">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000090</data>
+  <data key="d2">2007-01-23</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000093">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000093</data>
+  <data key="d2">2007-03-07</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000094">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000094</data>
+  <data key="d2">2007-01-26</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000095">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000095</data>
+  <data key="d2">2006-12-11</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000096">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000096</data>
+  <data key="d2">2007-03-03</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000097">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000097</data>
+  <data key="d2">2006-12-11</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000098">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000098</data>
+  <data key="d2">2007-03-21</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000099">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000099</data>
+  <data key="d2">2007-03-21</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000100">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000100</data>
+  <data key="d2">2007-03-22</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000101">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000101</data>
+  <data key="d2">2006-11-28</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000112">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000112</data>
+  <data key="d2">2006-11-29</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000113">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000113</data>
+  <data key="d2">2007-04-19</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000114">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000114</data>
+  <data key="d2">2007-05-10</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000115">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000115</data>
+  <data key="d2">2007-05-10</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000117">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000117</data>
+  <data key="d2">2007-05-22</data>
+  <data key="d3">green</data>
+</node>
+<node id="obsolete intracellular part">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000122">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000122</data>
+  <data key="d2">2007-06-26</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000123">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000123</data>
+  <data key="d2">2007-06-26</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000137">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000137</data>
+  <data key="d2">2007-08-06</data>
+  <data key="d3">green</data>
+</node>
+<node id="cell surface">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000139">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000139</data>
+  <data key="d2">2007-05-16</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000140">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000140</data>
+  <data key="d2">2007-05-16</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000143">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000143</data>
+  <data key="d2">2007-07-27</data>
+  <data key="d3">green</data>
+</node>
+<node id="early phagosome">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000144">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000144</data>
+  <data key="d2">2007-06-08</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000145">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000145</data>
+  <data key="d2">2007-08-28</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000147">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000147</data>
+  <data key="d2">2007-09-04</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000149">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000149</data>
+  <data key="d2">2007-07-10</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000151">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000151</data>
+  <data key="d2">2007-08-31</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000161">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000161</data>
+  <data key="d2">2008-01-29</data>
+  <data key="d3">green</data>
+</node>
+<node id="golgi apparatus">
+  <data key="d3">yellow</data>
+</node>
+<node id="endoplasmic reticulum membrane">
+  <data key="d3">yellow</data>
+</node>
+<node id="golgi membrane">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000162">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000162</data>
+  <data key="d2">2008-01-28</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000163">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000163</data>
+  <data key="d2">2008-02-14</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000164">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000164</data>
+  <data key="d2">2008-01-31</data>
+  <data key="d3">green</data>
+</node>
+<node id="ec">
+  <data key="d3">yellow</data>
+</node>
+<node id="pm">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000165">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000165</data>
+  <data key="d2">2007-10-03</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000166">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000166</data>
+  <data key="d2">2007-12-21</data>
+  <data key="d3">green</data>
+</node>
+<node id="store">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000167">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000167</data>
+  <data key="d2">2007-09-26</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000170">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000170</data>
+  <data key="d2">2008-04-16</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000171">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000171</data>
+  <data key="d2">2008-05-08</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000172">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000172</data>
+  <data key="d2">2006-09-14</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000173">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000173</data>
+  <data key="d2">2008-07-30</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000177">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000177</data>
+  <data key="d2">2007-09-12</data>
+  <data key="d3">green</data>
+</node>
+<node id="mitochondrial matrix">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000178">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000178</data>
+  <data key="d2">2008-08-08</data>
+  <data key="d3">green</data>
+</node>
+<node id="endosome lumen">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000182">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000182</data>
+  <data key="d2">2008-08-20</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000184">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000184</data>
+  <data key="d2">2008-08-21</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000191">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000191</data>
+  <data key="d2">2008-11-27</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000192">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000192</data>
+  <data key="d2">2008-09-09</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000197">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000197</data>
+  <data key="d2">2008-09-25</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000202">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000202</data>
+  <data key="d2">2008-11-24</data>
+  <data key="d3">green</data>
+</node>
+<node id="er">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000211">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000211</data>
+  <data key="d2">2009-01-27</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000214">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000214</data>
+  <data key="d2">2008-12-03</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000220">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000220</data>
+  <data key="d2">2009-07-01</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000223">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000223</data>
+  <data key="d2">2009-07-09</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000224">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000224</data>
+  <data key="d2">2009-08-05</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000226">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000226</data>
+  <data key="d2">2009-02-27</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000227">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000227</data>
+  <data key="d2">2008-05-19</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000232">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000232</data>
+  <data key="d2">2009-09-10</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000235">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000235</data>
+  <data key="d2">2010-01-15</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000239">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000239</data>
+  <data key="d2">2011-11-29</data>
+  <data key="d3">green</data>
+</node>
+<node id="mitochondrial inner membrane">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000241">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000241</data>
+  <data key="d2">2010-01-08</data>
+  <data key="d3">green</data>
+</node>
+<node id="gut">
+  <data key="d3">yellow</data>
+</node>
+<node id="c">
+  <data key="d3">yellow</data>
+</node>
+<node id="p">
+  <data key="d3">yellow</data>
+</node>
+<node id="tol">
+  <data key="d3">yellow</data>
+</node>
+<node id="eff">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000244">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000244</data>
+  <data key="d2">2010-03-14</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000245">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000245</data>
+  <data key="d2">2010-03-25</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000246">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000246</data>
+  <data key="d2">2010-04-08</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000247">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000247</data>
+  <data key="d2">2007-04-11</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000248">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000248</data>
+  <data key="d2">2009-10-16</data>
+  <data key="d3">green</data>
+</node>
+<node id="capillary">
+  <data key="d3">yellow</data>
+</node>
+<node id="tissue">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000250">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000250</data>
+  <data key="d2">2010-04-30</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000255">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000255</data>
+  <data key="d2">2010-07-26</data>
+  <data key="d3">green</data>
+</node>
+<node id="lysosome">
+  <data key="d3">yellow</data>
+</node>
+<node id="endosome membrane">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000256">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000256</data>
+  <data key="d2">2010-07-30</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000259">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000259</data>
+  <data key="d2">2010-08-19</data>
+  <data key="d3">green</data>
+</node>
+<node id="extraorganismal space">
+  <data key="d3">yellow</data>
+</node>
+<node id="organism">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000260">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000260</data>
+  <data key="d2">2010-08-19</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000261">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000261</data>
+  <data key="d2">2010-08-19</data>
+  <data key="d3">green</data>
+</node>
+<node id="environment">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000266">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000266</data>
+  <data key="d2">2010-07-20</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000267">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000267</data>
+  <data key="d2">2010-09-07</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000268">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000268</data>
+  <data key="d2">2010-09-07</data>
+  <data key="d3">green</data>
+</node>
+<node id="blood">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000269">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000269</data>
+  <data key="d2">2010-09-20</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000271">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000271</data>
+  <data key="d2">2010-05-26</data>
+  <data key="d3">green</data>
+</node>
+<node id="medium">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000272">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000272</data>
+  <data key="d2">2010-05-26</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000276">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000276</data>
+  <data key="d2">2010-11-15</data>
+  <data key="d3">green</data>
+</node>
+<node id="ptg_pool">
+  <data key="d3">yellow</data>
+</node>
+<node id="plasma_pool">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000277">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000277</data>
+  <data key="d2">2010-11-15</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000295">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000295</data>
+  <data key="d2">2008-12-03</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000299">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000299</data>
+  <data key="d2">2011-01-14</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000302">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000302</data>
+  <data key="d2">2011-01-24</data>
+  <data key="d3">green</data>
+</node>
+<node id="pre_synaptic_cell">
+  <data key="d3">yellow</data>
+</node>
+<node id="post_synaptic_cell">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000320">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000320</data>
+  <data key="d2">2009-10-27</data>
+  <data key="d3">green</data>
+</node>
+<node id="v_l_dopa">
+  <data key="d3">yellow</data>
+</node>
+<node id="v_3_omd">
+  <data key="d3">yellow</data>
+</node>
+<node id="v1_b">
+  <data key="d3">yellow</data>
+</node>
+<node id="v2_b">
+  <data key="d3">yellow</data>
+</node>
+<node id="v1_m">
+  <data key="d3">yellow</data>
+</node>
+<node id="v2_m">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000321">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000321</data>
+  <data key="d2">2009-10-27</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000327">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000327</data>
+  <data key="d2">2011-04-14</data>
+  <data key="d3">green</data>
+</node>
+<node id="plasma">
+  <data key="d3">yellow</data>
+</node>
+<node id="lumen">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000328">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000328</data>
+  <data key="d2">2011-05-11</data>
+  <data key="d3">green</data>
+</node>
+<node id="compartment">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000330">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000330</data>
+  <data key="d2">2011-05-05</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000331">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000331</data>
+  <data key="d2">2011-05-05</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000342">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000342</data>
+  <data key="d2">2011-07-14</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000344">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000344</data>
+  <data key="d2">2011-07-21</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000347">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000347</data>
+  <data key="d2">2011-08-09</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000353">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000353</data>
+  <data key="d2">2010-11-01</data>
+  <data key="d3">green</data>
+</node>
+<node id="chloroplast">
+  <data key="d3">yellow</data>
+</node>
+<node id="chloroplast outer membrane">
+  <data key="d3">yellow</data>
+</node>
+<node id="chloroplast intermembrane space">
+  <data key="d3">yellow</data>
+</node>
+<node id="chloroplast inner membrane">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000354">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000354</data>
+  <data key="d2">2011-08-17</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000355">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000355</data>
+  <data key="d2">2011-08-17</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000380">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000380</data>
+  <data key="d2">2010-07-12</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000389">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000389</data>
+  <data key="d2">2011-10-19</data>
+  <data key="d3">green</data>
+</node>
+<node id="vacuole">
+  <data key="d3">yellow</data>
+</node>
+<node id="phloem">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000390">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000390</data>
+  <data key="d2">2011-10-19</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000391">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000391</data>
+  <data key="d2">2011-09-16</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000392">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000392</data>
+  <data key="d2">2011-10-19</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000393">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000393</data>
+  <data key="d2">2011-10-24</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000394">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000394</data>
+  <data key="d2">2011-11-02</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000395">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000395</data>
+  <data key="d2">2011-11-02</data>
+  <data key="d3">green</data>
+</node>
+<node id="receiving cell">
+  <data key="d3">yellow</data>
+</node>
+<node id="lipid raft">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000396">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000396</data>
+  <data key="d2">2011-11-02</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000397">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000397</data>
+  <data key="d2">2011-11-02</data>
+  <data key="d3">green</data>
+</node>
+<node id="cell membrane">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000398">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000398</data>
+  <data key="d2">2011-11-02</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000399">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000399</data>
+  <data key="d2">2011-11-03</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000407">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000407</data>
+  <data key="d2">2012-01-16</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000408">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000408</data>
+  <data key="d2">2012-01-26</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000410">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000410</data>
+  <data key="d2">2010-10-12</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000412">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000412</data>
+  <data key="d2">2011-08-18</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000428">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000428</data>
+  <data key="d2">2012-11-20</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000429">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000429</data>
+  <data key="d2">2010-07-22</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000432">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000432</data>
+  <data key="d2">2011-07-20</data>
+  <data key="d3">green</data>
+</node>
+<node id="no name">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000433">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000433</data>
+  <data key="d2">2011-07-20</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000434">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000434</data>
+  <data key="d2">2012-08-21</data>
+  <data key="d3">green</data>
+</node>
+<node id="intake">
+  <data key="d3">yellow</data>
+</node>
+<node id="intestine">
+  <data key="d3">yellow</data>
+</node>
+<node id="hepatictissue">
+  <data key="d3">yellow</data>
+</node>
+<node id="peripheraltissue">
+  <data key="d3">yellow</data>
+</node>
+<node id="excreted">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000436">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000436</data>
+  <data key="d2">2010-01-22</data>
+  <data key="d3">green</data>
+</node>
+<node id="unspecified">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000437">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000437</data>
+  <data key="d2">2013-02-26</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000445">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000445</data>
+  <data key="d2">2011-08-18</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000446">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000446</data>
+  <data key="d2">2013-03-25</data>
+  <data key="d3">green</data>
+</node>
+<node id="erlumen">
+  <data key="d3">yellow</data>
+</node>
+<node id="golgi">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000450">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000450</data>
+  <data key="d2">2010-09-07</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000451">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000451</data>
+  <data key="d2">2010-02-19</data>
+  <data key="d3">green</data>
+</node>
+<node id="t helper cell">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000464">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000464</data>
+  <data key="d2">2013-08-19</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000465">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000465</data>
+  <data key="d2">2013-08-19</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000466">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000466</data>
+  <data key="d2">2013-08-19</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000467">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000467</data>
+  <data key="d2">2013-08-19</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000468">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000468</data>
+  <data key="d2">2013-08-19</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000469">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000469</data>
+  <data key="d2">2011-11-22</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000470">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000470</data>
+  <data key="d2">2011-11-22</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000471">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000471</data>
+  <data key="d2">2008-02-20</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000472">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000472</data>
+  <data key="d2">2008-02-20</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000473">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000473</data>
+  <data key="d2">2008-02-20</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000474">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000474</data>
+  <data key="d2">2013-09-04</data>
+  <data key="d3">green</data>
+</node>
+<node id="dnabound">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000477">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000477</data>
+  <data key="d2">2013-09-10</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000480">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000480</data>
+  <data key="d2">2010-11-07</data>
+  <data key="d3">green</data>
+</node>
+<node id="lamina propia">
+  <data key="d3">yellow</data>
+</node>
+<node id="epithelium">
+  <data key="d3">yellow</data>
+</node>
+<node id="gastric lymph node">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000482">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000482</data>
+  <data key="d2">2013-09-23</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000490">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000490</data>
+  <data key="d2">2013-10-04</data>
+  <data key="d3">green</data>
+</node>
+<node id="vd_ltc">
+  <data key="d3">yellow</data>
+</node>
+<node id="vd_ltd">
+  <data key="d3">yellow</data>
+</node>
+<node id="vd_lte">
+  <data key="d3">yellow</data>
+</node>
+<node id="v_b">
+  <data key="d3">yellow</data>
+</node>
+<node id="v_aw">
+  <data key="d3">yellow</data>
+</node>
+<node id="vd_hn">
+  <data key="d3">yellow</data>
+</node>
+<node id="vd_il5">
+  <data key="d3">yellow</data>
+</node>
+<node id="v_bm">
+  <data key="d3">yellow</data>
+</node>
+<node id="vd_aw_ltc">
+  <data key="d3">yellow</data>
+</node>
+<node id="vd_aw_ltd">
+  <data key="d3">yellow</data>
+</node>
+<node id="vd_aw_lte">
+  <data key="d3">yellow</data>
+</node>
+<node id="vd_aw_hn">
+  <data key="d3">yellow</data>
+</node>
+<node id="vd_zf">
+  <data key="d3">yellow</data>
+</node>
+<node id="vd_aw_zf">
+  <data key="d3">yellow</data>
+</node>
+<node id="vd_ml">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000491">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000491</data>
+  <data key="d2">2013-11-15</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000492">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000492</data>
+  <data key="d2">2013-11-15</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000496">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000496</data>
+  <data key="d2">2013-06-11</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000497">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000497</data>
+  <data key="d2">2013-06-11</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000498">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000498</data>
+  <data key="d2">2010-06-08</data>
+  <data key="d3">green</data>
+</node>
+<node id="hepatocyte homeostasis">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000500">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000500</data>
+  <data key="d2">2014-01-07</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000503">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000503</data>
+  <data key="d2">2008-11-09</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000504">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000504</data>
+  <data key="d2">2014-01-10</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000505">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000505</data>
+  <data key="d2">2014-01-15</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000506">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000506</data>
+  <data key="d2">2014-01-15</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000510">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000510</data>
+  <data key="d2">2014-01-31</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000511">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000511</data>
+  <data key="d2">2014-02-03</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000512">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000512</data>
+  <data key="d2">2014-02-07</data>
+  <data key="d3">green</data>
+</node>
+<node id="brain">
+  <data key="d3">yellow</data>
+</node>
+<node id="rob">
+  <data key="d3">yellow</data>
+</node>
+<node id="mec">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000513">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000513</data>
+  <data key="d2">2014-02-10</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000514">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000514</data>
+  <data key="d2">2014-02-10</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000515">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000515</data>
+  <data key="d2">2014-02-10</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000516">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000516</data>
+  <data key="d2">2014-02-10</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000521">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000521</data>
+  <data key="d2">2014-03-01</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000528">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000528</data>
+  <data key="d2">2014-04-03</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000529">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000529</data>
+  <data key="d2">2014-04-03</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000534">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000534</data>
+  <data key="d2">2014-07-09</data>
+  <data key="d3">green</data>
+</node>
+<node id="serum">
+  <data key="d3">yellow</data>
+</node>
+<node id="liver">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000535">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000535</data>
+  <data key="d2">2014-08-05</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000536">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000536</data>
+  <data key="d2">2014-07-31</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000537">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000537</data>
+  <data key="d2">2014-07-18</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000543">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000543</data>
+  <data key="d2">2011-11-22</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000544">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000544</data>
+  <data key="d2">2014-08-19</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000547">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000547</data>
+  <data key="d2">2011-01-18</data>
+  <data key="d3">green</data>
+</node>
+<node id="vac">
+  <data key="d3">yellow</data>
+</node>
+<node id="cell-vac">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000551">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000551</data>
+  <data key="d2">2014-09-23</data>
+  <data key="d3">green</data>
+</node>
+<node id="csf">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000554">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000554</data>
+  <data key="d2">2010-06-25</data>
+  <data key="d3">green</data>
+</node>
+<node id="astrocytes">
+  <data key="d3">yellow</data>
+</node>
+<node id="capillaries">
+  <data key="d3">yellow</data>
+</node>
+<node id="neurons">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000557">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000557</data>
+  <data key="d2">2014-11-25</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000559">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000559</data>
+  <data key="d2">2014-11-20</data>
+  <data key="d3">green</data>
+</node>
+<node id="autophagosome">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000560">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000560</data>
+  <data key="d2">2014-12-05</data>
+  <data key="d3">green</data>
+</node>
+<node id="extracellular membrane-bounded organelle">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000563">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000563</data>
+  <data key="d2">2014-07-21</data>
+  <data key="d3">green</data>
+</node>
+<node id="apoplast">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000565">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000565</data>
+  <data key="d2">2015-01-12</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000568">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000568</data>
+  <data key="d2">2015-03-18</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000570">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000570</data>
+  <data key="d2">2014-04-09</data>
+  <data key="d3">green</data>
+</node>
+<node id="arteries">
+  <data key="d3">yellow</data>
+</node>
+<node id="venous balloon">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000572">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000572</data>
+  <data key="d2">2015-03-16</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000575">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000575</data>
+  <data key="d2">2015-03-30</data>
+  <data key="d3">green</data>
+</node>
+<node id="vesicle">
+  <data key="d3">yellow</data>
+</node>
+<node id="proteasome complex">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000576">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000576</data>
+  <data key="d2">2010-08-01</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000577">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000577</data>
+  <data key="d2">2011-08-18</data>
+  <data key="d3">green</data>
+</node>
+<node id="def">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000579">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000579</data>
+  <data key="d2">2015-08-07</data>
+  <data key="d3">green</data>
+</node>
+<node id="mit_inner_membrane">
+  <data key="d3">yellow</data>
+</node>
+<node id="ims">
+  <data key="d3">yellow</data>
+</node>
+<node id="mit_outer_membrane">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000581">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000581</data>
+  <data key="d2">2010-03-29</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000583">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000583</data>
+  <data key="d2">2014-04-08</data>
+  <data key="d3">green</data>
+</node>
+<node id="lp">
+  <data key="d3">yellow</data>
+</node>
+<node id="mln">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000588">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000588</data>
+  <data key="d2">2016-01-29</data>
+  <data key="d3">green</data>
+</node>
+<node id="neuron">
+  <data key="d3">yellow</data>
+</node>
+<node id="interstitial fluid">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000591">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000591</data>
+  <data key="d2">2016-02-11</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000600">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000600</data>
+  <data key="d2">2015-11-23</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000601">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000601</data>
+  <data key="d2">2016-04-18</data>
+  <data key="d3">green</data>
+</node>
+<node id="sarcoplasmic reticulum">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000603">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000603</data>
+  <data key="d2">2015-12-01</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000604">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000604</data>
+  <data key="d2">2015-11-30</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000605">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000605</data>
+  <data key="d2">2015-11-30</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000606">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000606</data>
+  <data key="d2">2015-11-30</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000607">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000607</data>
+  <data key="d2">2015-12-10</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000610">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000610</data>
+  <data key="d2">2016-04-20</data>
+  <data key="d3">green</data>
+</node>
+<node id="intra">
+  <data key="d3">yellow</data>
+</node>
+<node id="extra">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000612">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000612</data>
+  <data key="d2">2016-05-26</data>
+  <data key="d3">green</data>
+</node>
+<node id="bone">
+  <data key="d3">yellow</data>
+</node>
+<node id="ecm">
+  <data key="d3">yellow</data>
+</node>
+<node id="osteoblast">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000613">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000613</data>
+  <data key="d2">2016-06-23</data>
+  <data key="d3">green</data>
+</node>
+<node id="vasculature">
+  <data key="d3">yellow</data>
+</node>
+<node id="pth_gland">
+  <data key="d3">yellow</data>
+</node>
+<node id="kidney">
+  <data key="d3">yellow</data>
+</node>
+<node id="osteoblast_intracellular">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000617">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000617</data>
+  <data key="d2">2016-09-02</data>
+  <data key="d3">green</data>
+</node>
+<node id="default_compartment">
+  <data key="d3">yellow</data>
+</node>
+<node id="compartment_">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000619">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000619</data>
+  <data key="d2">2015-02-04</data>
+  <data key="d3">green</data>
+</node>
+<node id="vart">
+  <data key="d3">yellow</data>
+</node>
+<node id="vgut">
+  <data key="d3">yellow</data>
+</node>
+<node id="vgutlumen">
+  <data key="d3">yellow</data>
+</node>
+<node id="vlung">
+  <data key="d3">yellow</data>
+</node>
+<node id="vven">
+  <data key="d3">yellow</data>
+</node>
+<node id="vrest">
+  <data key="d3">yellow</data>
+</node>
+<node id="vliver">
+  <data key="d3">yellow</data>
+</node>
+<node id="vkidney">
+  <data key="d3">yellow</data>
+</node>
+<node id="vkidneytubules">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000627">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000627</data>
+  <data key="d2">2013-07-30</data>
+  <data key="d3">green</data>
+</node>
+<node id="artery">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000633">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000633</data>
+  <data key="d2">2017-04-21</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000638">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000638</data>
+  <data key="d2">2016-06-12</data>
+  <data key="d3">green</data>
+</node>
+<node id="cyt">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000658">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000658</data>
+  <data key="d2">2018-03-20</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000659">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000659</data>
+  <data key="d2">2017-06-22</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000661">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000661</data>
+  <data key="d2">2017-09-07</data>
+  <data key="d3">green</data>
+</node>
+<node id="tumour cell">
+  <data key="d3">yellow</data>
+</node>
+<node id="t-lymphocyte cell">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000674">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000674</data>
+  <data key="d2">2018-02-14</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000691">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000691</data>
+  <data key="d2">2018-03-16</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000695">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000695</data>
+  <data key="d2">2018-04-23</data>
+  <data key="d3">green</data>
+</node>
+<node id="healthy">
+  <data key="d3">yellow</data>
+</node>
+<node id="psoriatic">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000696">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000696</data>
+  <data key="d2">2018-04-24</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000699">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000699</data>
+  <data key="d2">2012-02-09</data>
+  <data key="d3">green</data>
+</node>
+<node id="spindle pole body">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000702">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000702</data>
+  <data key="d2">2012-02-09</data>
+  <data key="d3">green</data>
+</node>
+<node id="spb">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000705">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000705</data>
+  <data key="d2">2018-05-24</data>
+  <data key="d3">green</data>
+</node>
+<node id="dna binding">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000706">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000706</data>
+  <data key="d2">2018-05-24</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000708">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000708</data>
+  <data key="d2">2018-07-11</data>
+  <data key="d3">green</data>
+</node>
+<node id="human population">
+  <data key="d3">yellow</data>
+</node>
+<node id="avian population">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000709">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000709</data>
+  <data key="d2">2018-07-11</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000716">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000716</data>
+  <data key="d2">2018-07-30</data>
+  <data key="d3">green</data>
+</node>
+<node id="bird population">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000717">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000717</data>
+  <data key="d2">2018-07-30</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000726">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000726</data>
+  <data key="d2">2018-07-10</data>
+  <data key="d3">green</data>
+</node>
+<node id="dog population">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000734">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000734</data>
+  <data key="d2">2015-06-12</data>
+  <data key="d3">green</data>
+</node>
+<node id="duodenum">
+  <data key="d3">yellow</data>
+</node>
+<node id="rbc">
+  <data key="d3">yellow</data>
+</node>
+<node id="spleen">
+  <data key="d3">yellow</data>
+</node>
+<node id="restofbody">
+  <data key="d3">yellow</data>
+</node>
+<node id="bonemarrow">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000735">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000735</data>
+  <data key="d2">2015-06-12</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000736">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000736</data>
+  <data key="d2">2015-06-12</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000737">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000737</data>
+  <data key="d2">2015-06-12</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000738">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000738</data>
+  <data key="d2">2015-06-12</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000765">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000765</data>
+  <data key="d2">2019-07-26</data>
+  <data key="d3">green</data>
+</node>
+<node id="central">
+  <data key="d3">yellow</data>
+</node>
+<node id="peripheral tissue">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000786">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000786</data>
+  <data key="d2">2019-08-05</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000788">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000788</data>
+  <data key="d2">2019-07-05</data>
+  <data key="d3">green</data>
+</node>
+<node id="peripheral">
+  <data key="d3">yellow</data>
+</node>
+<node id="BIOMD0000000794">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000794</data>
+  <data key="d2">2019-08-05</data>
+  <data key="d3">green</data>
+</node>
+<edge source="BIOMD0000000013" target="chloroplast stroma">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000013" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000016" target="default">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000016" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000016" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000018" target="extracellular space">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000018" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000019" target="extracellular space">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000019" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000019" target="endosome">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000021" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000021" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000022" target="drosophilia">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000022" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000022" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000032" target="extracellular space">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000032" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000034" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000034" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000036" target="default">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000036" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000039" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000039" target="smooth endoplasmic reticulum">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000039" target="mitochondrion">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000041" target="mitochondrial intermembrane space">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000041" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000043" target="extracellular space">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000043" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000043" target="smooth endoplasmic reticulum">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000044" target="extracellular space">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000044" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000044" target="smooth endoplasmic reticulum">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000045" target="extracellular space">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000045" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000045" target="smooth endoplasmic reticulum">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000045" target="intravesicular2">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000047" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000047" target="smooth endoplasmic reticulum">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000049" target="cytoplasmic side of plasma membrane">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000049" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000051" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000051" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000059" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000059" target="endoplasmic reticulum">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000061" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000061" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000063" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000063" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000064" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000064" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000071" target="total cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000071" target="glycosome">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000071" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000071" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000075" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000075" target="plasma membrane">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000075" target="intracellular">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000075" target="nuclear membrane">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000075" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000081" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000081" target="plasma membrane">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000081" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000087" target="membrane">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000087" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000088" target="default">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000088" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000088" target="endoplasmic reticulum">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000090" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000090" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000090" target="mitochondrion">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000093" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000093" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000094" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000094" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000095" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000095" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000096" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000096" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000097" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000097" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000098" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000098" target="endoplasmic reticulum">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000099" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000099" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000100" target="extracellular space">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000100" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000100" target="endoplasmic reticulum">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000101" target="plasma membrane">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000101" target="endosome">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000112" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000112" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000113" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000113" target="endoplasmic reticulum">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000114" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000114" target="endoplasmic reticulum">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000114" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000115" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000115" target="endoplasmic reticulum">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000115" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000117" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000117" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000117" target="obsolete intracellular part">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000122" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000122" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000123" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000123" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000137" target="cell surface">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000137" target="intracellular">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000139" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000139" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000140" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000140" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000143" target="early phagosome">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000143" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000144" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000144" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000145" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000145" target="endoplasmic reticulum">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000147" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000147" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000149" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000149" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000151" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000151" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000161" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000161" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000161" target="endoplasmic reticulum">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000161" target="golgi apparatus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000161" target="plasma membrane">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000161" target="endoplasmic reticulum membrane">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000161" target="golgi membrane">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000162" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000162" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000162" target="endoplasmic reticulum">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000162" target="plasma membrane">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000162" target="endoplasmic reticulum membrane">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000163" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000163" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000163" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000164" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000164" target="ec">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000164" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000164" target="membrane">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000164" target="pm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000165" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000165" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000165" target="membrane">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000166" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000166" target="store">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000167" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000167" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000167" target="nuclear membrane">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000170" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000170" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000171" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000171" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000172" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000172" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000173" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000173" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000177" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000177" target="mitochondrial matrix">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000178" target="extracellular space">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000178" target="endosome lumen">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000178" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000182" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000182" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000182" target="plasma membrane">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000184" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000184" target="endoplasmic reticulum">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000191" target="extracellular space">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000191" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000192" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000192" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000197" target="extracellular space">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000197" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000202" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000202" target="er">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000202" target="pm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000211" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000211" target="glycosome">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000211" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000214" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000214" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000220" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000220" target="mitochondrion">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000223" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000223" target="extracellular space">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000224" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000224" target="endoplasmic reticulum">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000226" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000226" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000227" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000227" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000232" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000232" target="mitochondrial matrix">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000235" target="default">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000235" target="extracellular space">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000235" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000239" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000239" target="mitochondrial intermembrane space">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000239" target="mitochondrial inner membrane">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000239" target="mitochondrial matrix">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000241" target="gut">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000241" target="c">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000241" target="p">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000241" target="tol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000241" target="eff">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000244" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000244" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000245" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000245" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000246" target="extracellular space">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000246" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000246" target="store">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000246" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000247" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000247" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000248" target="capillary">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000248" target="tissue">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000250" target="default">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000250" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000250" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000255" target="plasma membrane">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000255" target="endosome">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000255" target="lysosome">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000255" target="extracellular space">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000255" target="endosome membrane">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000255" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000256" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000256" target="mitochondrion">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000259" target="extraorganismal space">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000259" target="organism">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000260" target="extraorganismal space">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000260" target="organism">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000261" target="environment">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000261" target="organism">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000266" target="intracellular">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000266" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000267" target="extracellular space">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000267" target="endosome lumen">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000267" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000268" target="blood">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000268" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000268" target="mitochondrion">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000268" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000269" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000269" target="extracellular space">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000271" target="medium">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000271" target="cell surface">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000271" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000272" target="medium">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000272" target="cell surface">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000272" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000276" target="ptg_pool">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000276" target="plasma_pool">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000277" target="ptg_pool">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000277" target="plasma_pool">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000295" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000295" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000299" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000299" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000302" target="pre_synaptic_cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000302" target="post_synaptic_cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000320" target="gut">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000320" target="v_l_dopa">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000320" target="v_3_omd">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000320" target="v1_b">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000320" target="v2_b">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000320" target="v1_m">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000320" target="v2_m">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000321" target="gut">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000321" target="v_l_dopa">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000321" target="v_3_omd">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000327" target="plasma">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000327" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000327" target="lumen">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000328" target="compartment">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000328" target="medium">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000328" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000330" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000330" target="endoplasmic reticulum">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000330" target="mitochondrion">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000331" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000331" target="endoplasmic reticulum">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000331" target="mitochondrion">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000342" target="default">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000342" target="medium">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000342" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000342" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000344" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000344" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000347" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000347" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000353" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000353" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000353" target="chloroplast">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000353" target="chloroplast outer membrane">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000353" target="chloroplast intermembrane space">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000353" target="chloroplast inner membrane">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000353" target="chloroplast stroma">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000354" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000354" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000354" target="endoplasmic reticulum">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000354" target="mitochondrion">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000355" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000355" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000355" target="mitochondrion">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000355" target="endoplasmic reticulum">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000380" target="intracellular">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000380" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000389" target="chloroplast">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000389" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000389" target="vacuole">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000389" target="phloem">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000390" target="chloroplast">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000390" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000391" target="chloroplast">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000391" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000392" target="chloroplast">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000392" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000393" target="chloroplast">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000393" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000394" target="default">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000394" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000395" target="default">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000395" target="receiving cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000395" target="lipid raft">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000395" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000396" target="default">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000396" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000396" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000397" target="default">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000397" target="plasma membrane">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000397" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000397" target="cell membrane">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000398" target="default">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000398" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000399" target="extracellular space">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000399" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000399" target="endosome">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000407" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000407" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000407" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000408" target="mitochondrial intermembrane space">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000408" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000408" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000410" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000410" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000412" target="default">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000412" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000428" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000428" target="glycosome">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000428" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000429" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000429" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000429" target="plasma membrane">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000432" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000432" target="no name">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000433" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000433" target="no name">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000434" target="intake">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000434" target="intestine">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000434" target="hepatictissue">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000434" target="peripheraltissue">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000434" target="plasma">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000434" target="excreted">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000436" target="unspecified">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000436" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000437" target="default">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000437" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000437" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000445" target="default">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000445" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000445" target="no name">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000446" target="erlumen">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000446" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000446" target="golgi">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000446" target="mitochondrion">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000450" target="blood">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000450" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000450" target="mitochondrion">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000450" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000451" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000451" target="t helper cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000464" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000464" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000464" target="endoplasmic reticulum">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000465" target="default">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000465" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000466" target="default">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000466" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000466" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000467" target="default">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000467" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000468" target="default">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000468" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000468" target="er">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000468" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000469" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000469" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000470" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000470" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000471" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000471" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000472" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000472" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000473" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000473" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000474" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000474" target="cell surface">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000474" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000474" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000474" target="dnabound">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000477" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000477" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000480" target="lumen">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000480" target="lamina propia">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000480" target="epithelium">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000480" target="gastric lymph node">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000482" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000482" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000482" target="intracellular">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000490" target="default">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000490" target="vd_ltc">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000490" target="vd_ltd">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000490" target="vd_lte">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000490" target="v_b">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000490" target="v_aw">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000490" target="vd_hn">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000490" target="vd_il5">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000490" target="v_bm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000490" target="vd_aw_ltc">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000490" target="vd_aw_ltd">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000490" target="vd_aw_lte">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000490" target="vd_aw_hn">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000490" target="vd_zf">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000490" target="vd_aw_zf">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000490" target="vd_ml">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000491" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000491" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000491" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000492" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000492" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000492" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000496" target="intracellular">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000496" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000497" target="intracellular">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000497" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000498" target="hepatocyte homeostasis">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000498" target="extracellular space">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000500" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000500" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000503" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000503" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000504" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000504" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000504" target="cell surface">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000505" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000505" target="mitochondrion">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000506" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000506" target="mitochondrion">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000510" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000510" target="glycosome">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000510" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000511" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000511" target="glycosome">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000511" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000512" target="default">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000512" target="brain">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000512" target="plasma">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000512" target="rob">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000512" target="mec">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000513" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000513" target="glycosome">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000513" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000514" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000514" target="glycosome">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000514" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000515" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000515" target="glycosome">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000515" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000516" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000516" target="glycosome">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000516" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000521" target="plasma">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000521" target="tissue">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000528" target="default">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000528" target="environment">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000528" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000529" target="default">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000529" target="environment">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000529" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000534" target="serum">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000534" target="liver">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000534" target="gut">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000534" target="extracellular space">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000535" target="serum">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000535" target="liver">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000535" target="gut">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000535" target="extracellular space">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000536" target="serum">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000536" target="liver">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000536" target="gut">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000536" target="extracellular space">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000537" target="serum">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000537" target="liver">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000537" target="gut">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000537" target="extracellular space">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000543" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000543" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000543" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000544" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000544" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000544" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000547" target="medium">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000547" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000547" target="vac">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000547" target="cell-vac">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000551" target="csf">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000551" target="plasma">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000554" target="astrocytes">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000554" target="capillaries">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000554" target="extracellular space">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000554" target="neurons">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000557" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000557" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000559" target="lysosome">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000559" target="autophagosome">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000559" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000560" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000560" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000560" target="membrane">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000560" target="extracellular membrane-bounded organelle">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000563" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000563" target="apoplast">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000565" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000565" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000568" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000568" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000570" target="tissue">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000570" target="arteries">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000570" target="capillaries">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000570" target="venous balloon">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000572" target="intracellular">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000572" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000575" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000575" target="vesicle">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000575" target="autophagosome">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000575" target="proteasome complex">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000575" target="lysosome">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000576" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000576" target="blood">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000577" target="default">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000577" target="def">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000577" target="no name">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000579" target="default">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000579" target="mitochondrion">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000579" target="mit_inner_membrane">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000579" target="ims">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000579" target="mit_outer_membrane">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000581" target="plasma membrane">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000581" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000583" target="lumen">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000583" target="epithelium">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000583" target="lp">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000583" target="mln">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000588" target="neuron">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000588" target="interstitial fluid">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000591" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000591" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000600" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000600" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000600" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000601" target="sarcoplasmic reticulum">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000601" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000603" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000603" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000604" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000604" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000605" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000605" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000606" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000606" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000607" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000607" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000610" target="intra">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000610" target="extra">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000612" target="bone">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000612" target="ecm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000612" target="osteoblast">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000613" target="gut">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000613" target="vasculature">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000613" target="bone">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000613" target="pth_gland">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000613" target="kidney">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000613" target="intracellular">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000613" target="osteoblast_intracellular">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000617" target="default_compartment">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000617" target="compartment_">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000619" target="vart">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000619" target="vgut">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000619" target="vgutlumen">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000619" target="vlung">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000619" target="vven">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000619" target="vrest">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000619" target="vliver">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000619" target="vkidney">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000619" target="vkidneytubules">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000627" target="capillary">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000627" target="neurons">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000627" target="astrocytes">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000627" target="extracellular space">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000627" target="venous balloon">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000627" target="artery">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000633" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000633" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000633" target="endoplasmic reticulum">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000633" target="mitochondrion">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000638" target="pm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000638" target="cyt">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000658" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000658" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000659" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000659" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000661" target="compartment">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000661" target="tumour cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000661" target="t-lymphocyte cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000674" target="blood">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000674" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000674" target="mitochondrion">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000674" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000691" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000691" target="compartment">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000695" target="healthy">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000695" target="psoriatic">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000696" target="cell">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000696" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000699" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000699" target="spindle pole body">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000702" target="cytosol">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000702" target="spb">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000705" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000705" target="cell surface">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000705" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000705" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000705" target="dna binding">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000706" target="extracellular region">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000706" target="cell surface">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000706" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000706" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000706" target="dna binding">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000708" target="human population">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000708" target="avian population">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000709" target="human population">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000709" target="avian population">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000716" target="bird population">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000716" target="human population">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000717" target="bird population">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000717" target="human population">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000726" target="dog population">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000726" target="human population">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000734" target="duodenum">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000734" target="rbc">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000734" target="spleen">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000734" target="liver">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000734" target="plasma">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000734" target="restofbody">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000734" target="bonemarrow">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000735" target="duodenum">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000735" target="rbc">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000735" target="spleen">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000735" target="liver">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000735" target="plasma">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000735" target="restofbody">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000735" target="bonemarrow">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000736" target="duodenum">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000736" target="rbc">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000736" target="spleen">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000736" target="liver">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000736" target="plasma">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000736" target="restofbody">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000736" target="bonemarrow">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000737" target="duodenum">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000737" target="rbc">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000737" target="spleen">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000737" target="liver">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000737" target="plasma">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000737" target="restofbody">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000737" target="bonemarrow">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000738" target="duodenum">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000738" target="rbc">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000738" target="spleen">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000738" target="liver">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000738" target="plasma">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000738" target="restofbody">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000738" target="bonemarrow">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000765" target="central">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000765" target="peripheral tissue">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000786" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000786" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000788" target="central">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000788" target="peripheral">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000794" target="cytoplasm">
+  <data key="d4">isPartOf</data>
+</edge>
+<edge source="BIOMD0000000794" target="nucleus">
+  <data key="d4">isPartOf</data>
+</edge>
+</graph></graphml>

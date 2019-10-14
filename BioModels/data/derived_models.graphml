@@ -1,0 +1,4544 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key attr.name="label" attr.type="string" for="edge" id="d4"/>
+<key attr.name="color" attr.type="string" for="node" id="d3"/>
+<key attr.name="created" attr.type="string" for="node" id="d2"/>
+<key attr.name="URI" attr.type="string" for="node" id="d1"/>
+<key attr.name="provider" attr.type="string" for="node" id="d0"/>
+<graph edgedefault="directed"><node id="BIOMD0000000004">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000004</data>
+  <data key="d2">2005-02-08</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000003">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000003</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000007">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000007</data>
+  <data key="d2">2009-10-15</data>
+  <data key="d3">green</data>
+</node>
+<node id="10395816">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/10395816</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000008">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000008</data>
+  <data key="d2">2005-01-30</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000011">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000011</data>
+  <data key="d2">2005-02-15</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000009">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000009</data>
+  <data key="d3">green</data>
+</node>
+<node id="6501300">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/6501300</data>
+  <data key="d3">red</data>
+</node>
+<node id="6947258">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/6947258</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000014">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000014</data>
+  <data key="d2">2005-02-25</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000021">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000021</data>
+  <data key="d2">2005-06-29</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000171">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000171</data>
+  <data key="d3">green</data>
+  <data key="d2">2008-05-08</data>
+</node>
+<node id="BIOMD0000000022">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000022</data>
+  <data key="d2">2005-09-21</data>
+  <data key="d3">green</data>
+</node>
+<node id="10531060">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/10531060</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000025">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000025</data>
+  <data key="d2">2005-06-29</data>
+  <data key="d3">green</data>
+</node>
+<node id="11517254">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/11517254</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000039">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000039</data>
+  <data key="d2">2005-07-15</data>
+  <data key="d3">green</data>
+</node>
+<node id="17029696">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/17029696</data>
+  <data key="d3">red</data>
+</node>
+<node id="12362939">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/12362939</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000041">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000041</data>
+  <data key="d2">2005-06-29</data>
+  <data key="d3">green</data>
+</node>
+<node id="10751324">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/10751324</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000042">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000042</data>
+  <data key="d2">2005-06-30</data>
+  <data key="d3">green</data>
+</node>
+<node id="6454892">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/6454892</data>
+  <data key="d3">red</data>
+</node>
+<node id="8061224">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/8061224</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000046">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000046</data>
+  <data key="d2">2005-08-22</data>
+  <data key="d3">green</data>
+</node>
+<node id="11901676">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/11901676</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000047">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000047</data>
+  <data key="d2">2005-08-25</data>
+  <data key="d3">green</data>
+</node>
+<node id="11874447">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/11874447</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000049">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000049</data>
+  <data key="d2">2005-12-21</data>
+  <data key="d3">green</data>
+</node>
+<node id="MODEL9071122126">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/MODEL9071122126</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000019">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000019</data>
+  <data key="d3">green</data>
+</node>
+<node id="MODEL9070467164">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/MODEL9070467164</data>
+  <data key="d3">green</data>
+</node>
+<node id="MODEL9079179924">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/MODEL9079179924</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000146">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000146</data>
+  <data key="d3">green</data>
+  <data key="d2">2008-07-16</data>
+</node>
+<node id="11024454">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/11024454</data>
+  <data key="d3">red</data>
+</node>
+<node id="11832340">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/11832340</data>
+  <data key="d3">red</data>
+</node>
+<node id="14751248">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/14751248</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000052">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000052</data>
+  <data key="d2">2006-01-25</data>
+  <data key="d3">green</data>
+</node>
+<node id="11600005">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/11600005</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000055">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000055</data>
+  <data key="d2">2006-05-02</data>
+  <data key="d3">green</data>
+</node>
+<node id="15784272">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/15784272</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000058">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000058</data>
+  <data key="d2">2006-05-31</data>
+  <data key="d3">green</data>
+</node>
+<node id="MODEL9200487367">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/MODEL9200487367</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000062">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000062</data>
+  <data key="d2">2010-02-04</data>
+  <data key="d3">green</data>
+</node>
+<node id="11171956">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/11171956</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000065">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000065</data>
+  <data key="d2">2006-06-21</data>
+  <data key="d3">green</data>
+</node>
+<node id="9104037">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/9104037</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000071">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000071</data>
+  <data key="d2">2008-10-09</data>
+  <data key="d3">green</data>
+</node>
+<node id="MODEL1101100000">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/MODEL1101100000</data>
+  <data key="d3">green</data>
+</node>
+<node id="10468568">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/10468568</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000073">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000073</data>
+  <data key="d2">2006-10-17</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000074">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000074</data>
+  <data key="d2">2006-10-19</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000075">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000075</data>
+  <data key="d2">2008-10-23</data>
+  <data key="d3">green</data>
+</node>
+<node id="10579714">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/10579714</data>
+  <data key="d3">red</data>
+</node>
+<node id="10866945">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/10866945</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000078">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000078</data>
+  <data key="d2">2006-10-17</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000080">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000080</data>
+  <data key="d2">2006-09-27</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000082">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000082</data>
+  <data key="d3">green</data>
+  <data key="d2">2006-09-26</data>
+</node>
+<node id="6248546">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/6248546</data>
+  <data key="d3">red</data>
+</node>
+<node id="6277164">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/6277164</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000083">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000083</data>
+  <data key="d2">2006-10-19</data>
+  <data key="d3">green</data>
+</node>
+<node id="hsa04710">
+  <data key="d0">kegg.pathway</data>
+  <data key="d1">http://identifiers.org/kegg.pathway/hsa04710</data>
+</node>
+<node id="MODEL4710748444">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/MODEL4710748444</data>
+  <data key="d3">green</data>
+</node>
+<node id="GO:0042752">
+  <data key="d0">go</data>
+  <data key="d1">http://identifiers.org/go/GO:0042752</data>
+</node>
+<node id="40674">
+  <data key="d0">taxonomy</data>
+  <data key="d1">http://identifiers.org/taxonomy/40674</data>
+</node>
+<node id="BIOMD0000000085">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000085</data>
+  <data key="d2">2006-11-29</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000086">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000086</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000089">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000089</data>
+  <data key="d2">2007-02-20</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000092">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000092</data>
+  <data key="d2">2007-03-05</data>
+  <data key="d3">green</data>
+</node>
+<node id="7558">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/7558</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000094">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000094</data>
+  <data key="d2">2007-01-26</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000093">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000093</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000095">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000095</data>
+  <data key="d2">2006-12-11</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000096">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000096</data>
+  <data key="d2">2007-03-03</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000097">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000097</data>
+  <data key="d2">2006-12-11</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000098">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000098</data>
+  <data key="d2">2007-03-21</data>
+  <data key="d3">green</data>
+</node>
+<node id="6281582">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/6281582</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000100">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000100</data>
+  <data key="d2">2007-03-22</data>
+  <data key="d3">green</data>
+</node>
+<node id="11093832">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/11093832</data>
+  <data key="d3">red</data>
+</node>
+<node id="17883229">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/17883229</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000105">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000105</data>
+  <data key="d2">2007-04-02</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000091">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000091</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000121">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000121</data>
+  <data key="d2">2007-06-20</data>
+  <data key="d3">green</data>
+</node>
+<node id="7514509">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/7514509</data>
+  <data key="d3">red</data>
+</node>
+<node id="7788872">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/7788872</data>
+  <data key="d3">red</data>
+</node>
+<node id="10318671">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/10318671</data>
+  <data key="d3">red</data>
+</node>
+<node id="10448858">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/10448858</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000124">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000124</data>
+  <data key="d2">2007-06-25</data>
+  <data key="d3">green</data>
+</node>
+<node id="6305437">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/6305437</data>
+  <data key="d3">red</data>
+</node>
+<node id="15294427">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/15294427</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000126">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000126</data>
+  <data key="d2">2007-07-15</data>
+  <data key="d3">green</data>
+</node>
+<node id="10533588">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/10533588</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000137">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000137</data>
+  <data key="d2">2007-08-06</data>
+  <data key="d3">green</data>
+</node>
+<node id="MODEL1201140005">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/MODEL1201140005</data>
+  <data key="d3">green</data>
+</node>
+<node id="MODEL1201140006">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/MODEL1201140006</data>
+  <data key="d3">green</data>
+</node>
+<node id="1890850">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/1890850</data>
+  <data key="d3">red</data>
+</node>
+<node id="1890848">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/1890848</data>
+  <data key="d3">red</data>
+</node>
+<node id="8304439">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/8304439</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000143">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000143</data>
+  <data key="d2">2007-07-27</data>
+  <data key="d3">green</data>
+</node>
+<node id="j100023a001">
+  <data key="d0">doi</data>
+  <data key="d1">http://identifiers.org/doi/10.1021/j100023a001</data>
+</node>
+<node id="BIOMD0000000145">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000145</data>
+  <data key="d2">2007-08-28</data>
+  <data key="d3">green</data>
+</node>
+<node id="1647879">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/1647879</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000048">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000048</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000010">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000010</data>
+  <data key="d3">green</data>
+</node>
+<node id="11772030">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/11772030</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000147">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000147</data>
+  <data key="d2">2007-09-04</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000139">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000139</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000140">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000140</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000149">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000149</data>
+  <data key="d2">2007-07-10</data>
+  <data key="d3">green</data>
+</node>
+<node id="14551908">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/14551908</data>
+  <data key="d3">red</data>
+</node>
+<node id="3-540-36481-1_11">
+  <data key="d0">doi</data>
+  <data key="d1">http://identifiers.org/doi/10.1007/3-540-36481-1_11</data>
+</node>
+<node id="BIOMD0000000151">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000151</data>
+  <data key="d2">2007-08-31</data>
+  <data key="d3">green</data>
+</node>
+<node id="12773095">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/12773095</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000154">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000154</data>
+  <data key="d2">2008-01-10</data>
+  <data key="d3">green</data>
+</node>
+<node id="11016968">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/11016968</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000155">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000155</data>
+  <data key="d2">2008-01-10</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000156">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000156</data>
+  <data key="d3">green</data>
+  <data key="d2">2008-01-10</data>
+</node>
+<node id="BIOMD0000000157">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000157</data>
+  <data key="d3">green</data>
+  <data key="d2">2008-01-10</data>
+</node>
+<node id="BIOMD0000000158">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000158</data>
+  <data key="d3">green</data>
+  <data key="d2">2008-01-10</data>
+</node>
+<node id="BIOMD0000000159">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000159</data>
+  <data key="d3">green</data>
+  <data key="d2">2008-01-10</data>
+</node>
+<node id="15725723">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/15725723</data>
+  <data key="d3">red</data>
+</node>
+<node id="12932324+">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/12932324+</data>
+  <data key="d3">red</data>
+</node>
+<node id="e2002-00271-1">
+  <data key="d0">doi</data>
+  <data key="d1">http://identifiers.org/doi/10.1140/epjb/e2002-00271-1</data>
+</node>
+<node id="S0218339000000031">
+  <data key="d0">doi</data>
+  <data key="d1">http://identifiers.org/doi/10.1142/S0218339000000031</data>
+</node>
+<node id="BIOMD0000000161">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000161</data>
+  <data key="d2">2008-01-29</data>
+  <data key="d3">green</data>
+</node>
+<node id="10388786">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/10388786</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000165">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000165</data>
+  <data key="d2">2007-10-03</data>
+  <data key="d3">green</data>
+</node>
+<node id="MODEL1006230118">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/MODEL1006230118</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000166">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000166</data>
+  <data key="d2">2007-12-21</data>
+  <data key="d3">green</data>
+</node>
+<node id="9486144">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/9486144</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000167">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000167</data>
+  <data key="d2">2007-09-26</data>
+  <data key="d3">green</data>
+</node>
+<node id="12552139">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/12552139</data>
+  <data key="d3">red</data>
+</node>
+<node id="15240442">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/15240442</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000168">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000168</data>
+  <data key="d2">2008-03-16</data>
+  <data key="d3">green</data>
+</node>
+<node id="9375029">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/9375029</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000016">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000016</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000172">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000172</data>
+  <data key="d2">2006-09-14</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000064">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000064</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000174">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000174</data>
+  <data key="d2">2008-07-28</data>
+  <data key="d3">green</data>
+</node>
+<node id="10591225">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/10591225</data>
+  <data key="d3">red</data>
+</node>
+<node id="16890441">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/16890441</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000178">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000178</data>
+  <data key="d2">2008-08-08</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000267">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000267</data>
+  <data key="d3">green</data>
+  <data key="d2">2010-09-07</data>
+</node>
+<node id="6243359">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/6243359</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000181">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000181</data>
+  <data key="d2">2008-08-12</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000195">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000195</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000186">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000186</data>
+  <data key="d2">2008-09-02</data>
+  <data key="d3">green</data>
+</node>
+<node id="15694304">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/15694304</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000187">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000187</data>
+  <data key="d2">2008-09-01</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000196">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000196</data>
+  <data key="d2">2008-10-13</data>
+  <data key="d3">green</data>
+</node>
+<node id="11371173">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/11371173</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000200">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000200</data>
+  <data key="d2">2008-11-07</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000404">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000404</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000202">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000202</data>
+  <data key="d2">2008-11-24</data>
+  <data key="d3">green</data>
+</node>
+<node id="1329108">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/1329108</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000205">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000205</data>
+  <data key="d2">2008-11-27</data>
+  <data key="d3">green</data>
+</node>
+<node id="16687399">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/16687399</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000209">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000209</data>
+  <data key="d2">2008-12-05</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000204">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000204</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000203">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000203</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000210">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000210</data>
+  <data key="d2">2008-12-05</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000211">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000211</data>
+  <data key="d2">2009-01-27</data>
+  <data key="d3">green</data>
+</node>
+<node id="10329645">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/10329645</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000214">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000214</data>
+  <data key="d2">2008-12-03</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000299">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000299</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000216">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000216</data>
+  <data key="d2">2009-04-03</data>
+  <data key="d3">green</data>
+</node>
+<node id="18057329">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/18057329</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000223">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000223</data>
+  <data key="d2">2009-07-09</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000026">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000026</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000027">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000027</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000028">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000028</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000029">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000029</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000030">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000030</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000031">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000031</data>
+  <data key="d3">green</data>
+</node>
+<node id="17052120">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/17052120</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000224">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000224</data>
+  <data key="d2">2009-08-05</data>
+  <data key="d3">green</data>
+</node>
+<node id="2455890">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/2455890</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000225">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000225</data>
+  <data key="d2">2009-07-27</data>
+  <data key="d3">green</data>
+</node>
+<node id="6271617">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/6271617</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000226">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000226</data>
+  <data key="d2">2009-02-27</data>
+  <data key="d3">green</data>
+</node>
+<node id="15094015">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/15094015</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000227">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000227</data>
+  <data key="d2">2008-05-19</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000229">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000229</data>
+  <data key="d2">2009-08-18</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000099">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000099</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000236">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000236</data>
+  <data key="d2">2009-08-06</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000242">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000242</data>
+  <data key="d2">2010-03-05</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000246">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000246</data>
+  <data key="d2">2010-04-08</data>
+  <data key="d3">green</data>
+</node>
+<node id="11316338">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/11316338</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000247">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000247</data>
+  <data key="d2">2007-04-11</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000248">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000248</data>
+  <data key="d2">2009-10-16</data>
+  <data key="d3">green</data>
+</node>
+<node id="16636861">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/16636861</data>
+  <data key="d3">red</data>
+</node>
+<node id="10898733">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/10898733</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000249">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000249</data>
+  <data key="d2">2010-04-20</data>
+  <data key="d3">green</data>
+</node>
+<node id="460412">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/460412</data>
+  <data key="d3">red</data>
+</node>
+<node id="460424">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/460424</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000250">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000250</data>
+  <data key="d2">2010-04-30</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000175">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000175</data>
+  <data key="d3">green</data>
+</node>
+<node id="12242336">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/12242336</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000251">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000251</data>
+  <data key="d2">2010-05-24</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000255">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000255</data>
+  <data key="d2">2010-07-26</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000265">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000265</data>
+  <data key="d2">2010-07-20</data>
+  <data key="d3">green</data>
+</node>
+<node id="15363676">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/15363676</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000268">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000268</data>
+  <data key="d2">2010-09-07</data>
+  <data key="d3">green</data>
+</node>
+<node id="MODEL1007200000">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/MODEL1007200000</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000273">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000273</data>
+  <data key="d2">2010-10-21</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000279">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000279</data>
+  <data key="d2">2010-11-23</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000148">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000148</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000285">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000285</data>
+  <data key="d2">2010-09-27</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000286">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000286</data>
+  <data key="d2">2010-01-27</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000188">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000188</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000189">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000189</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000287">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000287</data>
+  <data key="d2">2010-03-01</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000288">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000288</data>
+  <data key="d2">2010-01-21</data>
+  <data key="d3">green</data>
+</node>
+<node id="12871957">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/12871957</data>
+  <data key="d3">red</data>
+</node>
+<node id="16314431">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/16314431</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000293">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000293</data>
+  <data key="d2">2011-01-07</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000294">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000294</data>
+  <data key="d2">2010-04-20</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000295">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000295</data>
+  <data key="d2">2008-12-03</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000298">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000298</data>
+  <data key="d2">2009-04-28</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000326">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000326</data>
+  <data key="d2">2011-04-01</data>
+  <data key="d3">green</data>
+</node>
+<node id="16212700">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/16212700</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000330">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000330</data>
+  <data key="d2">2011-05-05</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000329">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000329</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000332">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000332</data>
+  <data key="d2">2011-05-12</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000334">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000334</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000333">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000333</data>
+  <data key="d2">2011-05-12</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000335">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000335</data>
+  <data key="d2">2011-06-01</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000336">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000336</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000338">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000338</data>
+  <data key="d2">2011-07-05</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000365">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000365</data>
+  <data key="d3">green</data>
+</node>
+<node id="MODEL1108260015">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/MODEL1108260015</data>
+  <data key="d3">green</data>
+</node>
+<node id="MODEL1109160000">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/MODEL1109160000</data>
+  <data key="d3">green</data>
+</node>
+<node id="MODEL1109160001">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/MODEL1109160001</data>
+  <data key="d3">green</data>
+</node>
+<node id="18831981">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/18831981</data>
+  <data key="d3">red</data>
+</node>
+<node id="12524220">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/12524220</data>
+  <data key="d3">red</data>
+</node>
+<node id="2779263">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/2779263</data>
+  <data key="d3">red</data>
+</node>
+<node id="8948060">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/8948060</data>
+  <data key="d3">red</data>
+</node>
+<node id="12231555">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/12231555</data>
+  <data key="d3">red</data>
+</node>
+<node id="15804855">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/15804855</data>
+  <data key="d3">red</data>
+</node>
+<node id="16432308">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/16432308</data>
+  <data key="d3">red</data>
+</node>
+<node id="7843644">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/7843644</data>
+  <data key="d3">red</data>
+</node>
+<node id="9645916">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/9645916</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000339">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000339</data>
+  <data key="d2">2011-07-05</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000340">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000340</data>
+  <data key="d2">2011-07-05</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000344">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000344</data>
+  <data key="d2">2011-07-21</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000348">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000348</data>
+  <data key="d2">2011-08-09</data>
+  <data key="d3">green</data>
+</node>
+<node id="9575813">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/9575813</data>
+  <data key="d3">red</data>
+</node>
+<node id="9575814">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/9575814</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000349">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000349</data>
+  <data key="d2">2011-08-09</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000353">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000353</data>
+  <data key="d2">2010-11-01</data>
+  <data key="d3">green</data>
+</node>
+<node id="18581371">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/18581371</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000356">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000356</data>
+  <data key="d2">2011-08-19</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000343">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000343</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000379">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000379</data>
+  <data key="d3">green</data>
+</node>
+<node id="19225456">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/19225456</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000357">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000357</data>
+  <data key="d2">2011-08-26</data>
+  <data key="d3">green</data>
+</node>
+<node id="17726029">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/17726029</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000359">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000359</data>
+  <data key="d2">2011-08-26</data>
+  <data key="d3">green</data>
+</node>
+<node id="9468488">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/9468488</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000361">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000361</data>
+  <data key="d2">2011-08-26</data>
+  <data key="d3">green</data>
+</node>
+<node id="9468448">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/9468448</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000362">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000362</data>
+  <data key="d2">2011-08-26</data>
+  <data key="d3">green</data>
+</node>
+<node id="8083241">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/8083241</data>
+  <data key="d3">red</data>
+</node>
+<node id="9020158">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/9020158</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000363">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000363</data>
+  <data key="d2">2011-08-26</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000364">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000364</data>
+  <data key="d2">2011-08-26</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000366">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000366</data>
+  <data key="d2">2011-08-26</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000358">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000358</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000370">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000370</data>
+  <data key="d2">2011-11-10</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000409">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000409</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000371">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000371</data>
+  <data key="d2">2011-09-28</data>
+  <data key="d3">green</data>
+</node>
+<node id="2850029">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/2850029</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000372">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000372</data>
+  <data key="d2">2011-09-28</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000382">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000382</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000373">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000373</data>
+  <data key="d2">2011-09-29</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000374">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000374</data>
+  <data key="d2">2011-09-29</data>
+  <data key="d3">green</data>
+</node>
+<node id="3907728">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/3907728</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000375">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000375</data>
+  <data key="d2">2011-09-29</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000377">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000377</data>
+  <data key="d2">2011-09-29</data>
+  <data key="d3">green</data>
+</node>
+<node id="1850840">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/1850840</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000381">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000381</data>
+  <data key="d2">2011-10-07</data>
+  <data key="d3">green</data>
+</node>
+<node id="10480594">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/10480594</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000394">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000394</data>
+  <data key="d2">2011-11-02</data>
+  <data key="d3">green</data>
+</node>
+<node id="P00018">
+  <data key="d0">panther.pathway</data>
+  <data key="d1">http://identifiers.org/panther.pathway/P00018</data>
+</node>
+<node id="BIOMD0000000395">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000395</data>
+  <data key="d2">2011-11-02</data>
+  <data key="d3">green</data>
+</node>
+<node id="P00025">
+  <data key="d0">panther.pathway</data>
+  <data key="d1">http://identifiers.org/panther.pathway/P00025</data>
+</node>
+<node id="BIOMD0000000396">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000396</data>
+  <data key="d2">2011-11-02</data>
+  <data key="d3">green</data>
+</node>
+<node id="P00045">
+  <data key="d0">panther.pathway</data>
+  <data key="d1">http://identifiers.org/panther.pathway/P00045</data>
+</node>
+<node id="BIOMD0000000397">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000397</data>
+  <data key="d2">2011-11-02</data>
+  <data key="d3">green</data>
+</node>
+<node id="P00057">
+  <data key="d0">panther.pathway</data>
+  <data key="d1">http://identifiers.org/panther.pathway/P00057</data>
+</node>
+<node id="BIOMD0000000398">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000398</data>
+  <data key="d2">2011-11-02</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000399">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000399</data>
+  <data key="d2">2011-11-03</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000401">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000401</data>
+  <data key="d2">2011-12-06</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000402">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000402</data>
+  <data key="d2">2011-11-25</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000403">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000403</data>
+  <data key="d2">2011-11-25</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000406">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000406</data>
+  <data key="d2">2012-01-12</data>
+  <data key="d3">green</data>
+</node>
+<node id="MODEL1011020000">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/MODEL1011020000</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000408">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000408</data>
+  <data key="d2">2012-01-26</data>
+  <data key="d3">green</data>
+</node>
+<node id="MODEL1006230027">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/MODEL1006230027</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000412">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000412</data>
+  <data key="d2">2011-08-18</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000416">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000416</data>
+  <data key="d2">2012-04-10</data>
+  <data key="d3">green</data>
+</node>
+<node id="20135237">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/20135237</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000423">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000423</data>
+  <data key="d2">2012-07-27</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000424">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000424</data>
+  <data key="d2">2011-08-18</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000430">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000430</data>
+  <data key="d2">2011-12-13</data>
+  <data key="d3">green</data>
+</node>
+<node id="19897477">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/19897477</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000431">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000431</data>
+  <data key="d2">2011-12-13</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000432">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000432</data>
+  <data key="d2">2011-07-20</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000433">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000433</data>
+  <data key="d2">2011-07-20</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000437">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000437</data>
+  <data key="d2">2013-02-26</data>
+  <data key="d3">green</data>
+</node>
+<node id="15653726">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/15653726</data>
+  <data key="d3">red</data>
+</node>
+<node id="17965132">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/17965132</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000439">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000439</data>
+  <data key="d2">2012-12-05</data>
+  <data key="d3">green</data>
+</node>
+<node id="12446706">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/12446706</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000440">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000440</data>
+  <data key="d2">2010-09-22</data>
+  <data key="d3">green</data>
+</node>
+<node id="17102806">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/17102806</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000441">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000441</data>
+  <data key="d2">2010-09-22</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000442">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000442</data>
+  <data key="d2">2010-09-22</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000443">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000443</data>
+  <data key="d2">2010-09-22</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000444">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000444</data>
+  <data key="d2">2010-09-22</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000445">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000445</data>
+  <data key="d2">2011-08-18</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000447">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000447</data>
+  <data key="d2">2012-11-10</data>
+  <data key="d3">green</data>
+</node>
+<node id="MODEL1303130001">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/MODEL1303130001</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000448">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000448</data>
+  <data key="d2">2013-04-19</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000449">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000449</data>
+  <data key="d2">2013-04-19</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000450">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000450</data>
+  <data key="d2">2010-09-07</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000190">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000190</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000452">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000452</data>
+  <data key="d2">2013-05-13</data>
+  <data key="d3">green</data>
+</node>
+<node id="20459599">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/20459599</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000453">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000453</data>
+  <data key="d2">2013-05-13</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000463">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000463</data>
+  <data key="d2">2012-12-14</data>
+  <data key="d3">green</data>
+</node>
+<node id="9894006">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/9894006</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000468">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000468</data>
+  <data key="d2">2013-08-19</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000464">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000464</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000465">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000465</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000466">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000466</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000467">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000467</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000473">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000473</data>
+  <data key="d2">2008-02-20</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000474">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000474</data>
+  <data key="d2">2013-09-04</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000476">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000476</data>
+  <data key="d2">2007-02-20</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000478">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000478</data>
+  <data key="d2">2013-09-11</data>
+  <data key="d3">green</data>
+</node>
+<node id="18023904">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/18023904</data>
+  <data key="d3">red</data>
+</node>
+<node id="21741466">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/21741466</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000479">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000479</data>
+  <data key="d2">2013-09-13</data>
+  <data key="d3">green</data>
+</node>
+<node id="15313578">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/15313578</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000481">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000481</data>
+  <data key="d2">2013-09-23</data>
+  <data key="d3">green</data>
+</node>
+<node id="21377476">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/21377476</data>
+  <data key="d3">red</data>
+</node>
+<node id="22118087">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/22118087</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000482">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000482</data>
+  <data key="d2">2013-09-23</data>
+  <data key="d3">green</data>
+</node>
+<node id="MODEL1204060000">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/MODEL1204060000</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000484">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000484</data>
+  <data key="d2">2013-09-23</data>
+  <data key="d3">green</data>
+</node>
+<node id="21054005">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/21054005</data>
+  <data key="d3">red</data>
+</node>
+<node id="21280690">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/21280690</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000485">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000485</data>
+  <data key="d2">2013-09-23</data>
+  <data key="d3">green</data>
+</node>
+<node id="BF01379769">
+  <data key="d0">doi</data>
+  <data key="d1">http://identifiers.org/doi/10.1007/BF01379769</data>
+</node>
+<node id="BIOMD0000000486">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000486</data>
+  <data key="d2">2013-09-23</data>
+  <data key="d3">green</data>
+</node>
+<node id="22191865">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/22191865</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000487">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000487</data>
+  <data key="d2">2013-09-23</data>
+  <data key="d3">green</data>
+</node>
+<node id="15701703">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/15701703</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000488">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000488</data>
+  <data key="d2">2013-09-24</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000462">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000462</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000489">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000489</data>
+  <data key="d2">2013-09-24</data>
+  <data key="d3">green</data>
+</node>
+<node id="16166516">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/16166516</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000490">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000490</data>
+  <data key="d2">2013-10-04</data>
+  <data key="d3">green</data>
+</node>
+<node id="23146124">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/23146124</data>
+  <data key="d3">red</data>
+</node>
+<node id="22020181">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/22020181</data>
+  <data key="d3">red</data>
+</node>
+<node id="21560018">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/21560018</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000499">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000499</data>
+  <data key="d2">2013-12-16</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000173">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000173</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000503">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000503</data>
+  <data key="d2">2008-11-09</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000502">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000502</data>
+  <data key="d3">green</data>
+</node>
+<node id="MODEL1303260018">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/MODEL1303260018</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000508">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000508</data>
+  <data key="d2">2014-01-30</data>
+  <data key="d3">green</data>
+</node>
+<node id="16055527">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/16055527</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000509">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000509</data>
+  <data key="d2">2014-01-30</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000510">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000510</data>
+  <data key="d2">2014-01-31</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000514">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000514</data>
+  <data key="d3">green</data>
+  <data key="d2">2014-02-10</data>
+</node>
+<node id="BIOMD0000000511">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000511</data>
+  <data key="d2">2014-02-03</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000513">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000513</data>
+  <data key="d2">2014-02-10</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000428">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000428</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000515">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000515</data>
+  <data key="d2">2014-02-10</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000516">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000516</data>
+  <data key="d2">2014-02-10</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000517">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000517</data>
+  <data key="d2">2011-12-01</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000518">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000518</data>
+  <data key="d3">green</data>
+  <data key="d2">2011-12-01</data>
+</node>
+<node id="BIOMD0000000519">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000519</data>
+  <data key="d3">green</data>
+  <data key="d2">2011-12-01</data>
+</node>
+<node id="BIOMD0000000520">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000520</data>
+  <data key="d3">green</data>
+  <data key="d2">2011-12-01</data>
+</node>
+<node id="17360468">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/17360468</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000528">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000528</data>
+  <data key="d2">2014-04-03</data>
+  <data key="d3">green</data>
+</node>
+<node id="20159146">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/20159146</data>
+  <data key="d3">red</data>
+</node>
+<node id="20739535">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/20739535</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000529">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000529</data>
+  <data key="d2">2014-04-03</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000541">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000541</data>
+  <data key="d2">2014-08-14</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000546">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000546</data>
+  <data key="d2">2014-09-04</data>
+  <data key="d3">green</data>
+</node>
+<node id="MODEL1406230000">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/MODEL1406230000</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000552">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000552</data>
+  <data key="d2">2014-10-18</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000553">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000553</data>
+  <data key="d3">green</data>
+</node>
+<node id="9284295">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/9284295</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000554">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000554</data>
+  <data key="d2">2010-06-25</data>
+  <data key="d3">green</data>
+</node>
+<node id="MODEL1411210000">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/MODEL1411210000</data>
+  <data key="d3">green</data>
+</node>
+<node id="16260743">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/16260743</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000558">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000558</data>
+  <data key="d2">2014-11-26</data>
+  <data key="d3">green</data>
+</node>
+<node id="22757585">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/22757585</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000561">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000561</data>
+  <data key="d2">2014-12-11</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000531">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000531</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000563">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000563</data>
+  <data key="d2">2014-07-21</data>
+  <data key="d3">green</data>
+</node>
+<node id="17108957">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/17108957</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000564">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000564</data>
+  <data key="d2">2010-10-21</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000565">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000565</data>
+  <data key="d2">2015-01-12</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000051">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000051</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000566">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000566</data>
+  <data key="d2">2015-01-13</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000567">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000567</data>
+  <data key="d3">green</data>
+  <data key="d2">2015-01-13</data>
+</node>
+<node id="11152691">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/11152691</data>
+  <data key="d3">red</data>
+</node>
+<node id="ja9705102">
+  <data key="d0">doi</data>
+  <data key="d1">http://identifiers.org/doi/10.1021/ja9705102</data>
+</node>
+<node id="15794636">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/15794636</data>
+  <data key="d3">red</data>
+</node>
+<node id="16117499">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/16117499</data>
+  <data key="d3">red</data>
+</node>
+<node id="12785778">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/12785778</data>
+  <data key="d3">red</data>
+</node>
+<node id="16536526">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/16536526</data>
+  <data key="d3">red</data>
+</node>
+<node id="16301322">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/16301322</data>
+  <data key="d3">red</data>
+</node>
+<node id="16981679">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/16981679</data>
+  <data key="d3">red</data>
+</node>
+<node id="16081040">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/16081040</data>
+  <data key="d3">red</data>
+</node>
+<node id="12186976">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/12186976</data>
+  <data key="d3">red</data>
+</node>
+<node id="16981684">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/16981684</data>
+  <data key="d3">red</data>
+</node>
+<node id="16981683">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/16981683</data>
+  <data key="d3">red</data>
+</node>
+<node id="16981676">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/16981676</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000571">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000571</data>
+  <data key="d2">2015-01-01</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000572">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000572</data>
+  <data key="d2">2015-03-16</data>
+  <data key="d3">green</data>
+</node>
+<node id="11932446">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/11932446</data>
+  <data key="d3">red</data>
+</node>
+<node id="22325620">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/22325620</data>
+  <data key="d3">red</data>
+</node>
+<node id="15006767">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/15006767</data>
+  <data key="d3">red</data>
+</node>
+<node id="873604">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/873604</data>
+  <data key="d3">red</data>
+</node>
+<node id="21841021">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/21841021</data>
+  <data key="d3">red</data>
+</node>
+<node id="15345435">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/15345435</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000577">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000577</data>
+  <data key="d2">2011-08-18</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000578">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000578</data>
+  <data key="d2">2015-08-06</data>
+  <data key="d3">green</data>
+</node>
+<node id="21843151">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/21843151</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000580">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000580</data>
+  <data key="d2">2012-01-04</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000581">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000581</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000588">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000588</data>
+  <data key="d2">2016-01-29</data>
+  <data key="d3">green</data>
+</node>
+<node id="16418172">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/16418172</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000597">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000597</data>
+  <data key="d2">2011-08-18</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000598">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000598</data>
+  <data key="d2">2011-08-18</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000603">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000603</data>
+  <data key="d2">2015-12-01</data>
+  <data key="d3">green</data>
+</node>
+<node id="20563574">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/20563574</data>
+  <data key="d3">red</data>
+</node>
+<node id="18793130">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/18793130</data>
+  <data key="d3">red</data>
+</node>
+<node id="16025103">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/16025103</data>
+  <data key="d3">red</data>
+</node>
+<node id="10951190">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/10951190</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000604">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000604</data>
+  <data key="d2">2015-11-30</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000605">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000605</data>
+  <data key="d2">2015-11-30</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000606">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000606</data>
+  <data key="d2">2015-11-30</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000607">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000607</data>
+  <data key="d2">2015-12-10</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000608">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000608</data>
+  <data key="d2">2016-04-19</data>
+  <data key="d3">green</data>
+</node>
+<node id="15038983">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/15038983</data>
+  <data key="d3">red</data>
+</node>
+<node id="5500468">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/5500468</data>
+  <data key="d3">red</data>
+</node>
+<node id="3156189">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/3156189</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000609">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000609</data>
+  <data key="d2">2016-04-19</data>
+  <data key="d3">green</data>
+</node>
+<node id="26966512">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/26966512</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000610">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000610</data>
+  <data key="d2">2016-04-20</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000611">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000611</data>
+  <data key="d2">2015-12-08</data>
+  <data key="d3">green</data>
+</node>
+<node id="MODEL1108260014">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/MODEL1108260014</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000619">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000619</data>
+  <data key="d2">2015-02-04</data>
+  <data key="d3">green</data>
+</node>
+<node id="20421935">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/20421935</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000620">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000620</data>
+  <data key="d2">2016-04-27</data>
+  <data key="d3">green</data>
+</node>
+<node id="MODEL1112110003">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/MODEL1112110003</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000621">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000621</data>
+  <data key="d2">2016-04-27</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000623">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000623</data>
+  <data key="d2">2016-11-28</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000033">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000033</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000627">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000627</data>
+  <data key="d2">2013-07-30</data>
+  <data key="d3">green</data>
+</node>
+<node id="978-1-4613-1161-4">
+  <data key="d0">doi</data>
+  <data key="d1">http://identifiers.org/doi/10.1007/978-1-4613-1161-4</data>
+</node>
+<node id="BIOMD0000000628">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000628</data>
+  <data key="d2">2015-12-10</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000183">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000183</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000634">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000634</data>
+  <data key="d2">2017-05-02</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000638">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000638</data>
+  <data key="d2">2016-06-12</data>
+  <data key="d3">green</data>
+</node>
+<node id="urn:miriam:pubmed:11495900+">
+  <data key="d0">urn:miriam:pubmed:11495900+</data>
+  <data key="d1">urn:miriam:pubmed:11495900+</data>
+</node>
+<node id="9182592">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/9182592</data>
+  <data key="d3">red</data>
+</node>
+<node id="10866688">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/10866688</data>
+  <data key="d3">red</data>
+</node>
+<node id="8692892">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/8692892</data>
+  <data key="d3">red</data>
+</node>
+<node id="15491163">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/15491163</data>
+  <data key="d3">red</data>
+</node>
+<node id="14734536">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/14734536</data>
+  <data key="d3">red</data>
+</node>
+<node id="8385135">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/8385135</data>
+  <data key="d3">red</data>
+</node>
+<node id="6360378">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/6360378</data>
+  <data key="d3">red</data>
+</node>
+<node id="urn:miriam:pubmed:3023832+">
+  <data key="d0">urn:miriam:pubmed:3023832+</data>
+  <data key="d1">urn:miriam:pubmed:3023832+</data>
+</node>
+<node id="15501933">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/15501933</data>
+  <data key="d3">red</data>
+</node>
+<node id="9537998">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/9537998</data>
+  <data key="d3">red</data>
+</node>
+<node id="8626481">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/8626481</data>
+  <data key="d3">red</data>
+</node>
+<node id="12960402">
+  <data key="d0">pubchem.substance</data>
+  <data key="d1">http://identifiers.org/pubchem.substance/12960402</data>
+</node>
+<node id="22114196">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/22114196</data>
+  <data key="d3">red</data>
+</node>
+<node id="urn:miriam:pubmed:16963443+">
+  <data key="d0">urn:miriam:pubmed:16963443+</data>
+  <data key="d1">urn:miriam:pubmed:16963443+</data>
+</node>
+<node id="BIOMD0000000643">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000643</data>
+  <data key="d2">2017-05-08</data>
+  <data key="d3">green</data>
+</node>
+<node id="BTO:0002181">
+  <data key="d0">bto</data>
+  <data key="d1">http://identifiers.org/bto/BTO:0002181</data>
+</node>
+<node id="BIOMD0000000644">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000644</data>
+  <data key="d2">2017-05-08</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000645">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000645</data>
+  <data key="d2">2017-05-08</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000648">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000648</data>
+  <data key="d2">2017-08-14</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000652">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000652</data>
+  <data key="d2">2017-08-14</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000653">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000653</data>
+  <data key="d2">2017-08-14</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000654">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000654</data>
+  <data key="d2">2017-08-14</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000655">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000655</data>
+  <data key="d2">2017-08-14</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000656">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000656</data>
+  <data key="d2">2017-08-14</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000674">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000674</data>
+  <data key="d2">2018-02-14</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000682">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000682</data>
+  <data key="d2">2010-06-25</data>
+  <data key="d3">green</data>
+</node>
+<node id="4263005">
+  <data key="d0">pubmed</data>
+  <data key="d1">http://identifiers.org/pubmed/4263005</data>
+  <data key="d3">red</data>
+</node>
+<node id="BIOMD0000000687">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000687</data>
+  <data key="d2">2010-06-25</data>
+  <data key="d3">green</data>
+</node>
+<node id="dxh303">
+  <data key="d0">doi</data>
+  <data key="d1">http://identifiers.org/doi/10.1093/intimm/dxh303</data>
+</node>
+<node id="BIOMD0000000688">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000688</data>
+  <data key="d2">2010-06-25</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000720">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000720</data>
+  <data key="d2">2018-09-13</data>
+  <data key="d3">green</data>
+</node>
+<node id="GO:0007049">
+  <data key="d0">go</data>
+  <data key="d1">http://identifiers.org/go/GO:0007049</data>
+</node>
+<node id="R-HSA-69206">
+  <data key="d0">reactome</data>
+  <data key="d1">http://identifiers.org/reactome/R-HSA-69206</data>
+</node>
+<node id="MAMO_0000046">
+  <data key="d0">mamo</data>
+  <data key="d1">http://identifiers.org/mamo/MAMO_0000046</data>
+</node>
+<node id="BIOMD0000000318">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000318</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000727">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000727</data>
+  <data key="d2">2018-12-06</data>
+  <data key="d3">green</data>
+</node>
+<node id="GO:0051726">
+  <data key="d0">go</data>
+  <data key="d1">http://identifiers.org/go/GO:0051726</data>
+</node>
+<node id="155892">
+  <data key="d0">taxonomy</data>
+  <data key="d1">http://identifiers.org/taxonomy/155892</data>
+</node>
+<node id="BIOMD0000000718">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000718</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000739">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000739</data>
+  <data key="d2">2018-06-07</data>
+  <data key="d3">green</data>
+</node>
+<node id="C91335">
+  <data key="d0">ncit</data>
+  <data key="d1">http://identifiers.org/ncit/C91335</data>
+</node>
+<node id="BIOMD0000000744">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000744</data>
+  <data key="d2">2019-07-04</data>
+  <data key="d3">green</data>
+</node>
+<node id="SBO:0000661">
+  <data key="d0">sbo</data>
+  <data key="d1">http://identifiers.org/sbo/SBO:0000661</data>
+</node>
+<node id="BIOMD0000000745">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000745</data>
+  <data key="d2">2019-07-03</data>
+  <data key="d3">green</data>
+</node>
+<node id="C94498">
+  <data key="d0">ncit</data>
+  <data key="d1">http://identifiers.org/ncit/C94498</data>
+</node>
+<node id="GO:0070265">
+  <data key="d0">go</data>
+  <data key="d1">http://identifiers.org/go/GO:0070265</data>
+</node>
+<node id="BIOMD0000000767">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000767</data>
+  <data key="d2">2019-07-29</data>
+  <data key="d3">green</data>
+</node>
+<node id="C62713">
+  <data key="d0">ncit</data>
+  <data key="d1">http://identifiers.org/ncit/C62713</data>
+</node>
+<node id="9606">
+  <data key="d0">taxonomy</data>
+  <data key="d1">http://identifiers.org/taxonomy/9606</data>
+</node>
+<node id="BIOMD0000000766">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000766</data>
+  <data key="d3">green</data>
+</node>
+<node id="MODEL1907290002">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/MODEL1907290002</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000770">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000770</data>
+  <data key="d2">2019-07-31</data>
+  <data key="d3">green</data>
+</node>
+<node id="0000756">
+  <data key="d0">efo</data>
+  <data key="d1">http://identifiers.org/efo/0000756</data>
+</node>
+<node id="GO:0002418">
+  <data key="d0">go</data>
+  <data key="d1">http://identifiers.org/go/GO:0002418</data>
+</node>
+<node id="BIOMD0000000769">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000769</data>
+  <data key="d3">green</data>
+</node>
+<node id="MODEL1907310003">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/MODEL1907310003</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000781">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000781</data>
+  <data key="d2">2019-08-06</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000780">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000780</data>
+  <data key="d3">green</data>
+</node>
+<node id="MODEL1908060001">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/MODEL1908060001</data>
+  <data key="d3">green</data>
+</node>
+<node id="BIOMD0000000782">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/BIOMD0000000782</data>
+  <data key="d2">2019-08-06</data>
+  <data key="d3">green</data>
+</node>
+<node id="MODEL1908060002">
+  <data key="d0">biomodels.db</data>
+  <data key="d1">http://identifiers.org/biomodels.db/MODEL1908060002</data>
+  <data key="d3">green</data>
+</node>
+<edge source="BIOMD0000000004" target="BIOMD0000000003">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000007" target="10395816">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000008" target="BIOMD0000000003">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000008" target="BIOMD0000000004">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000011" target="BIOMD0000000009">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000011" target="6501300">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000011" target="6947258">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000014" target="BIOMD0000000011">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000021" target="BIOMD0000000171">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000171" target="BIOMD0000000016">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000022" target="10531060">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000025" target="11517254">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000039" target="17029696">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000039" target="12362939">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000041" target="10751324">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000042" target="6454892">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000042" target="8061224">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000046" target="11901676">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000047" target="11874447">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000049" target="MODEL9071122126">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000049" target="BIOMD0000000019">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000049" target="MODEL9070467164">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000049" target="MODEL9079179924">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000049" target="BIOMD0000000146">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000049" target="11024454">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000049" target="11832340">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000049" target="14751248">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000146" target="BIOMD0000000019">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000146" target="BIOMD0000000048">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000146" target="BIOMD0000000010">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000146" target="11772030">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000052" target="11600005">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000055" target="15784272">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000058" target="MODEL9200487367">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000062" target="11171956">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000065" target="9104037">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000071" target="MODEL1101100000">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000071" target="10468568">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000073" target="BIOMD0000000021">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000074" target="BIOMD0000000021">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000075" target="10579714">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000075" target="10866945">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000078" target="BIOMD0000000021">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000080" target="BIOMD0000000082">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000082" target="6248546">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000082" target="6277164">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000083" target="hsa04710">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000083" target="BIOMD0000000083">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000083" target="MODEL4710748444">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000083" target="GO:0042752">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000083" target="40674">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000083" target="BIOMD0000000021">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000085" target="BIOMD0000000086">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000089" target="BIOMD0000000055">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000092" target="7558">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000094" target="BIOMD0000000093">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000095" target="BIOMD0000000055">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000096" target="BIOMD0000000055">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000097" target="BIOMD0000000055">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000098" target="6281582">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000100" target="11093832">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000100" target="17883229">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000105" target="BIOMD0000000091">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000121" target="7514509">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000121" target="7788872">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000121" target="10318671">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000121" target="10448858">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000124" target="6305437">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000124" target="15294427">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000126" target="BIOMD0000000121">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000126" target="10533588">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000126" target="10318671">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000126" target="7788872">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000126" target="7514509">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000137" target="MODEL1201140005">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000137" target="MODEL1201140006">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000137" target="1890850">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000137" target="1890848">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000137" target="8304439">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000143" target="11901676">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000143" target="j100023a001">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000145" target="1647879">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000147" target="BIOMD0000000139">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000147" target="BIOMD0000000140">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000149" target="14551908">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000149" target="3-540-36481-1_11">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000151" target="BIOMD0000000093">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000151" target="BIOMD0000000094">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000151" target="BIOMD0000000019">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000151" target="12773095">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000154" target="11016968">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000155" target="BIOMD0000000154">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000155" target="BIOMD0000000156">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000155" target="BIOMD0000000157">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000155" target="BIOMD0000000158">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000155" target="BIOMD0000000159">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000156" target="15725723">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000157" target="12932324+">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000157" target="e2002-00271-1">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000158" target="15725723">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000159" target="S0218339000000031">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000161" target="MODEL9071122126">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000161" target="BIOMD0000000075">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000161" target="10579714">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000161" target="10388786">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000165" target="MODEL1006230118">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000166" target="BIOMD0000000098">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000166" target="9486144">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000167" target="BIOMD0000000093">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000167" target="BIOMD0000000094">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000167" target="12552139">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000167" target="15240442">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000168" target="9375029">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000172" target="BIOMD0000000064">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000174" target="10591225">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000174" target="16890441">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000178" target="BIOMD0000000267">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000178" target="6243359">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000267" target="6243359">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000181" target="BIOMD0000000195">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000186" target="15694304">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000187" target="15694304">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000196" target="11371173">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000200" target="BIOMD0000000404">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000202" target="1329108">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000205" target="BIOMD0000000019">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000205" target="BIOMD0000000048">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000205" target="BIOMD0000000049">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000205" target="11024454">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000205" target="16687399">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000205" target="14751248">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000209" target="BIOMD0000000204">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000209" target="BIOMD0000000203">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000210" target="BIOMD0000000204">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000210" target="BIOMD0000000203">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000211" target="MODEL1101100000">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000211" target="BIOMD0000000071">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000211" target="10329645">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000214" target="BIOMD0000000299">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000216" target="18057329">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000223" target="BIOMD0000000048">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000223" target="BIOMD0000000146">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000223" target="BIOMD0000000026">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000223" target="BIOMD0000000027">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000223" target="BIOMD0000000028">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000223" target="BIOMD0000000029">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000223" target="BIOMD0000000030">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000223" target="BIOMD0000000031">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000223" target="17052120">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000224" target="2455890">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000225" target="6271617">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000226" target="BIOMD0000000139">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000226" target="BIOMD0000000140">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000226" target="15094015">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000227" target="BIOMD0000000139">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000227" target="BIOMD0000000140">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000227" target="15094015">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000229" target="BIOMD0000000099">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000236" target="6271617">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000242" target="BIOMD0000000168">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000246" target="BIOMD0000000073">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000246" target="BIOMD0000000074">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000246" target="BIOMD0000000078">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000246" target="BIOMD0000000083">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000246" target="11316338">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000247" target="BIOMD0000000064">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000248" target="16636861">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000248" target="10898733">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000249" target="460412">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000249" target="460424">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000250" target="BIOMD0000000175">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000250" target="12242336">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000251" target="BIOMD0000000175">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000251" target="12242336">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000255" target="BIOMD0000000019">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000265" target="15363676">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000268" target="MODEL1007200000">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000273" target="BIOMD0000000089">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000279" target="BIOMD0000000148">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000285" target="BIOMD0000000105">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000286" target="BIOMD0000000105">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000286" target="BIOMD0000000188">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000286" target="BIOMD0000000189">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000287" target="BIOMD0000000188">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000287" target="BIOMD0000000189">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000288" target="12871957">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000288" target="16314431">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000293" target="BIOMD0000000105">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000294" target="BIOMD0000000249">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000294" target="460412">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000294" target="460424">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000295" target="BIOMD0000000299">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000298" target="BIOMD0000000171">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000326" target="16212700">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000330" target="BIOMD0000000329">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000332" target="BIOMD0000000334">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000333" target="BIOMD0000000334">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000335" target="BIOMD0000000336">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000338" target="BIOMD0000000365">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000338" target="MODEL1108260015">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000338" target="MODEL1109160000">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000338" target="MODEL1109160001">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000338" target="18831981">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000338" target="12524220">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000338" target="2779263">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000338" target="8948060">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000338" target="12231555">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000338" target="15804855">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000338" target="16432308">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000338" target="7843644">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000338" target="9645916">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000339" target="BIOMD0000000365">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000339" target="MODEL1108260015">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000339" target="MODEL1109160000">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000339" target="MODEL1109160001">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000339" target="18831981">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000339" target="12524220">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000339" target="2779263">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000339" target="8948060">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000339" target="12231555">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000339" target="9645916">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000339" target="7843644">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000339" target="16432308">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000339" target="15804855">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000340" target="BIOMD0000000365">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000340" target="MODEL1108260015">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000340" target="MODEL1109160000">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000340" target="MODEL1109160001">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000340" target="9645916">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000340" target="7843644">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000340" target="16432308">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000340" target="15804855">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000340" target="12231555">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000340" target="8948060">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000340" target="2779263">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000340" target="12524220">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000340" target="18831981">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000344" target="BIOMD0000000091">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000348" target="9575813">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000348" target="9575814">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000349" target="9575814">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000349" target="9575813">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000353" target="18581371">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000356" target="BIOMD0000000137">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000356" target="BIOMD0000000343">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000356" target="BIOMD0000000379">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000356" target="19225456">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000357" target="17726029">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000359" target="9468488">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000361" target="9468448">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000362" target="8083241">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000362" target="9020158">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000363" target="17726029">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000364" target="17726029">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000366" target="BIOMD0000000358">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000370" target="BIOMD0000000409">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000371" target="2850029">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000372" target="BIOMD0000000382">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000373" target="15294427">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000374" target="3907728">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000375" target="BIOMD0000000374">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000377" target="1850840">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000381" target="10480594">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000394" target="P00018">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000395" target="P00025">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000396" target="P00045">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000397" target="P00057">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000398" target="BIOMD0000000394">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000398" target="BIOMD0000000395">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000398" target="BIOMD0000000396">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000398" target="BIOMD0000000397">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000399" target="BIOMD0000000019">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000401" target="BIOMD0000000148">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000401" target="BIOMD0000000279">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000402" target="BIOMD0000000148">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000402" target="BIOMD0000000279">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000403" target="BIOMD0000000148">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000403" target="BIOMD0000000279">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000406" target="MODEL1011020000">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000408" target="BIOMD0000000041">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000408" target="MODEL1006230027">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000412" target="BIOMD0000000273">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000416" target="20135237">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000423" target="BIOMD0000000343">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000424" target="BIOMD0000000146">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000424" target="BIOMD0000000048">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000430" target="19897477">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000431" target="19897477">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000432" target="19897477">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000433" target="19897477">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000437" target="BIOMD0000000299">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000437" target="15653726">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000437" target="17965132">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000439" target="12446706">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000440" target="BIOMD0000000009">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000440" target="BIOMD0000000010">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000440" target="BIOMD0000000146">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000440" target="17102806">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000441" target="BIOMD0000000009">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000441" target="BIOMD0000000010">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000441" target="BIOMD0000000146">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000441" target="17102806">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000442" target="BIOMD0000000441">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000443" target="BIOMD0000000440">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000443" target="BIOMD0000000250">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000443" target="BIOMD0000000251">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000444" target="BIOMD0000000441">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000444" target="BIOMD0000000250">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000444" target="BIOMD0000000251">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000445" target="BIOMD0000000412">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000447" target="MODEL1303130001">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000448" target="BIOMD0000000343">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000449" target="BIOMD0000000343">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000450" target="BIOMD0000000190">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000450" target="BIOMD0000000268">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000452" target="BIOMD0000000019">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000452" target="BIOMD0000000049">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000452" target="BIOMD0000000048">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000452" target="BIOMD0000000009">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000452" target="BIOMD0000000205">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000452" target="BIOMD0000000093">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000452" target="BIOMD0000000094">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000452" target="14751248">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000452" target="16687399">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000452" target="20459599">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000453" target="BIOMD0000000019">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000453" target="BIOMD0000000049">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000453" target="BIOMD0000000048">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000453" target="BIOMD0000000009">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000453" target="BIOMD0000000205">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000453" target="BIOMD0000000093">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000453" target="BIOMD0000000094">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000453" target="14751248">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000453" target="16687399">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000453" target="20459599">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000463" target="9894006">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000468" target="BIOMD0000000464">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000468" target="BIOMD0000000465">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000468" target="BIOMD0000000466">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000468" target="BIOMD0000000467">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000473" target="BIOMD0000000172">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000474" target="BIOMD0000000137">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000476" target="BIOMD0000000089">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000478" target="18023904">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000478" target="21741466">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000479" target="BIOMD0000000439">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000479" target="15313578">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000481" target="21377476">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000481" target="22118087">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000482" target="MODEL1204060000">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000484" target="21054005">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000484" target="21280690">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000485" target="BF01379769">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000486" target="22191865">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000487" target="15701703">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000488" target="BIOMD0000000462">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000488" target="BIOMD0000000286">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000489" target="BIOMD0000000139">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000489" target="BIOMD0000000140">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000489" target="16166516">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000490" target="23146124">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000490" target="22020181">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000490" target="21560018">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000499" target="BIOMD0000000173">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000503" target="BIOMD0000000502">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000503" target="MODEL1303260018">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000508" target="BIOMD0000000168">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000508" target="16055527">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000509" target="BIOMD0000000168">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000509" target="16055527">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000510" target="BIOMD0000000514">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000514" target="BIOMD0000000513">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000511" target="BIOMD0000000514">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000513" target="BIOMD0000000428">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000515" target="BIOMD0000000510">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000516" target="BIOMD0000000511">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000517" target="BIOMD0000000518">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000518" target="BIOMD0000000519">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000519" target="BIOMD0000000520">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000520" target="17360468">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000528" target="20159146">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000528" target="20739535">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000529" target="20159146">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000529" target="20739535">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000541" target="MODEL1204060000">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000546" target="MODEL1406230000">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000552" target="BIOMD0000000553">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000552" target="9284295">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000554" target="MODEL1411210000">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000554" target="16260743">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000558" target="22757585">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000561" target="BIOMD0000000531">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000563" target="17108957">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000564" target="BIOMD0000000089">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000564" target="BIOMD0000000273">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000565" target="BIOMD0000000051">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000566" target="BIOMD0000000567">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000566" target="11152691">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000566" target="ja9705102">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000567" target="15794636">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000567" target="16117499">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000567" target="12785778">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000567" target="16536526">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000567" target="16301322">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000567" target="16981679">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000567" target="16081040">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000567" target="12186976">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000567" target="16981684">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000567" target="16981683">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000567" target="16981676">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000567" target="ja9705102">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000571" target="BIOMD0000000051">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000572" target="11932446">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000572" target="22325620">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000572" target="15006767">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000572" target="873604">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000572" target="21841021">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000572" target="15345435">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000577" target="BIOMD0000000445">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000578" target="21843151">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000580" target="BIOMD0000000581">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000588" target="BIOMD0000000049">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000588" target="16418172">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000597" target="BIOMD0000000412">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000598" target="BIOMD0000000412">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000603" target="20563574">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000603" target="18793130">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000603" target="16025103">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000603" target="10951190">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000604" target="10951190">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000604" target="16025103">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000604" target="18793130">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000604" target="20563574">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000605" target="10951190">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000605" target="16025103">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000605" target="18793130">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000605" target="20563574">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000606" target="10951190">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000606" target="16025103">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000606" target="18793130">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000606" target="20563574">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000607" target="10951190">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000607" target="16025103">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000607" target="18793130">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000607" target="20563574">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000608" target="15038983">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000608" target="5500468">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000608" target="3156189">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000609" target="26966512">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000610" target="10951190">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000610" target="16025103">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000610" target="18793130">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000610" target="20563574">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000611" target="MODEL1108260014">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000611" target="BIOMD0000000340">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000611" target="BIOMD0000000338">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000611" target="BIOMD0000000339">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000611" target="BIOMD0000000335">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000619" target="20421935">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000620" target="MODEL1112110003">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000621" target="MODEL1112110003">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000623" target="BIOMD0000000033">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000627" target="MODEL1411210000">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000627" target="BIOMD0000000554">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000627" target="978-1-4613-1161-4">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000628" target="BIOMD0000000183">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000634" target="BIOMD0000000462">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000634" target="BIOMD0000000286">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000638" target="urn:miriam:pubmed:11495900+">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000638" target="9182592">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000638" target="10866688">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000638" target="8692892">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000638" target="15491163">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000638" target="14734536">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000638" target="8385135">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000638" target="6360378">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000638" target="urn:miriam:pubmed:3023832+">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000638" target="15501933">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000638" target="9537998">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000638" target="8626481">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000638" target="12960402">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000638" target="22114196">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000638" target="urn:miriam:pubmed:16963443+">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000643" target="BTO:0002181">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000644" target="BTO:0002181">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000645" target="BTO:0002181">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000648" target="BIOMD0000000149">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000648" target="BIOMD0000000033">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000648" target="BIOMD0000000623">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000652" target="BIOMD0000000149">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000652" target="BIOMD0000000033">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000652" target="BIOMD0000000623">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000653" target="BIOMD0000000623">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000653" target="BIOMD0000000033">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000653" target="BIOMD0000000149">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000654" target="BIOMD0000000149">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000654" target="BIOMD0000000033">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000654" target="BIOMD0000000623">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000655" target="BIOMD0000000149">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000655" target="BIOMD0000000033">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000655" target="BIOMD0000000623">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000656" target="BIOMD0000000149">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000656" target="BIOMD0000000033">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000656" target="BIOMD0000000623">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000674" target="BIOMD0000000268">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000674" target="BIOMD0000000190">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000682" target="6305437">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000682" target="4263005">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000687" target="dxh303">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000688" target="dxh303">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000720" target="GO:0007049">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000720" target="R-HSA-69206">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000720" target="MAMO_0000046">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000720" target="40674">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000720" target="BIOMD0000000318">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000727" target="MAMO_0000046">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000727" target="GO:0007049">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000727" target="GO:0051726">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000727" target="155892">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000727" target="BIOMD0000000718">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000739" target="C91335">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000744" target="SBO:0000661">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000745" target="C94498">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000745" target="GO:0070265">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000767" target="C62713">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000767" target="MAMO_0000046">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000767" target="9606">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000767" target="BIOMD0000000766">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000767" target="MODEL1907290002">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000770" target="MAMO_0000046">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000770" target="0000756">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000770" target="GO:0002418">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000770" target="9606">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000770" target="BIOMD0000000769">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000770" target="MODEL1907310003">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000781" target="GO:0002418">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000781" target="MAMO_0000046">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000781" target="C62713">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000781" target="9606">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000781" target="BIOMD0000000780">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000781" target="MODEL1908060001">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000782" target="C62713">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000782" target="MAMO_0000046">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000782" target="GO:0002418">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000782" target="9606">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000782" target="MODEL1908060001">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000782" target="BIOMD0000000781">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000782" target="BIOMD0000000780">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+<edge source="BIOMD0000000782" target="MODEL1908060002">
+  <data key="d4">isDerivedFrom</data>
+</edge>
+</graph></graphml>
