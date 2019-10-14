@@ -108,6 +108,7 @@ curated/
 data/
 prototyping/
 legacy/
+README_images/
 
 # local files
 test.py
