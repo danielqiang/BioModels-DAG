@@ -25,8 +25,7 @@ def parse_mcmp_model(file: TextIO, all_go_compartments: Collection, skip_single_
     soup = BeautifulSoup(file, features='lxml')
     compartment_tags = soup.find_all("compartment")
 
-    # Skip single-compartment models
-    if len(compartment_tags) < 2:
+    if len(compartment_tags) < 2 and skip_single_cmp_models:
         return
 
     model_name = str(basename(file.name).split('.')[0])
