@@ -12,12 +12,14 @@ from SBML [BioModels](https://www.ebi.ac.uk/biomodels/). An example network is d
 
 ![](https://imgur.com/oOglAcV.gif)
 <sub><sup>
-Small subset of relational data network between derived BioModels.
-PubMed models are displayed in red, EBI models are displayed in green.
+Visual subset of relational data network between derived BioModels.
+PubMed models are displayed in red, curated EBI models are displayed in green.
 </sup></sub>
 
 The pipeline:
 - Integrates and extracts semantic data from multiple RDF/XML SBML BioModel providers
+- Queries [GOlr](https://github.com/geneontology/amigo/tree/master/golr) REST API to
+grab gene ontology JSON data
 - Processes and loads RDF triples and visualization data into a NetworkX DAG
 - Converts the DAG to a Cytoscape-compatible file format (e.g. GraphML) for use by 
 [UW BIME](http://bime.uw.edu/) researchers and [EMBL-EBI](https://www.ebi.ac.uk/) staff.
