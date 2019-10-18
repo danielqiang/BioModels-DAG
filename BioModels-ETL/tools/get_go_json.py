@@ -27,3 +27,9 @@ def get_go_json(go_id: str, session: requests.Session = None):
     with session or requests.Session() as s:
         params = {'wt': 'json', 'q': 'id:"{}"'.format(go_id)}
         return s.get("http://golr-aux.geneontology.io/solr/select", params=params).json()
+
+
+if __name__ == '__main__':
+    from pprint import pprint
+
+    pprint(get_go_json("GO:1902186"))

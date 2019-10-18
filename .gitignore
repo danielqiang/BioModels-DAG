@@ -105,13 +105,15 @@ venv.bak/
 
 # local folders
 curated/
-#data/
+local/
 prototyping/
-legacy/
 README_images/
 
 # local files
 test.py
 parser.py
 .idea
-local.py
+BioModels-ETL/local.py
+
+# under development
+pipeline/validator.py

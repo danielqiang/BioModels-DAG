@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key attr.name="label" attr.type="string" for="edge" id="d4"/>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key attr.name="label" attr.type="string" for="edge" id="d5"/>
+<key attr.name="identifier" attr.type="string" for="node" id="d4"/>
 <key attr.name="color" attr.type="string" for="node" id="d3"/>
 <key attr.name="created" attr.type="string" for="node" id="d2"/>
 <key attr.name="URI" attr.type="string" for="node" id="d1"/>
@@ -12,9 +13,11 @@
 </node>
 <node id="chloroplast stroma">
   <data key="d3">yellow</data>
+  <data key="d4">SBO:0000290</data>
 </node>
 <node id="cytosol">
   <data key="d3">yellow</data>
+  <data key="d4">C61554</data>
 </node>
 <node id="BIOMD0000000016">
   <data key="d0">biomodels.db</data>
@@ -24,12 +27,15 @@
 </node>
 <node id="default">
   <data key="d3">yellow</data>
+  <data key="d4">BTO:0000316</data>
 </node>
 <node id="cytoplasm">
   <data key="d3">yellow</data>
+  <data key="d4">GO:0005737</data>
 </node>
 <node id="nucleus">
   <data key="d3">yellow</data>
+  <data key="d4">GO:0005634</data>
 </node>
 <node id="BIOMD0000000018">
   <data key="d0">biomodels.db</data>
@@ -39,9 +45,11 @@
 </node>
 <node id="extracellular space">
   <data key="d3">yellow</data>
+  <data key="d4">SBO:0000290</data>
 </node>
 <node id="cell">
   <data key="d3">yellow</data>
+  <data key="d4">CL:0000000</data>
 </node>
 <node id="BIOMD0000000019">
   <data key="d0">biomodels.db</data>
@@ -51,6 +59,7 @@
 </node>
 <node id="endosome">
   <data key="d3">yellow</data>
+  <data key="d4">GO:0005768</data>
 </node>
 <node id="BIOMD0000000021">
   <data key="d0">biomodels.db</data>
@@ -93,9 +102,11 @@
 </node>
 <node id="smooth endoplasmic reticulum">
   <data key="d3">yellow</data>
+  <data key="d4">GO:0005790</data>
 </node>
 <node id="mitochondrion">
   <data key="d3">yellow</data>
+  <data key="d4">GO:0005739</data>
 </node>
 <node id="BIOMD0000000041">
   <data key="d0">biomodels.db</data>
@@ -105,6 +116,7 @@
 </node>
 <node id="mitochondrial intermembrane space">
   <data key="d3">yellow</data>
+  <data key="d4">GO:0005758</data>
 </node>
 <node id="BIOMD0000000043">
   <data key="d0">biomodels.db</data>
@@ -141,6 +153,7 @@
 </node>
 <node id="cytoplasmic side of plasma membrane">
   <data key="d3">yellow</data>
+  <data key="d4">GO:0009898</data>
 </node>
 <node id="BIOMD0000000051">
   <data key="d0">biomodels.db</data>
@@ -150,6 +163,7 @@
 </node>
 <node id="extracellular region">
   <data key="d3">yellow</data>
+  <data key="d4">GO:0005576</data>
 </node>
 <node id="BIOMD0000000059">
   <data key="d0">biomodels.db</data>
@@ -159,6 +173,7 @@
 </node>
 <node id="endoplasmic reticulum">
   <data key="d3">yellow</data>
+  <data key="d4">GO:0005783</data>
 </node>
 <node id="BIOMD0000000061">
   <data key="d0">biomodels.db</data>
@@ -189,6 +204,7 @@
 </node>
 <node id="glycosome">
   <data key="d3">yellow</data>
+  <data key="d4">GO:0020015</data>
 </node>
 <node id="BIOMD0000000075">
   <data key="d0">biomodels.db</data>
@@ -198,12 +214,15 @@
 </node>
 <node id="plasma membrane">
   <data key="d3">yellow</data>
+  <data key="d4">GO:0005886</data>
 </node>
 <node id="intracellular">
   <data key="d3">yellow</data>
+  <data key="d4">GO:0005622</data>
 </node>
 <node id="nuclear membrane">
   <data key="d3">yellow</data>
+  <data key="d4">GO:0031965</data>
 </node>
 <node id="BIOMD0000000081">
   <data key="d0">biomodels.db</data>
@@ -219,6 +238,7 @@
 </node>
 <node id="membrane">
   <data key="d3">yellow</data>
+  <data key="d4">GO:0016020</data>
 </node>
 <node id="BIOMD0000000088">
   <data key="d0">biomodels.db</data>
@@ -318,6 +338,7 @@
 </node>
 <node id="obsolete intracellular part">
   <data key="d3">yellow</data>
+  <data key="d4">GO:0044424</data>
 </node>
 <node id="BIOMD0000000122">
   <data key="d0">biomodels.db</data>
@@ -339,6 +360,7 @@
 </node>
 <node id="cell surface">
   <data key="d3">yellow</data>
+  <data key="d4">GO:0009986</data>
 </node>
 <node id="BIOMD0000000139">
   <data key="d0">biomodels.db</data>
@@ -360,6 +382,7 @@
 </node>
 <node id="early phagosome">
   <data key="d3">yellow</data>
+  <data key="d4">GO:0032009</data>
 </node>
 <node id="BIOMD0000000144">
   <data key="d0">biomodels.db</data>
@@ -399,12 +422,15 @@
 </node>
 <node id="golgi apparatus">
   <data key="d3">yellow</data>
+  <data key="d4">GO:0005794</data>
 </node>
 <node id="endoplasmic reticulum membrane">
   <data key="d3">yellow</data>
+  <data key="d4">GO:0005789</data>
 </node>
 <node id="golgi membrane">
   <data key="d3">yellow</data>
+  <data key="d4">GO:0000139</data>
 </node>
 <node id="BIOMD0000000162">
   <data key="d0">biomodels.db</data>
@@ -429,6 +455,7 @@
 </node>
 <node id="pm">
   <data key="d3">yellow</data>
+  <data key="d4">FMA:63841</data>
 </node>
 <node id="BIOMD0000000165">
   <data key="d0">biomodels.db</data>
@@ -444,6 +471,7 @@
 </node>
 <node id="store">
   <data key="d3">yellow</data>
+  <data key="d4">FMA:54527</data>
 </node>
 <node id="BIOMD0000000167">
   <data key="d0">biomodels.db</data>
@@ -483,6 +511,7 @@
 </node>
 <node id="mitochondrial matrix">
   <data key="d3">yellow</data>
+  <data key="d4">GO:0005759</data>
 </node>
 <node id="BIOMD0000000178">
   <data key="d0">biomodels.db</data>
@@ -492,6 +521,7 @@
 </node>
 <node id="endosome lumen">
   <data key="d3">yellow</data>
+  <data key="d4">GO:0031904</data>
 </node>
 <node id="BIOMD0000000182">
   <data key="d0">biomodels.db</data>
@@ -594,6 +624,7 @@
 </node>
 <node id="mitochondrial inner membrane">
   <data key="d3">yellow</data>
+  <data key="d4">GO:0005743</data>
 </node>
 <node id="BIOMD0000000241">
   <data key="d0">biomodels.db</data>
@@ -603,12 +634,15 @@
 </node>
 <node id="gut">
   <data key="d3">yellow</data>
+  <data key="d4">BTO:0000545</data>
 </node>
 <node id="c">
   <data key="d3">yellow</data>
+  <data key="d4">FMA:62970</data>
 </node>
 <node id="p">
   <data key="d3">yellow</data>
+  <data key="d4">FMA:20394</data>
 </node>
 <node id="tol">
   <data key="d3">yellow</data>
@@ -648,9 +682,11 @@
 </node>
 <node id="capillary">
   <data key="d3">yellow</data>
+  <data key="d4">BTO:0002045</data>
 </node>
 <node id="tissue">
   <data key="d3">yellow</data>
+  <data key="d4">FMA:9637</data>
 </node>
 <node id="BIOMD0000000250">
   <data key="d0">biomodels.db</data>
@@ -666,9 +702,11 @@
 </node>
 <node id="lysosome">
   <data key="d3">yellow</data>
+  <data key="d4">GO:0005764</data>
 </node>
 <node id="endosome membrane">
   <data key="d3">yellow</data>
+  <data key="d4">GO:0010008</data>
 </node>
 <node id="BIOMD0000000256">
   <data key="d0">biomodels.db</data>
@@ -684,9 +722,11 @@
 </node>
 <node id="extraorganismal space">
   <data key="d3">yellow</data>
+  <data key="d4">GO:0043245</data>
 </node>
 <node id="organism">
   <data key="d3">yellow</data>
+  <data key="d4">FMA:20394</data>
 </node>
 <node id="BIOMD0000000260">
   <data key="d0">biomodels.db</data>
@@ -702,6 +742,7 @@
 </node>
 <node id="environment">
   <data key="d3">yellow</data>
+  <data key="d4">BTO:0000316</data>
 </node>
 <node id="BIOMD0000000266">
   <data key="d0">biomodels.db</data>
@@ -723,6 +764,7 @@
 </node>
 <node id="blood">
   <data key="d3">yellow</data>
+  <data key="d4">BTO:0000089</data>
 </node>
 <node id="BIOMD0000000269">
   <data key="d0">biomodels.db</data>
@@ -738,6 +780,7 @@
 </node>
 <node id="medium">
   <data key="d3">yellow</data>
+  <data key="d4">BTO:0000316</data>
 </node>
 <node id="BIOMD0000000272">
   <data key="d0">biomodels.db</data>
@@ -753,9 +796,11 @@
 </node>
 <node id="ptg_pool">
   <data key="d3">yellow</data>
+  <data key="d4">BTO:0000997</data>
 </node>
 <node id="plasma_pool">
   <data key="d3">yellow</data>
+  <data key="d4">BTO:0000131</data>
 </node>
 <node id="BIOMD0000000277">
   <data key="d0">biomodels.db</data>
@@ -783,9 +828,11 @@
 </node>
 <node id="pre_synaptic_cell">
   <data key="d3">yellow</data>
+  <data key="d4">FMA:62493</data>
 </node>
 <node id="post_synaptic_cell">
   <data key="d3">yellow</data>
+  <data key="d4">FMA:62493</data>
 </node>
 <node id="BIOMD0000000320">
   <data key="d0">biomodels.db</data>
@@ -795,21 +842,27 @@
 </node>
 <node id="v_l_dopa">
   <data key="d3">yellow</data>
+  <data key="d4">FMA:7563</data>
 </node>
 <node id="v_3_omd">
   <data key="d3">yellow</data>
+  <data key="d4">FMA:7563</data>
 </node>
 <node id="v1_b">
   <data key="d3">yellow</data>
+  <data key="d4">FMA:76700</data>
 </node>
 <node id="v2_b">
   <data key="d3">yellow</data>
+  <data key="d4">FMA:76700</data>
 </node>
 <node id="v1_m">
   <data key="d3">yellow</data>
+  <data key="d4">FMA:76700</data>
 </node>
 <node id="v2_m">
   <data key="d3">yellow</data>
+  <data key="d4">FMA:76700</data>
 </node>
 <node id="BIOMD0000000321">
   <data key="d0">biomodels.db</data>
@@ -825,9 +878,11 @@
 </node>
 <node id="plasma">
   <data key="d3">yellow</data>
+  <data key="d4">BTO:0000131</data>
 </node>
 <node id="lumen">
   <data key="d3">yellow</data>
+  <data key="d4">FMA:14586</data>
 </node>
 <node id="BIOMD0000000328">
   <data key="d0">biomodels.db</data>
@@ -837,6 +892,7 @@
 </node>
 <node id="compartment">
   <data key="d3">yellow</data>
+  <data key="d4">urn:miriam:sbo:SBO%3A0000289</data>
 </node>
 <node id="BIOMD0000000330">
   <data key="d0">biomodels.db</data>
@@ -876,15 +932,19 @@
 </node>
 <node id="chloroplast">
   <data key="d3">yellow</data>
+  <data key="d4">SBO:0000290</data>
 </node>
 <node id="chloroplast outer membrane">
   <data key="d3">yellow</data>
+  <data key="d4">SBO:0000290</data>
 </node>
 <node id="chloroplast intermembrane space">
   <data key="d3">yellow</data>
+  <data key="d4">SBO:0000290</data>
 </node>
 <node id="chloroplast inner membrane">
   <data key="d3">yellow</data>
+  <data key="d4">SBO:0000290</data>
 </node>
 <node id="BIOMD0000000354">
   <data key="d0">biomodels.db</data>
@@ -1047,12 +1107,15 @@
 </node>
 <node id="intestine">
   <data key="d3">yellow</data>
+  <data key="d4">BTO:0000648</data>
 </node>
 <node id="hepatictissue">
   <data key="d3">yellow</data>
+  <data key="d4">FMA:15815</data>
 </node>
 <node id="peripheraltissue">
   <data key="d3">yellow</data>
+  <data key="d4">FMA:9637</data>
 </node>
 <node id="excreted">
   <data key="d3">yellow</data>
@@ -1104,6 +1167,7 @@
 </node>
 <node id="t helper cell">
   <data key="d3">yellow</data>
+  <data key="d4">BTO:0002417</data>
 </node>
 <node id="BIOMD0000000464">
   <data key="d0">biomodels.db</data>
@@ -1188,12 +1252,15 @@
 </node>
 <node id="lamina propia">
   <data key="d3">yellow</data>
+  <data key="d4">BTO:0002330</data>
 </node>
 <node id="epithelium">
   <data key="d3">yellow</data>
+  <data key="d4">BTO:0000416</data>
 </node>
 <node id="gastric lymph node">
   <data key="d3">yellow</data>
+  <data key="d4">FMA:12796</data>
 </node>
 <node id="BIOMD0000000482">
   <data key="d0">biomodels.db</data>
@@ -1218,9 +1285,11 @@
 </node>
 <node id="v_b">
   <data key="d3">yellow</data>
+  <data key="d4">BTO:0000131</data>
 </node>
 <node id="v_aw">
   <data key="d3">yellow</data>
+  <data key="d4">BTO:0001660</data>
 </node>
 <node id="vd_hn">
   <data key="d3">yellow</data>
@@ -1284,6 +1353,7 @@
 </node>
 <node id="hepatocyte homeostasis">
   <data key="d3">yellow</data>
+  <data key="d4">GO:0036333</data>
 </node>
 <node id="BIOMD0000000500">
   <data key="d0">biomodels.db</data>
@@ -1335,12 +1405,15 @@
 </node>
 <node id="brain">
   <data key="d3">yellow</data>
+  <data key="d4">BTO:0000142</data>
 </node>
 <node id="rob">
   <data key="d3">yellow</data>
+  <data key="d4">FMA:76445</data>
 </node>
 <node id="mec">
   <data key="d3">yellow</data>
+  <data key="d4">BTO:0003123</data>
 </node>
 <node id="BIOMD0000000513">
   <data key="d0">biomodels.db</data>
@@ -1392,9 +1465,11 @@
 </node>
 <node id="serum">
   <data key="d3">yellow</data>
+  <data key="d4">BTO:0001239</data>
 </node>
 <node id="liver">
   <data key="d3">yellow</data>
+  <data key="d4">BTO::0000759</data>
 </node>
 <node id="BIOMD0000000535">
   <data key="d0">biomodels.db</data>
@@ -1446,6 +1521,7 @@
 </node>
 <node id="csf">
   <data key="d3">yellow</data>
+  <data key="d4">BTO:0000237</data>
 </node>
 <node id="BIOMD0000000554">
   <data key="d0">biomodels.db</data>
@@ -1455,12 +1531,15 @@
 </node>
 <node id="astrocytes">
   <data key="d3">yellow</data>
+  <data key="d4">BTO:0000938</data>
 </node>
 <node id="capillaries">
   <data key="d3">yellow</data>
+  <data key="d4">FMA:63194</data>
 </node>
 <node id="neurons">
   <data key="d3">yellow</data>
+  <data key="d4">BTO:0000938</data>
 </node>
 <node id="BIOMD0000000557">
   <data key="d0">biomodels.db</data>
@@ -1476,6 +1555,7 @@
 </node>
 <node id="autophagosome">
   <data key="d3">yellow</data>
+  <data key="d4">GO:0005776</data>
 </node>
 <node id="BIOMD0000000560">
   <data key="d0">biomodels.db</data>
@@ -1485,6 +1565,7 @@
 </node>
 <node id="extracellular membrane-bounded organelle">
   <data key="d3">yellow</data>
+  <data key="d4">GO:0065010</data>
 </node>
 <node id="BIOMD0000000563">
   <data key="d0">biomodels.db</data>
@@ -1515,9 +1596,11 @@
 </node>
 <node id="arteries">
   <data key="d3">yellow</data>
+  <data key="d4">FMA:63812</data>
 </node>
 <node id="venous balloon">
   <data key="d3">yellow</data>
+  <data key="d4">FMA:50723</data>
 </node>
 <node id="BIOMD0000000572">
   <data key="d0">biomodels.db</data>
@@ -1533,9 +1616,11 @@
 </node>
 <node id="vesicle">
   <data key="d3">yellow</data>
+  <data key="d4">GO:0031982</data>
 </node>
 <node id="proteasome complex">
   <data key="d3">yellow</data>
+  <data key="d4">GO:0000502</data>
 </node>
 <node id="BIOMD0000000576">
   <data key="d0">biomodels.db</data>
@@ -1581,9 +1666,11 @@
 </node>
 <node id="lp">
   <data key="d3">yellow</data>
+  <data key="d4">BTO:0002330</data>
 </node>
 <node id="mln">
   <data key="d3">yellow</data>
+  <data key="d4">BTO:0000767</data>
 </node>
 <node id="BIOMD0000000588">
   <data key="d0">biomodels.db</data>
@@ -1617,6 +1704,7 @@
 </node>
 <node id="sarcoplasmic reticulum">
   <data key="d3">yellow</data>
+  <data key="d4">GO:0016529</data>
 </node>
 <node id="BIOMD0000000603">
   <data key="d0">biomodels.db</data>
@@ -1656,9 +1744,11 @@
 </node>
 <node id="intra">
   <data key="d3">yellow</data>
+  <data key="d4">urn:miriam:obo.go:GO%3A0005737</data>
 </node>
 <node id="extra">
   <data key="d3">yellow</data>
+  <data key="d4">urn:miriam:obo.go:GO%3A0005576</data>
 </node>
 <node id="BIOMD0000000612">
   <data key="d0">biomodels.db</data>
@@ -1668,6 +1758,7 @@
 </node>
 <node id="bone">
   <data key="d3">yellow</data>
+  <data key="d4">BTO:0000140</data>
 </node>
 <node id="ecm">
   <data key="d3">yellow</data>
@@ -1683,6 +1774,7 @@
 </node>
 <node id="vasculature">
   <data key="d3">yellow</data>
+  <data key="d4">BTO:0003718</data>
 </node>
 <node id="pth_gland">
   <data key="d3">yellow</data>
@@ -1701,9 +1793,11 @@
 </node>
 <node id="default_compartment">
   <data key="d3">yellow</data>
+  <data key="d4">SBO:0000410</data>
 </node>
 <node id="compartment_">
   <data key="d3">yellow</data>
+  <data key="d4">SBO:0000410</data>
 </node>
 <node id="BIOMD0000000619">
   <data key="d0">biomodels.db</data>
@@ -1746,6 +1840,7 @@
 </node>
 <node id="artery">
   <data key="d3">yellow</data>
+  <data key="d4">FMA:50720</data>
 </node>
 <node id="BIOMD0000000633">
   <data key="d0">biomodels.db</data>
@@ -1761,6 +1856,7 @@
 </node>
 <node id="cyt">
   <data key="d3">yellow</data>
+  <data key="d4">FMA:66835</data>
 </node>
 <node id="BIOMD0000000658">
   <data key="d0">biomodels.db</data>
@@ -1782,9 +1878,11 @@
 </node>
 <node id="tumour cell">
   <data key="d3">yellow</data>
+  <data key="d4">C12922</data>
 </node>
 <node id="t-lymphocyte cell">
   <data key="d3">yellow</data>
+  <data key="d4">C104083</data>
 </node>
 <node id="BIOMD0000000674">
   <data key="d0">biomodels.db</data>
@@ -1824,6 +1922,7 @@
 </node>
 <node id="spindle pole body">
   <data key="d3">yellow</data>
+  <data key="d4">GO:0005816</data>
 </node>
 <node id="BIOMD0000000702">
   <data key="d0">biomodels.db</data>
@@ -1833,6 +1932,7 @@
 </node>
 <node id="spb">
   <data key="d3">yellow</data>
+  <data key="d4">C13365</data>
 </node>
 <node id="BIOMD0000000705">
   <data key="d0">biomodels.db</data>
@@ -1842,6 +1942,7 @@
 </node>
 <node id="dna binding">
   <data key="d3">yellow</data>
+  <data key="d4">GO:0003677</data>
 </node>
 <node id="BIOMD0000000706">
   <data key="d0">biomodels.db</data>
@@ -1857,9 +1958,11 @@
 </node>
 <node id="human population">
   <data key="d3">yellow</data>
+  <data key="d4">OBI:0000181</data>
 </node>
 <node id="avian population">
   <data key="d3">yellow</data>
+  <data key="d4">OBI:0000181</data>
 </node>
 <node id="BIOMD0000000709">
   <data key="d0">biomodels.db</data>
@@ -1875,6 +1978,7 @@
 </node>
 <node id="bird population">
   <data key="d3">yellow</data>
+  <data key="d4">OBI:0000181</data>
 </node>
 <node id="BIOMD0000000717">
   <data key="d0">biomodels.db</data>
@@ -1890,6 +1994,7 @@
 </node>
 <node id="dog population">
   <data key="d3">yellow</data>
+  <data key="d4">OBI:0000181</data>
 </node>
 <node id="BIOMD0000000734">
   <data key="d0">biomodels.db</data>
@@ -1899,18 +2004,23 @@
 </node>
 <node id="duodenum">
   <data key="d3">yellow</data>
+  <data key="d4">BTO:0000365</data>
 </node>
 <node id="rbc">
   <data key="d3">yellow</data>
+  <data key="d4">BTO:0000424</data>
 </node>
 <node id="spleen">
   <data key="d3">yellow</data>
+  <data key="d4">BTO:0001281</data>
 </node>
 <node id="restofbody">
   <data key="d3">yellow</data>
+  <data key="d4">urn:miriam:unknown:</data>
 </node>
 <node id="bonemarrow">
   <data key="d3">yellow</data>
+  <data key="d4">BTO:0000141</data>
 </node>
 <node id="BIOMD0000000735">
   <data key="d0">biomodels.db</data>
@@ -1944,9 +2054,11 @@
 </node>
 <node id="central">
   <data key="d3">yellow</data>
+  <data key="d4">BTO:0000131</data>
 </node>
 <node id="peripheral tissue">
   <data key="d3">yellow</data>
+  <data key="d4">C12801</data>
 </node>
 <node id="BIOMD0000000786">
   <data key="d0">biomodels.db</data>
@@ -1962,6 +2074,7 @@
 </node>
 <node id="peripheral">
   <data key="d3">yellow</data>
+  <data key="d4">UBERON:0000479</data>
 </node>
 <node id="BIOMD0000000794">
   <data key="d0">biomodels.db</data>
@@ -1970,2118 +2083,2118 @@
   <data key="d3">green</data>
 </node>
 <edge source="BIOMD0000000013" target="chloroplast stroma">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000013" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000016" target="default">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000016" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000016" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000018" target="extracellular space">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000018" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000019" target="extracellular space">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000019" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000019" target="endosome">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000021" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000021" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000022" target="drosophilia">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000022" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000022" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000032" target="extracellular space">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000032" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000034" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000034" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000036" target="default">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000036" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000039" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000039" target="smooth endoplasmic reticulum">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000039" target="mitochondrion">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000041" target="mitochondrial intermembrane space">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000041" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000043" target="extracellular space">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000043" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000043" target="smooth endoplasmic reticulum">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000044" target="extracellular space">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000044" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000044" target="smooth endoplasmic reticulum">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000045" target="extracellular space">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000045" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000045" target="smooth endoplasmic reticulum">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000045" target="intravesicular2">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000047" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000047" target="smooth endoplasmic reticulum">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000049" target="cytoplasmic side of plasma membrane">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000049" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000051" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000051" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000059" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000059" target="endoplasmic reticulum">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000061" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000061" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000063" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000063" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000064" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000064" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000071" target="total cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000071" target="glycosome">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000071" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000071" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000075" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000075" target="plasma membrane">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000075" target="intracellular">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000075" target="nuclear membrane">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000075" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000081" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000081" target="plasma membrane">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000081" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000087" target="membrane">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000087" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000088" target="default">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000088" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000088" target="endoplasmic reticulum">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000090" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000090" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000090" target="mitochondrion">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000093" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000093" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000094" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000094" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000095" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000095" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000096" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000096" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000097" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000097" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000098" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000098" target="endoplasmic reticulum">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000099" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000099" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000100" target="extracellular space">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000100" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000100" target="endoplasmic reticulum">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000101" target="plasma membrane">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000101" target="endosome">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000112" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000112" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000113" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000113" target="endoplasmic reticulum">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000114" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000114" target="endoplasmic reticulum">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000114" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000115" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000115" target="endoplasmic reticulum">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000115" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000117" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000117" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000117" target="obsolete intracellular part">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000122" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000122" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000123" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000123" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000137" target="cell surface">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000137" target="intracellular">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000139" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000139" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000140" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000140" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000143" target="early phagosome">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000143" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000144" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000144" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000145" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000145" target="endoplasmic reticulum">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000147" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000147" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000149" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000149" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000151" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000151" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000161" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000161" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000161" target="endoplasmic reticulum">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000161" target="golgi apparatus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000161" target="plasma membrane">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000161" target="endoplasmic reticulum membrane">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000161" target="golgi membrane">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000162" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000162" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000162" target="endoplasmic reticulum">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000162" target="plasma membrane">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000162" target="endoplasmic reticulum membrane">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000163" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000163" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000163" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000164" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000164" target="ec">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000164" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000164" target="membrane">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000164" target="pm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000165" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000165" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000165" target="membrane">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000166" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000166" target="store">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000167" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000167" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000167" target="nuclear membrane">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000170" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000170" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000171" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000171" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000172" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000172" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000173" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000173" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000177" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000177" target="mitochondrial matrix">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000178" target="extracellular space">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000178" target="endosome lumen">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000178" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000182" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000182" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000182" target="plasma membrane">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000184" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000184" target="endoplasmic reticulum">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000191" target="extracellular space">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000191" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000192" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000192" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000197" target="extracellular space">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000197" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000202" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000202" target="er">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000202" target="pm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000211" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000211" target="glycosome">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000211" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000214" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000214" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000220" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000220" target="mitochondrion">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000223" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000223" target="extracellular space">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000224" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000224" target="endoplasmic reticulum">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000226" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000226" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000227" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000227" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000232" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000232" target="mitochondrial matrix">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000235" target="default">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000235" target="extracellular space">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000235" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000239" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000239" target="mitochondrial intermembrane space">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000239" target="mitochondrial inner membrane">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000239" target="mitochondrial matrix">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000241" target="gut">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000241" target="c">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000241" target="p">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000241" target="tol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000241" target="eff">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000244" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000244" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000245" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000245" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000246" target="extracellular space">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000246" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000246" target="store">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000246" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000247" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000247" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000248" target="capillary">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000248" target="tissue">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000250" target="default">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000250" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000250" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000255" target="plasma membrane">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000255" target="endosome">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000255" target="lysosome">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000255" target="extracellular space">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000255" target="endosome membrane">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000255" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000256" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000256" target="mitochondrion">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000259" target="extraorganismal space">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000259" target="organism">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000260" target="extraorganismal space">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000260" target="organism">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000261" target="environment">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000261" target="organism">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000266" target="intracellular">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000266" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000267" target="extracellular space">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000267" target="endosome lumen">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000267" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000268" target="blood">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000268" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000268" target="mitochondrion">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000268" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000269" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000269" target="extracellular space">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000271" target="medium">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000271" target="cell surface">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000271" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000272" target="medium">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000272" target="cell surface">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000272" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000276" target="ptg_pool">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000276" target="plasma_pool">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000277" target="ptg_pool">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000277" target="plasma_pool">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000295" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000295" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000299" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000299" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000302" target="pre_synaptic_cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000302" target="post_synaptic_cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000320" target="gut">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000320" target="v_l_dopa">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000320" target="v_3_omd">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000320" target="v1_b">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000320" target="v2_b">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000320" target="v1_m">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000320" target="v2_m">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000321" target="gut">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000321" target="v_l_dopa">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000321" target="v_3_omd">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000327" target="plasma">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000327" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000327" target="lumen">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000328" target="compartment">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000328" target="medium">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000328" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000330" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000330" target="endoplasmic reticulum">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000330" target="mitochondrion">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000331" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000331" target="endoplasmic reticulum">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000331" target="mitochondrion">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000342" target="default">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000342" target="medium">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000342" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000342" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000344" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000344" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000347" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000347" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000353" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000353" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000353" target="chloroplast">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000353" target="chloroplast outer membrane">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000353" target="chloroplast intermembrane space">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000353" target="chloroplast inner membrane">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000353" target="chloroplast stroma">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000354" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000354" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000354" target="endoplasmic reticulum">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000354" target="mitochondrion">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000355" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000355" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000355" target="mitochondrion">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000355" target="endoplasmic reticulum">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000380" target="intracellular">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000380" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000389" target="chloroplast">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000389" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000389" target="vacuole">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000389" target="phloem">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000390" target="chloroplast">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000390" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000391" target="chloroplast">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000391" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000392" target="chloroplast">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000392" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000393" target="chloroplast">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000393" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000394" target="default">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000394" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000395" target="default">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000395" target="receiving cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000395" target="lipid raft">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000395" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000396" target="default">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000396" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000396" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000397" target="default">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000397" target="plasma membrane">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000397" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000397" target="cell membrane">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000398" target="default">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000398" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000399" target="extracellular space">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000399" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000399" target="endosome">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000407" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000407" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000407" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000408" target="mitochondrial intermembrane space">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000408" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000408" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000410" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000410" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000412" target="default">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000412" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000428" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000428" target="glycosome">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000428" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000429" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000429" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000429" target="plasma membrane">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000432" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000432" target="no name">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000433" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000433" target="no name">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000434" target="intake">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000434" target="intestine">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000434" target="hepatictissue">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000434" target="peripheraltissue">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000434" target="plasma">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000434" target="excreted">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000436" target="unspecified">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000436" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000437" target="default">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000437" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000437" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000445" target="default">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000445" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000445" target="no name">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000446" target="erlumen">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000446" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000446" target="golgi">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000446" target="mitochondrion">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000450" target="blood">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000450" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000450" target="mitochondrion">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000450" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000451" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000451" target="t helper cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000464" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000464" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000464" target="endoplasmic reticulum">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000465" target="default">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000465" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000466" target="default">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000466" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000466" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000467" target="default">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000467" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000468" target="default">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000468" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000468" target="er">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000468" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000469" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000469" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000470" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000470" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000471" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000471" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000472" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000472" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000473" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000473" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000474" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000474" target="cell surface">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000474" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000474" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000474" target="dnabound">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000477" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000477" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000480" target="lumen">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000480" target="lamina propia">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000480" target="epithelium">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000480" target="gastric lymph node">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000482" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000482" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000482" target="intracellular">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000490" target="default">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000490" target="vd_ltc">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000490" target="vd_ltd">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000490" target="vd_lte">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000490" target="v_b">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000490" target="v_aw">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000490" target="vd_hn">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000490" target="vd_il5">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000490" target="v_bm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000490" target="vd_aw_ltc">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000490" target="vd_aw_ltd">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000490" target="vd_aw_lte">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000490" target="vd_aw_hn">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000490" target="vd_zf">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000490" target="vd_aw_zf">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000490" target="vd_ml">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000491" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000491" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000491" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000492" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000492" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000492" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000496" target="intracellular">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000496" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000497" target="intracellular">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000497" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000498" target="hepatocyte homeostasis">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000498" target="extracellular space">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000500" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000500" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000503" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000503" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000504" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000504" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000504" target="cell surface">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000505" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000505" target="mitochondrion">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000506" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000506" target="mitochondrion">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000510" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000510" target="glycosome">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000510" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000511" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000511" target="glycosome">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000511" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000512" target="default">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000512" target="brain">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000512" target="plasma">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000512" target="rob">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000512" target="mec">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000513" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000513" target="glycosome">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000513" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000514" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000514" target="glycosome">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000514" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000515" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000515" target="glycosome">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000515" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000516" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000516" target="glycosome">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000516" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000521" target="plasma">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000521" target="tissue">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000528" target="default">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000528" target="environment">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000528" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000529" target="default">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000529" target="environment">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000529" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000534" target="serum">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000534" target="liver">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000534" target="gut">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000534" target="extracellular space">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000535" target="serum">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000535" target="liver">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000535" target="gut">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000535" target="extracellular space">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000536" target="serum">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000536" target="liver">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000536" target="gut">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000536" target="extracellular space">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000537" target="serum">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000537" target="liver">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000537" target="gut">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000537" target="extracellular space">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000543" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000543" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000543" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000544" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000544" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000544" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000547" target="medium">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000547" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000547" target="vac">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000547" target="cell-vac">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000551" target="csf">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000551" target="plasma">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000554" target="astrocytes">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000554" target="capillaries">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000554" target="extracellular space">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000554" target="neurons">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000557" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000557" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000559" target="lysosome">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000559" target="autophagosome">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000559" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000560" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000560" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000560" target="membrane">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000560" target="extracellular membrane-bounded organelle">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000563" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000563" target="apoplast">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000565" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000565" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000568" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000568" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000570" target="tissue">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000570" target="arteries">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000570" target="capillaries">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000570" target="venous balloon">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000572" target="intracellular">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000572" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000575" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000575" target="vesicle">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000575" target="autophagosome">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000575" target="proteasome complex">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000575" target="lysosome">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000576" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000576" target="blood">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000577" target="default">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000577" target="def">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000577" target="no name">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000579" target="default">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000579" target="mitochondrion">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000579" target="mit_inner_membrane">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000579" target="ims">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000579" target="mit_outer_membrane">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000581" target="plasma membrane">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000581" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000583" target="lumen">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000583" target="epithelium">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000583" target="lp">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000583" target="mln">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000588" target="neuron">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000588" target="interstitial fluid">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000591" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000591" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000600" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000600" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000600" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000601" target="sarcoplasmic reticulum">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000601" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000603" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000603" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000604" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000604" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000605" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000605" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000606" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000606" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000607" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000607" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000610" target="intra">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000610" target="extra">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000612" target="bone">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000612" target="ecm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000612" target="osteoblast">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000613" target="gut">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000613" target="vasculature">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000613" target="bone">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000613" target="pth_gland">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000613" target="kidney">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000613" target="intracellular">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000613" target="osteoblast_intracellular">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000617" target="default_compartment">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000617" target="compartment_">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000619" target="vart">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000619" target="vgut">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000619" target="vgutlumen">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000619" target="vlung">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000619" target="vven">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000619" target="vrest">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000619" target="vliver">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000619" target="vkidney">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000619" target="vkidneytubules">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000627" target="capillary">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000627" target="neurons">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000627" target="astrocytes">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000627" target="extracellular space">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000627" target="venous balloon">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000627" target="artery">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000633" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000633" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000633" target="endoplasmic reticulum">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000633" target="mitochondrion">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000638" target="pm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000638" target="cyt">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000658" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000658" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000659" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000659" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000661" target="compartment">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000661" target="tumour cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000661" target="t-lymphocyte cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000674" target="blood">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000674" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000674" target="mitochondrion">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000674" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000691" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000691" target="compartment">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000695" target="healthy">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000695" target="psoriatic">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000696" target="cell">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000696" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000699" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000699" target="spindle pole body">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000702" target="cytosol">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000702" target="spb">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000705" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000705" target="cell surface">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000705" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000705" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000705" target="dna binding">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000706" target="extracellular region">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000706" target="cell surface">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000706" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000706" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000706" target="dna binding">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000708" target="human population">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000708" target="avian population">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000709" target="human population">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000709" target="avian population">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000716" target="bird population">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000716" target="human population">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000717" target="bird population">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000717" target="human population">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000726" target="dog population">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000726" target="human population">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000734" target="duodenum">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000734" target="rbc">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000734" target="spleen">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000734" target="liver">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000734" target="plasma">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000734" target="restofbody">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000734" target="bonemarrow">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000735" target="duodenum">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000735" target="rbc">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000735" target="spleen">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000735" target="liver">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000735" target="plasma">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000735" target="restofbody">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000735" target="bonemarrow">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000736" target="duodenum">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000736" target="rbc">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000736" target="spleen">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000736" target="liver">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000736" target="plasma">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000736" target="restofbody">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000736" target="bonemarrow">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000737" target="duodenum">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000737" target="rbc">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000737" target="spleen">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000737" target="liver">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000737" target="plasma">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000737" target="restofbody">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000737" target="bonemarrow">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000738" target="duodenum">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000738" target="rbc">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000738" target="spleen">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000738" target="liver">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000738" target="plasma">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000738" target="restofbody">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000738" target="bonemarrow">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000765" target="central">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000765" target="peripheral tissue">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000786" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000786" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000788" target="central">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000788" target="peripheral">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000794" target="cytoplasm">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 <edge source="BIOMD0000000794" target="nucleus">
-  <data key="d4">isPartOf</data>
+  <data key="d5">isPartOf</data>
 </edge>
 </graph></graphml>

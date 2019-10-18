@@ -35,18 +35,38 @@ def parse_mcmp_model(file: TextIO, all_go_compartments: Collection, skip_single_
         compartment_data = {
             'name': _get_name(compartment_tag, all_go_compartments).lower(),
             # Color compartments yellow
-            'color': 'yellow'
+            'color': 'yellow',
         }
         model_data = {
             'name': model_name,
             'provider': model_provider,
             'URI': model_URI,
             'created': model_publication_date,
-            # Color BioModels green
+            # Color BioModels-ETL-ETL green
             'color': 'green'
         }
 
+        go_id = _get_go_id(compartment_tag)
+        if go_id:
+            compartment_data['identifier'] = go_id
+
         yield model_data, 'isPartOf', compartment_data
+
+
+def _get_go_id(compartment_tag: BeautifulSoup):
+    """
+    Extracts and returns the GO id annotation from a compartment tag.
+    If no GO id annotation exists, return None.
+
+    :param compartment_tag: BeautifulSoup Tag for a single compartment
+                            in a multi-compartment model.
+    """
+    try:
+        go_id = compartment_tag.find("rdf:li")['rdf:resource'].split('/')[-1]
+        return go_id
+    # No annotation containing the GO id exists for the SBML compartment tag.
+    except TypeError:
+        return None
 
 
 def _get_name(compartment_tag: BeautifulSoup, all_go_compartments):
@@ -70,16 +90,17 @@ def _get_name(compartment_tag: BeautifulSoup, all_go_compartments):
 
     try:
         # Try to extract the Gene Ontology id (GO id)
-        go_id = compartment_tag.find("rdf:li")['rdf:resource'].split('/')[-1]
+        go_id = _get_go_id(compartment_tag)
+        assert go_id
         # Look up the GO id and extract the name of the GO entity
         compartment_name = get_go_json(go_id)['response']['docs'][0]['annotation_class_label']
         return compartment_name
 
+    # AssertionError -> No annotation containing the GO id
+    #                   exists for the SBML compartment tag.
     # ValueError -> An annotation containing the GO id exists
-    #               but is invalid GO id (e.g. FMA:20394)
-    # TypeError  -> No annotation containing the GO id exists
-    #               for the SBML compartment tag.
-    except (ValueError, TypeError):
+    #               but is an invalid GO id (e.g. FMA:20394)
+    except (AssertionError, ValueError):
         name = compartment_tag.attrs['name'] \
             if 'name' in compartment_tag.attrs else compartment_tag.attrs['id']
         close_matches = get_close_matches(name.lower(), all_go_compartments, n=1, cutoff=0.8)
