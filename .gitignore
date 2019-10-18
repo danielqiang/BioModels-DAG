@@ -108,6 +108,7 @@ curated/
 local/
 prototyping/
 README_images/
+validator/
 
 # local files
 test.py
