@@ -109,12 +109,13 @@ local/
 prototyping/
 README_images/
 validator/
+xmlschema/
 
 # local files
 test.py
 parser.py
 .idea
-BioModels-ETL/local.py
+BioModels/local.py
 
 # under development
 pipeline/validator.py

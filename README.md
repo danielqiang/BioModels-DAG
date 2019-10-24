@@ -24,7 +24,7 @@ The pipeline:
 - Converts the DAG to a Cytoscape-compatible file format (e.g. GraphML) for use by 
 [UW BIME](http://bime.uw.edu/) researchers and [EMBL-EBI](https://www.ebi.ac.uk/) staff.
 
-Completed example networks are available [here](BioModels-ETL/data).
+Completed example networks are available [here](BioModels/data).
 
 ## Dependencies
 

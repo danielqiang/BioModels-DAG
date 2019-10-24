@@ -42,7 +42,7 @@ def parse_mcmp_model(file: TextIO, all_go_compartments: Collection, skip_single_
             'provider': model_provider,
             'URI': model_URI,
             'created': model_publication_date,
-            # Color BioModels-ETL-ETL green
+            # Color BioModels green
             'color': 'green'
         }
 
