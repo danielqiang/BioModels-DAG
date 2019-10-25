@@ -2,7 +2,7 @@
 _**This project is under active development as part of semantic data research with
 [UW BIME](http://bime.uw.edu/).**_
 
-# BioModels?
+# BioModels
 
 <sub>_In collaboration with [Dr. John Gennari](http://bime.uw.edu/faculty/john-gennari/)._</sub>
 
