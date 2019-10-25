@@ -58,8 +58,8 @@ def download_curated_models(dirpath, chunk_size=10):
 def main():
     import os
 
-    # Saves all SBML files in a local directory named "models"
-    dirpath = os.path.join(os.path.dirname(__file__), 'models')
+    # Saves all SBML files in a local directory named "curated"
+    dirpath = os.path.join(os.path.dirname(__file__), 'curated')
     download_curated_models(dirpath)
 
 

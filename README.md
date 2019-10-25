@@ -2,11 +2,11 @@
 _**This project is under active development as part of semantic data research with
 [UW BIME](http://bime.uw.edu/).**_
 
-# BioModels-ETL
+# BioModels?
 
 <sub>_In collaboration with [Dr. John Gennari](http://bime.uw.edu/faculty/john-gennari/)._</sub>
 
-Biomodels-ETL is an ETL pipeline for generating and visualizing semantic data networks 
+Biomodels is an ETL pipeline for generating and visualizing semantic data networks 
 from SBML [BioModels](https://www.ebi.ac.uk/biomodels/). An example network is displayed below
 (visualized with Cytoscape):
 
@@ -28,4 +28,6 @@ Completed example networks are available [here](BioModels/data).
 
 ## Dependencies
 
-[NetworkX](https://networkx.github.io/), [BeautifulSoup](https://pypi.org/project/beautifulsoup4/)
+[NetworkX](https://networkx.github.io/), [BeautifulSoup](https://pypi.org/project/beautifulsoup4/), 
+[dateutil](https://github.com/dateutil/dateutil), [lxml](https://github.com/lxml/lxml),
+[libSBML](https://github.com/opencor/libsbml)

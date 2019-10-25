@@ -2,16 +2,16 @@ from typing import TextIO, Collection
 from bs4 import BeautifulSoup
 from os.path import basename
 
-__all__ = ['parse_derived_model', 'parse_mcmp_model', 'get_all_go_compartments']
+__all__ = ['parse_derived_model', 'parse_mcmp_model', 'parse_species_data', 'get_all_go_compartments']
 
 
-def parse_mcmp_model(file: TextIO, all_go_compartments: Collection, skip_single_cmp_models=True):
+def parse_mcmp_model(sbml_file: TextIO, all_go_compartments: Collection, skip_single_cmp_models=True):
     """
     Extracts all compartments from an SBML file and returns a generator of
     (Model, Edge, Parent Model) 3-tuples each representing a relationship
     between an SBML model and one of its defined compartments.
 
-    :param file: SBML file handle.
+    :param sbml_file: SBML file handle.
     :param all_go_compartments: Collection of all known GO compartment names.
                             Acts as a preprocessed data reference for the
                             parser; can be obtained by calling
@@ -20,13 +20,13 @@ def parse_mcmp_model(file: TextIO, all_go_compartments: Collection, skip_single_
                             is a single compartment model.
     :rtype: generator
     """
-    soup = BeautifulSoup(file, features='lxml')
+    soup = BeautifulSoup(sbml_file, features='lxml')
     compartment_tags = soup.find_all("compartment")
 
     if len(compartment_tags) < 2 and skip_single_cmp_models:
         return
 
-    model_name = str(basename(file.name).split('.')[0])
+    model_name = str(basename(sbml_file.name).split('.')[0])
     model_provider = 'biomodels.db'
     model_URI = 'http://identifiers.org/biomodels.db/' + model_name
     model_publication_date = _extract_publication_date(soup)
@@ -139,18 +139,18 @@ def get_all_go_compartments(dirpath):
     return all_compartments
 
 
-def parse_derived_model(file: TextIO):
+def parse_derived_model(sbml_file: TextIO):
     """
     Extracts all parent models from an SBML file and returns a generator of
     (Child Model, Edge, Parent Model) 3-tuples representing parent-child
     relationships between SBML models.
 
-    :param file: SBML file handle.
+    :param sbml_file: SBML file handle.
     :rtype: generator
     """
-    soup = BeautifulSoup(file, features='lxml')
+    soup = BeautifulSoup(sbml_file, features='lxml')
 
-    child_name = str(basename(file.name).split('.')[0])
+    child_name = str(basename(sbml_file.name).split('.')[0])
     child_provider = 'biomodels.db'
     child_URI = 'http://identifiers.org/biomodels.db/' + child_name
     child_publication_date = _extract_publication_date(soup)
@@ -190,3 +190,59 @@ def _extract_publication_date(soup: BeautifulSoup):
 
     dt = soup.find("dcterms:created").find("dcterms:w3cdtf").text
     return str(parser.parse(dt).date())
+
+
+def parse_species_data(sbml_file: TextIO):
+    """
+    Extracts all species from an SBML file and returns a generator of
+    (Model, Edge, Parent Model) 3-tuples each representing a relationship
+    between an SBML model and one of its defined species components.
+
+    :param sbml_file: SBML file handle.
+    :rtype: generator
+    """
+    import libsbml
+
+    soup = BeautifulSoup(sbml_file, features='lxml')
+
+    model_name = str(basename(sbml_file.name).split('.')[0])
+    model_provider = 'biomodels.db'
+    model_URI = 'http://identifiers.org/biomodels.db/' + model_name
+    model_publication_date = _extract_publication_date(soup)
+
+    model = libsbml.readSBMLFromFile(sbml_file.name)
+
+    for species in model.getModel().getListOfSpecies():
+        species_name = species.getName() if species.getName() else species.getId()
+
+        model_data = {
+            'name': model_name,
+            'provider': model_provider,
+            'URI': model_URI,
+            'created': model_publication_date,
+            # Color BioModels green
+            'color': 'green'
+        }
+
+        annotation = species.getAnnotationString()
+
+        species_data = {
+            'name': species_name,
+            'identifiers': ', '.join(_extract_annotation_identifiers(annotation)),
+            # Color Species blue
+            'color': 'blue'
+        }
+        yield species_data, 'isContainedIn', model_data
+
+
+def _extract_annotation_identifiers(annotation_str: str):
+    """
+    Returns a generator over all URI identifiers present within
+    an SBML annotation.
+
+    :param annotation_str: Valid RDF/XML string with a
+                            top-level SBML <annotation> tag.
+    """
+    soup = BeautifulSoup(annotation_str, features='lxml')
+    for tag in soup.find_all(attrs={"rdf:resource": True}):
+        yield tag['rdf:resource']

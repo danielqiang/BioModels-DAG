@@ -8,8 +8,8 @@ def build_graph(data: Iterable[Tuple[dict, str, dict]]):
     """
     Builds a NetworkX DiGraph object from (Child, Edge, Parent) 3-tuples.
 
-    Child and Parent must be dictionaries containing a 'name' key; this
-    is the name of the node in the DiGraph.
+    Child and Parent must be dictionaries containing all hashable values
+    and a 'name' key (this is the name of the node in the DiGraph).
 
     :param data: Iterable of (Child, Edge, Parent) 3-tuples.
     :rtype: networkx.DiGraph
@@ -17,6 +17,12 @@ def build_graph(data: Iterable[Tuple[dict, str, dict]]):
     g = networkx.DiGraph()
 
     for child_attrs, edge, parent_attrs in data:
+        if 'name' not in child_attrs or 'name' not in parent_attrs:
+            raise ValueError(
+                "Both child and parent dicts must contain a 'name' key.\n"
+                "Provided Child data: {}\n"
+                "Provided Parent data: {}\n".format(child_attrs, parent_attrs)
+            )
         child_name, parent_name = child_attrs.pop('name'), parent_attrs.pop('name')
 
         # Update node attributes only if the updated version has strictly more data

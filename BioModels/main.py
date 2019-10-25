@@ -9,7 +9,7 @@ def main():
 
     filepaths = (os.path.join('curated', model) for model in os.listdir("curated"))
 
-    data = GraphDataBuilder(filepaths, parser=parse_derived_model).to_generator()
+    data = GraphDataBuilder(filepaths, parser=parse_species_data).to_generator()
     graph = build_graph(data)
     networkx.write_graphml(graph, "data/derived_models.graphml")
 
