@@ -1,10 +1,10 @@
 from bs4 import BeautifulSoup
 
 
-def get_all_go_compartments(dirpath, skip_single_cmp_models=True):
+def get_all_go_compartments(dirpath, skip_single_cmp_models=False):
     """
-    Extracts and returns all defined GO compartments from BioModel
-    SBML files.
+    Extracts and returns all unique defined GO compartments from
+    BioModel SBML files contained inside dirpath.
 
     :param dirpath: Directory containing BioModel SBML files.
     :param skip_single_cmp_models: If True, does not parse sbml_file if it
@@ -16,7 +16,6 @@ def get_all_go_compartments(dirpath, skip_single_cmp_models=True):
     all_compartments = set()
 
     for file in Path(dirpath).iterdir():
-        print(file)
         with open(str(file.resolve()), "r", encoding='utf8') as f:
             soup = BeautifulSoup(f, features='lxml')
 

@@ -3,7 +3,7 @@ from typing import TextIO, Collection
 
 
 def compartment_parser(sbml_file: TextIO, all_go_compartments: Collection,
-                       skip_single_cmp_models=True):
+                       skip_single_cmp_models=False):
     """
     Extracts all compartments from an SBML file and returns a generator of
     (Model, Edge, Parent Model) 3-tuples each representing a relationship
@@ -18,8 +18,7 @@ def compartment_parser(sbml_file: TextIO, all_go_compartments: Collection,
                             is a single compartment model.
     :rtype: generator
     """
-    from os.path import basename
-    from .helpers import extract_publication_date
+    from .helpers import extract_model_data
 
     soup = BeautifulSoup(sbml_file, features='lxml')
     compartment_tags = soup.find_all("compartment")
@@ -27,10 +26,7 @@ def compartment_parser(sbml_file: TextIO, all_go_compartments: Collection,
     if len(compartment_tags) < 2 and skip_single_cmp_models:
         return
 
-    model_name = str(basename(sbml_file.name).split('.')[0])
-    model_provider = 'biomodels.db'
-    model_URI = 'http://identifiers.org/biomodels.db/' + model_name
-    model_publication_date = extract_publication_date(soup)
+    model_data = extract_model_data(sbml_file, soup=soup)
 
     for compartment_tag in compartment_tags:
         compartment_data = {
@@ -38,14 +34,8 @@ def compartment_parser(sbml_file: TextIO, all_go_compartments: Collection,
             # Color compartments yellow
             'color': 'yellow',
         }
-        model_data = {
-            'name': model_name,
-            'provider': model_provider,
-            'URI': model_URI,
-            'created': model_publication_date,
-            # Color BioModels green
-            'color': 'green'
-        }
+        # Color BioModels green
+        model_data['color'] = 'green'
 
         go_id = get_go_id(compartment_tag)
         if go_id:
@@ -86,23 +76,18 @@ def get_name(compartment_tag: BeautifulSoup, all_go_compartments):
                             get_all_go_compartments()
     :rtype: str
     """
-    from BioModels.tools import get_go_json
+    from BioModels.tools import get_go_json, go_id_is_valid
     from difflib import get_close_matches
 
-    try:
-        # Try to extract the Gene Ontology id (GO id)
-        go_id = get_go_id(compartment_tag)
-        assert go_id
-        # Look up the GO id and extract the name of the GO entity
-        compartment_name = get_go_json(go_id)['response']['docs'][0]['annotation_class_label']
-        return compartment_name
+    # Try to extract the Gene Ontology id (GO id)
+    go_id = get_go_id(compartment_tag)
+    if go_id and go_id_is_valid(go_id):
+        # Look up the GO id and extract the GO compartment name
+        return get_go_json(go_id)['response']['docs'][0]['annotation_class_label']
 
-    # AssertionError -> No annotation containing the GO id
-    #                   exists for the SBML compartment tag.
-    # ValueError -> An annotation containing the GO id exists
-    #               but is an invalid GO id (e.g. FMA:20394)
-    except (AssertionError, ValueError):
-        name = compartment_tag.attrs['name'] \
-            if 'name' in compartment_tag.attrs else compartment_tag.attrs['id']
-        close_matches = get_close_matches(name.lower(), all_go_compartments, n=1, cutoff=0.8)
-        return close_matches[0] if close_matches else name
+    # No GO id found or invalid GO id. Return a good close string match if found
+    # or return the attribute name or id.
+    name = compartment_tag.attrs['name'] \
+        if 'name' in compartment_tag.attrs else compartment_tag.attrs['id']
+    close_matches = get_close_matches(name.lower(), all_go_compartments, n=1, cutoff=0.8)
+    return close_matches[0] if close_matches else name

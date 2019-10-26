@@ -8,7 +8,7 @@ class GraphDataBuilder:
         usable by NetworkX.
     """
 
-    def __init__(self, filepaths: Iterable[str], parser: Callable, preprocessed_data=None):
+    def __init__(self, filepaths: Iterable[str], parser: Callable, *args, **kwargs):
         """
         Constructor. Uses a user-provided SBML parser to generate child-edge-parent 3-tuples
         each representing a parent-child relationship between two biological entities.
@@ -17,13 +17,13 @@ class GraphDataBuilder:
         :param parser: Callable that takes an SBML file handle and (optionally) preprocessed data
                         and returns an iterator over child-edge-parent 3-tuples. Both the child
                         and parent must contain a 'name' key.
-        :param preprocessed_data: Data to pass to parser as a second argument, called with
-                        parser(file: TextIO, preprocessed_data). If None, no second argument
-                        is passed to parser().
+        :param args: Additional arguments to pass to parser.
+        :param kwargs: Additional keyword arguments to pass to parser.
         """
         self._filepaths = filepaths
         self._parser = parser
-        self._preprocessed_data = preprocessed_data
+        self._args = args
+        self._kwargs = kwargs
 
     def to_generator(self):
         """
@@ -67,7 +67,5 @@ class GraphDataBuilder:
             if print_fpath:
                 print(filepath)
             with open(filepath, "r", encoding='utf8') as file:
-                if self._preprocessed_data is None:
-                    yield from self._parser(file)
-                else:
-                    yield from self._parser(file, self._preprocessed_data)
+                yield from self._parser(file, *self._args, **self._kwargs)
+
