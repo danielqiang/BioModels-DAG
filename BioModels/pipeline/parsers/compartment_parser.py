@@ -14,7 +14,7 @@ def compartment_parser(sbml_file: TextIO, all_go_compartments: Collection,
                             Acts as a preprocessed data reference for the
                             parser; can be obtained by calling
                             get_all_go_compartments().
-    :param skip_single_cmp_models: If True, does not parse 'file' if it
+    :param skip_single_cmp_models: If True, does not parse sbml_file if it
                             is a single compartment model.
     :rtype: generator
     """
