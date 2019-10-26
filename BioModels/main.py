@@ -1,15 +1,14 @@
-from BioModels import *
-from BioModels.tools import timeit
+from BioModels import GraphDataBuilder, derived_model_parser, build_graph
+from BioModels.tools import timeit, yield_model_paths
 
 
 @timeit
 def main():
     import networkx
-    import os
 
-    filepaths = (os.path.join('curated', model) for model in os.listdir("curated"))
+    filepaths = yield_model_paths()
 
-    data = GraphDataBuilder(filepaths, parser=parse_species_data).to_generator()
+    data = GraphDataBuilder(filepaths, parser=derived_model_parser).to_generator()
     graph = build_graph(data)
     networkx.write_graphml(graph, "data/derived_models.graphml")
 

@@ -23,6 +23,8 @@ def build_graph(data: Iterable[Tuple[dict, str, dict]]):
                 "Provided Child data: {}\n"
                 "Provided Parent data: {}\n".format(child_attrs, parent_attrs)
             )
+        # Copy dicts so popping 'name' doesn't affect the underlying data
+        child_attrs, parent_attrs = child_attrs.copy(), parent_attrs.copy()
         child_name, parent_name = child_attrs.pop('name'), parent_attrs.pop('name')
 
         # Update node attributes only if the updated version has strictly more data
