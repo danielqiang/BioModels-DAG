@@ -4,8 +4,6 @@ _**This project is under active development as part of semantic data research wi
 
 # BioModels
 
-<sub>_In collaboration with [Dr. John Gennari](http://bime.uw.edu/faculty/john-gennari/)._</sub>
-
 Biomodels is an ETL pipeline for generating and visualizing semantic data networks 
 from SBML [BioModels](https://www.ebi.ac.uk/biomodels/). An example network is displayed below
 (visualized with Cytoscape):
