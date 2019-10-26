@@ -42,7 +42,3 @@ def _get_compartment_names(compartment: BeautifulSoup):
         if go_id_is_valid(go_id):
             compartment_name = get_go_json(go_id)['response']['docs'][0]['annotation_class_label']
             yield compartment_name
-
-
-if __name__ == '__main__':
-    get_all_go_compartments(r"C:\Users\danie\PythonProjects\BioModels\BioModels\curated")
