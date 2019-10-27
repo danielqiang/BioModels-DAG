@@ -1,13 +1,20 @@
 from typing import TextIO
 
 
-def reactions_parser(sbml_file: TextIO):
+def reactions_parser(sbml_file: TextIO, counter: dict):
     """
     Extracts all reactions from an SBML file and returns a generator of
     (Model, Edge, Parent Model) 3-tuples each representing a relationship
     between an SBML model and one of its defined reaction components.
 
     :param sbml_file: SBML file handle.
+    :param counter: Counter dict to extract metadata about SBMl reactions.
+                Contains the following keys:
+                    - 'numReactions'
+                    - 'numUnannotatedReactions'
+                    - 'numAnnotatedReactions'
+                    - 'numMultipleURIReactions'
+
     :rtype: generator
     """
     import libsbml
@@ -25,6 +32,14 @@ def reactions_parser(sbml_file: TextIO):
         model_data['color'] = 'green'
 
         annotation = reaction.getAnnotationString()
+
+        counter['numReactions'] += 1
+        if annotation == '':
+            counter['numUnannotatedReactions'] += 1
+        else:
+            counter['numAnnotatedReactions'] += 1
+        if len(list(extract_annotation_identifiers(annotation))) > 1:
+            counter['numMultipleURIReactions'] += 1
 
         reaction_data = {
             'name': reaction_name,

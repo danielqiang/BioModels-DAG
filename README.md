@@ -19,8 +19,7 @@ The pipeline:
 - Queries [GOlr](https://github.com/geneontology/amigo/tree/master/golr) REST API to acquire
  and integrate gene ontology JSON data with RDF/XML annotations
 - Processes and loads RDF triples and visualization data into a NetworkX DAG
-- Converts the DAG to a Cytoscape-compatible file format (e.g. GraphML) for use by 
-[UW BIME](http://bime.uw.edu/) researchers and [EMBL-EBI](https://www.ebi.ac.uk/) staff.
+- Converts the DAG to a Cytoscape-compatible file format (e.g. GraphML).
 
 Completed example networks are available [here](BioModels/data).
 
