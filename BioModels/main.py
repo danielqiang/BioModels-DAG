@@ -1,4 +1,4 @@
-from BioModels import GraphDataBuilder, derived_model_parser, build_graph
+from BioModels import SBMLDataConverter, derived_model_parser, build_graph
 from BioModels.utils import timeit, yield_model_paths
 
 
@@ -8,7 +8,7 @@ def main():
 
     filepaths = yield_model_paths()
 
-    data = GraphDataBuilder(filepaths, parser=derived_model_parser).to_generator()
+    data = SBMLDataConverter(filepaths, parser=derived_model_parser).as_generator()
     graph = build_graph(data)
     networkx.write_graphml(graph, "data/derived_models.graphml")
 

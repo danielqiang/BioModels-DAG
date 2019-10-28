@@ -1,9 +1,9 @@
 from typing import Iterable, Callable, Collection
 
-__all__ = ['GraphDataBuilder']
+__all__ = ['SBMLDataConverter']
 
 
-class GraphDataBuilder:
+class SBMLDataConverter:
     """A pipeline link for converting SBML file data to <Node, Edge, Node> 3-tuples
         usable by NetworkX.
     """
@@ -25,7 +25,7 @@ class GraphDataBuilder:
         self._args = args
         self._kwargs = kwargs
 
-    def to_generator(self):
+    def as_generator(self):
         """
         Returns a generator over all (Child Model Data, Edge, Parent Model Data)
         3-tuples in this parser.
