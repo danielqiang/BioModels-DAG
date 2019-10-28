@@ -1,5 +1,5 @@
 from BioModels import GraphDataBuilder, derived_model_parser, build_graph
-from BioModels.tools import timeit, yield_model_paths
+from BioModels.utils import timeit, yield_model_paths
 
 
 @timeit

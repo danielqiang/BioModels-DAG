@@ -76,7 +76,7 @@ def get_name(compartment_tag: BeautifulSoup, all_go_compartments):
                             get_all_go_compartments()
     :rtype: str
     """
-    from BioModels.tools import get_go_json, go_id_is_valid
+    from BioModels.utils import get_go_json, go_id_is_valid
     from difflib import get_close_matches
 
     # Try to extract the Gene Ontology id (GO id)
