@@ -51,6 +51,7 @@ def get_go_id(compartment_tag: BeautifulSoup):
 
     :param compartment_tag: BeautifulSoup Tag for a single compartment
                             in a multi-compartment model.
+    :rtype str
     """
     try:
         go_id = compartment_tag.find("rdf:li")['rdf:resource'].split('/')[-1]

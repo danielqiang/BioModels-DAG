@@ -10,13 +10,13 @@ class SBMLDataConverter:
 
     def __init__(self, filepaths: Iterable[str], parser: Callable, *args, **kwargs):
         """
-        Constructor. Uses a user-provided SBML parser to generate child-edge-parent 3-tuples
+        Constructor. Uses a user-provided SBML parser to generate (Child, Edge, Parent) 3-tuples
         each representing a parent-child relationship between two biological entities.
 
         :param filepaths: Paths to SBML files.
-        :param parser: Callable that takes an SBML file handle and (optionally) preprocessed data
-                        and returns an iterator over child-edge-parent 3-tuples. Both the child
-                        and parent must contain a 'name' key.
+        :param parser: Callable that takes an SBML file handle and returns an iterator
+                        over (Child, Edge, Parent) 3-tuples. Both child and parent must
+                        be dictionaries that contain a 'name' key.
         :param args: Additional arguments to pass to parser.
         :param kwargs: Additional keyword arguments to pass to parser.
         """
@@ -32,7 +32,7 @@ class SBMLDataConverter:
 
         :rtype: generator
         """
-        return self._parse_SBML()
+        return self._parse_sbml()
 
     def to_csv(self, filepath: str, headers: Collection = ('Child', 'Edge', 'Parent')):
         """
@@ -51,13 +51,13 @@ class SBMLDataConverter:
             writer = csv.writer(f)
             writer.writerow(headers)
 
-            for row in self._parse_SBML():
+            for row in self._parse_sbml():
                 writer.writerow(row)
 
-    def _parse_SBML(self, print_fpath=True):
+    def _parse_sbml(self, print_fpath=True):
         """
         Parses SBML files and returns a generator of
-        (Child Model, Edge, Parent Model) 3-tuples.
+        (Child, Edge, Parent) 3-tuples.
 
         :param print_fpath: If True, print each filename before
                             parsing it.
@@ -68,4 +68,3 @@ class SBMLDataConverter:
                 print(filepath)
             with open(filepath, "r", encoding='utf8') as file:
                 yield from self._parser(file, *self._args, **self._kwargs)
-
