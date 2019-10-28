@@ -50,9 +50,9 @@ def extract_model_data(sbml_file: TextIO, soup: BeautifulSoup = None):
     Sets the file pointer to the start of sbml_file after extraction.
 
     :param sbml_file: SBML file handle.
-    :param soup: bs4.BeautifulSoup object using markup from sbml_file to use
-                for extraction. If None, creates a new bs4.BeautifulSoup object
-                instead.
+    :param soup: bs4.BeautifulSoup object initialized with sbml_file markup.
+                If None, initializes a new bs4.BeautifulSoup object with sbml_file
+                markup.
     :rtype: dict
     """
     from os.path import basename
