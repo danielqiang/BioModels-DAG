@@ -30,7 +30,3 @@ def yield_model_paths(dirpath: Path = None):
 
     for model_path in dirpath.iterdir():
         yield model_path.resolve()
-
-
-for i in yield_model_paths(dirpath=Path("hello")):
-    print(i)
