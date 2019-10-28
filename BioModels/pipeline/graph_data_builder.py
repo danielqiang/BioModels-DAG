@@ -68,4 +68,3 @@ class GraphDataBuilder:
                 print(filepath)
             with open(filepath, "r", encoding='utf8') as file:
                 yield from self._parser(file, *self._args, **self._kwargs)
-
