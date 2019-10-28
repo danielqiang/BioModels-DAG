@@ -21,7 +21,7 @@ The pipeline:
 - Processes and loads RDF triples and visualization data into a NetworkX DAG
 - Converts the DAG to a Cytoscape-compatible file format (e.g. GraphML).
 
-Completed example networks are available [here](BioModels/data).
+Completed example networks are available [here](BioModels/graphs).
 
 ## Dependencies
 

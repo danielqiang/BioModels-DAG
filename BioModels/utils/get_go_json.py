@@ -15,6 +15,7 @@ def get_go_json(go_id: str, session: requests.Session = None):
                 information.
     :param session: Requests session to use for HTTP request. If None, creates
                     a new session.
+    :rtype: dict
     """
 
     if not go_id_is_valid(go_id):
@@ -33,6 +34,7 @@ def go_id_is_valid(go_id: str):
 
                 See http://geneontology.org/docs/GO-term-elements for more
                 information.
+    :rtype: bool
     """
     import re
 

@@ -3,7 +3,7 @@ import requests
 __all__ = ['download_curated_models']
 
 
-def download_curated_models(dirpath, chunk_size=10):
+def download_curated_models(dirpath, chunk_size=20):
     """
     Downloads all curated models from https://www.ebi.ac.uk/biomodels and stores
     them in a specified directory.
@@ -59,7 +59,7 @@ def main():
     import os
 
     # Saves all SBML files in a local directory named "curated"
-    dirpath = os.path.join(os.path.dirname(__file__), 'curated')
+    dirpath = os.path.join(os.path.dirname(__file__), '..', 'curated')
     download_curated_models(dirpath)
 
 
