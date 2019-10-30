@@ -56,10 +56,10 @@ def download_curated_models(dirpath, chunk_size=20):
 
 
 def main():
-    import os
+    from BioModels.utils import PROJECT_ROOT
 
     # Saves all SBML files in a local directory named "curated"
-    dirpath = os.path.join(os.path.dirname(__file__), '..', 'curated')
+    dirpath = PROJECT_ROOT / "BioModels" / "curated"
     download_curated_models(dirpath)
 
 
