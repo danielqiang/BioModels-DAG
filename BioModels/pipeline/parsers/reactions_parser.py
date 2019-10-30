@@ -1,7 +1,7 @@
 from typing import TextIO
 
 
-def reactions_parser(sbml_file: TextIO, counter: dict):
+def reactions_parser(sbml_file: TextIO, counter: dict = None):
     """
     Extracts all reactions from an SBML file and returns a generator of
     (Model, Edge, Parent Model) 3-tuples each representing a relationship
@@ -33,17 +33,23 @@ def reactions_parser(sbml_file: TextIO, counter: dict):
 
         annotation = reaction.getAnnotationString()
 
-        counter['numReactions'] += 1
-        if annotation == '':
-            counter['numUnannotatedReactions'] += 1
-        else:
-            counter['numAnnotatedReactions'] += 1
-        if len(list(extract_annotation_identifiers(annotation))) > 1:
-            counter['numMultipleURIReactions'] += 1
+        # Extract metadata into counter object
+        if counter:
+            counter['numReactions'] += 1
+            if annotation == '':
+                counter['numUnannotatedReactions'] += 1
+            else:
+                counter['numAnnotatedReactions'] += 1
+            if len(list(extract_annotation_identifiers(annotation))) > 1:
+                counter['numMultipleURIReactions'] += 1
+
+        identifiers = set(extract_annotation_identifiers(annotation))
+        kegg_identifiers = {i for i in identifiers if 'kegg' in i.lower()}
 
         reaction_data = {
             'name': reaction_name,
-            'identifiers': ', '.join(extract_annotation_identifiers(annotation)),
+            'KEGG identifiers': ', '.join(kegg_identifiers),
+            'other identifiers': ', '.join(identifiers - kegg_identifiers),
             # Color reactions red
             'color': 'red'
         }
