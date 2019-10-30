@@ -10,7 +10,7 @@ def main():
 
     data = SBMLDataConverter(filepaths, parser=species_parser).as_generator()
     graph = build_graph(data)
-    networkx.write_graphml(graph, "../data/species.graphml")
+    networkx.write_graphml(graph, "../graphs/species.graphml")
 
 
 if __name__ == '__main__':

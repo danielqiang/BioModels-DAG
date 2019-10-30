@@ -27,7 +27,7 @@ def main():
                              all_go_compartments=all_compartments,
                              skip_single_cmp_models=True).as_generator()
     graph = build_graph(data)
-    networkx.write_graphml(graph, "../data/multicompartment_models.graphml")
+    networkx.write_graphml(graph, "../graphs/multicompartment_models.graphml")
 
 
 if __name__ == '__main__':
