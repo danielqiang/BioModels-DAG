@@ -34,32 +34,13 @@ class SBMLDataConverter:
         """
         return self._parse_sbml()
 
-    def to_csv(self, filepath: str, headers: Collection = ('Child', 'Edge', 'Parent')):
-        """
-        Writes a 3-column CSV file containing all 3-tuples in this parser.
-        Uses ('Child', 'Edge', 'Parent') as default column headers.
-
-        :param filepath: Path to CSV file.
-        :param headers: Headers for CSV file.
-        """
-        import csv
-
-        if len(headers) != 3:
-            raise ValueError("Exactly 3 headers are required, not {}.".format(len(headers)))
-
-        with open(filepath, "w", newline='') as f:
-            writer = csv.writer(f)
-            writer.writerow(headers)
-
-            for row in self._parse_sbml():
-                writer.writerow(row)
-
     def _parse_sbml(self, print_fpath=True):
         """
         Parses SBML files and returns a generator of
         (Child, Edge, Parent) 3-tuples.
 
-        :param print_fpath: If True, print each filename before
+        :param print_fpath: If True, print each fi
+            if print_fpath:lename before
                             parsing it.
         :rtype: generator
         """
