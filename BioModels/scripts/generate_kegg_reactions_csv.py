@@ -11,13 +11,11 @@ def flatten_reaction_data(data):
                 from BioModels.pipeline.parsers.reactions_parser.
     :rtype: generator
     """
-    from itertools import chain
-
     for child, edge, parent in data:
         # Omit color data
-        parent = (v for k, v in parent.items() if k != 'color')
-        child = (v for k, v in child.items() if k != 'color')
-        yield list(chain(parent, child))
+        parent = [v for k, v in parent.items() if k != 'color']
+        child = [v for k, v in child.items() if k != 'color']
+        yield parent + child
 
 
 @timeit
