@@ -12,7 +12,7 @@ def flatten_reaction_data(data):
     :rtype: generator
     """
     for child, edge, parent in data:
-        # Omit color data
+        # Omit color data 
         parent = [v for k, v in parent.items() if k != 'color']
         child = [v for k, v in child.items() if k != 'color']
         yield parent + child
