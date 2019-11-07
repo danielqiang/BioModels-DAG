@@ -17,20 +17,14 @@ def reactions_parser(sbml_file: TextIO, counter: defaultdict = None):
     import libsbml
     from .helpers import extract_annotation_identifiers, extract_model_data
 
+    if type(counter) is dict:
+        counter = defaultdict(counter)
+
     model_data = extract_model_data(sbml_file)
 
     model = libsbml.readSBMLFromFile(sbml_file.name).getModel()
     if model is None:
         return print("Could not extract SBML model for {}.".format(sbml_file.name))
-    reactions, species_ls = model.getListOfReactions(), model.getListOfSpecies()
-    if len(reactions) > 0 and any(reaction.getAnnotationString() == '' for reaction in reactions) and \
-            len(species_ls) > 0 and all(species.getAnnotationString() != '' for species in species_ls):
-        counter['any unannotated r all annotated s'] += 1
-        print(sbml_file.name.split('/')[-1])
-
-    if len(reactions) > 0 and all(reaction.getAnnotationString() == '' for reaction in reactions) and \
-            len(species_ls) > 0 and all(species.getAnnotationString() != '' for species in species_ls):
-        counter['all unannotated r all annotated s'] += 1
 
     for reaction in model.getListOfReactions():
         reaction_name = reaction.getName() if reaction.getName() else reaction.getId()
