@@ -29,4 +29,4 @@ def yield_model_paths(dirpath: Path = None):
         raise FileExistsError("'{}' is not a valid directory path.".format(dirpath))
 
     for model_path in dirpath.iterdir():
-        yield model_path.resolve()
+        yield str(model_path.resolve())
