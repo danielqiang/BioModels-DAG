@@ -75,8 +75,8 @@ def is_complex_assembly(reaction: libsbml.Reaction, model: libsbml.Model):
 
 def classify(reaction: libsbml.Reaction, model: libsbml.Model):
     """
-    Classifier for libsbml.Reaction objects.
-    Returns a string representing the result of this classifier.
+    Classify a libsbml.Reaction object.
+    Returns a string representing the classification result.
 
     Possible return values:
         - 'transport' (if 'reaction' is a biological transport)
