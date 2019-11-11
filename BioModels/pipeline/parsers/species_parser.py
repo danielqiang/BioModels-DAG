@@ -11,7 +11,7 @@ def species_parser(sbml_file: TextIO):
     :rtype: generator
     """
     import libsbml
-    from .helpers import extract_annotation_identifiers, extract_model_data
+    from BioModels.utils import extract_annotation_identifiers, extract_model_data
 
     model = libsbml.readSBMLFromFile(sbml_file.name).getModel()
 

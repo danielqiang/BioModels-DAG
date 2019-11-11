@@ -1,2 +1,3 @@
 from .utils import *
-from BioModels.pipeline import *
+from .pipeline import *
+from .classifiers import *

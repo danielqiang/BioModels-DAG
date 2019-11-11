@@ -18,7 +18,7 @@ def compartment_parser(sbml_file: TextIO, all_go_compartments: Collection,
                             is a single compartment model.
     :rtype: generator
     """
-    from .helpers import extract_model_data
+    from BioModels.utils import extract_model_data
 
     soup = BeautifulSoup(sbml_file, features='lxml')
     compartment_tags = soup.find_all("compartment")

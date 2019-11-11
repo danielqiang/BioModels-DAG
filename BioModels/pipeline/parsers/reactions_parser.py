@@ -15,7 +15,7 @@ def reactions_parser(sbml_file: TextIO, counter: defaultdict = None):
     :rtype: generator
     """
     import libsbml
-    from .helpers import extract_annotation_identifiers, extract_model_data
+    from BioModels.utils import extract_annotation_identifiers, extract_model_data
 
     if type(counter) is dict:
         counter = defaultdict(counter)

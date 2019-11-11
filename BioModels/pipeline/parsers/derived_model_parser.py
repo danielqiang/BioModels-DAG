@@ -11,7 +11,7 @@ def derived_model_parser(sbml_file: TextIO):
     :param sbml_file: SBML file handle.
     :rtype: generator
     """
-    from .helpers import extract_model_data
+    from BioModels.utils import extract_model_data
 
     soup = BeautifulSoup(sbml_file, features='lxml')
 
