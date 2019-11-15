@@ -1,4 +1,4 @@
-from typing import Iterable, Callable, Collection
+from typing import Iterable, Callable
 
 __all__ = ['SBMLDataConverter']
 
