@@ -38,7 +38,7 @@ def is_transport(reaction: libsbml.Reaction, model: libsbml.Model):
 
     return (
             len(reactant_identifiers) > 0
-            and reactant_identifiers == product_identifiers
+            and reactant_identifiers.intersection(product_identifiers)
             and reactant_compartment != product_compartment
     )
 

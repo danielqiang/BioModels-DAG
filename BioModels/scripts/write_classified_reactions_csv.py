@@ -4,7 +4,7 @@ import libsbml
 
 def yield_classified_reactions():
     for fpath in yield_model_paths():
-        with open(fpath, 'r') as sbml_file:
+        with open(fpath, 'r', encoding='utf8') as sbml_file:
             model_data = extract_model_data(sbml_file)
         model = libsbml.readSBMLFromFile(fpath).getModel()
         if model is None:

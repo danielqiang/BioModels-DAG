@@ -47,6 +47,9 @@ def reactions_parser(sbml_file: TextIO, counter: defaultdict = None):
         identifiers = set(extract_annotation_identifiers(annotation))
         kegg_identifiers = {i for i in identifiers if 'kegg' in i.lower()}
 
+        if any(i.split('/')[-1] in {'GO:0065003', 'GO:0005488'} for i in identifiers):
+            print(sbml_file.name)
+
         reaction_data = {
             'name': reaction_name,
             'KEGG identifiers': ', '.join(kegg_identifiers),
