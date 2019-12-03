@@ -21,8 +21,7 @@ def flatten_reaction_data(data):
 @timeit
 def main():
     filepaths = yield_model_paths()
-    data = SBMLDataConverter(filepaths,
-                             parser=reactions_parser).as_generator()
+    data = extract_data(filepaths, parser=reactions_parser)
     data = flatten_reaction_data(data)
     headers = ("Model Name", "Provider", "URI", "Created",
                "Reaction Name", "KEGG Identifiers", "Other Identifiers")

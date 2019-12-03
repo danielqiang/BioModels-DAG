@@ -18,7 +18,7 @@ def reactions_parser(sbml_file: TextIO, counter: defaultdict = None):
     from BioModels.utils import extract_annotation_identifiers, extract_model_data
 
     if type(counter) is dict:
-        counter = defaultdict(counter)
+        counter = defaultdict(int, counter)
 
     model_data = extract_model_data(sbml_file)
 

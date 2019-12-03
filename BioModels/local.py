@@ -10,10 +10,10 @@ def main():
     filepaths = yield_model_paths()
 
     reaction_metadata = defaultdict(int)
-    data = SBMLDataConverter(filepaths,
-                             parser=reactions_parser,
-                             counter=reaction_metadata,
-                             print_fpath=False).as_generator()
+    data = extract_data(filepaths,
+                        parser=reactions_parser,
+                        counter=reaction_metadata,
+                        print_fpath=False)
     graph = build_graph(data)
 
     print(reaction_metadata)

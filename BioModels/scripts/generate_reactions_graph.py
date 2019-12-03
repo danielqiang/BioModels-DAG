@@ -13,9 +13,9 @@ def main():
         "numUnannotatedReactions": 0,
         "numMultipleURIReactions": 0
     }
-    data = SBMLDataConverter(filepaths,
-                             parser=reactions_parser,
-                             counter=reaction_metadata).as_generator()
+    data = extract_data(filepaths,
+                        parser=reactions_parser,
+                        counter=reaction_metadata)
     graph = build_graph(data)
 
     print(reaction_metadata)

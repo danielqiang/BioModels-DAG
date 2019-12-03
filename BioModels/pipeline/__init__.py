@@ -1,3 +1,3 @@
 from .build_graph import build_graph
-from .sbml_data_converter import SBMLDataConverter
+from .extract_data import extract_data
 from .parsers import *

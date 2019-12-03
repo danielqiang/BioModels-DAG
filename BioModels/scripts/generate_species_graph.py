@@ -8,7 +8,7 @@ def main():
 
     filepaths = yield_model_paths()
 
-    data = SBMLDataConverter(filepaths, parser=species_parser).as_generator()
+    data = extract_data(filepaths, parser=species_parser)
     graph = build_graph(data)
     networkx.write_graphml(graph, "../graphs/species.graphml")
 

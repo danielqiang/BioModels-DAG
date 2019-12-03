@@ -22,12 +22,12 @@ def main():
                         'mitochondrial intermembrane space', 'extracellular space',
                         'nuclear membrane', 'mitochondrial inner membrane', 'cytosol'}
 
-    data = SBMLDataConverter(filepaths,
-                             parser=compartment_parser,
-                             all_go_compartments=all_compartments,
-                             skip_single_cmp_models=True).as_generator()
+    data = extract_data(filepaths,
+                        parser=compartment_parser,
+                        all_go_compartments=all_compartments,
+                        skip_single_cmp_models=True)
     graph = build_graph(data)
-    networkx.write_graphml(graph, "../graphs/multicompartment_models.graphml")
+    # networkx.write_graphml(graph, "../graphs/multicompartment_models.graphml")
 
 
 if __name__ == '__main__':
