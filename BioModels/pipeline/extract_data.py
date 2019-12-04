@@ -16,6 +16,8 @@ def extract_data(filepaths: Iterable[str], parser: BaseParser, print_fpath=True,
     :param kwargs: Additional keyword arguments to pass to parser.
     :rtype: generator
     """
+    if not isinstance(parser, BaseParser):
+        raise ValueError(f"{parser.__class__.__name__} must inherit from BaseParser")
     for filepath in filepaths:
         if print_fpath:
             print(filepath)
