@@ -23,11 +23,11 @@ def main():
                         'nuclear membrane', 'mitochondrial inner membrane', 'cytosol'}
 
     data = extract_data(filepaths,
-                        parser=compartment_parser,
+                        parser=CompartmentParser(),
                         all_go_compartments=all_compartments,
                         skip_single_cmp_models=True)
     graph = build_graph(data)
-    # networkx.write_graphml(graph, "../graphs/multicompartment_models.graphml")
+    networkx.write_graphml(graph, "../graphs/multicompartment_models.graphml")
 
 
 if __name__ == '__main__':

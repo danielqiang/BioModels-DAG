@@ -21,7 +21,7 @@ def flatten_reaction_data(data):
 @timeit
 def main():
     filepaths = yield_model_paths()
-    data = extract_data(filepaths, parser=reactions_parser)
+    data = extract_data(filepaths, parser=ReactionsParser())
     data = flatten_reaction_data(data)
     headers = ("Model Name", "Provider", "URI", "Created",
                "Reaction Name", "KEGG Identifiers", "Other Identifiers")

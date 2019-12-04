@@ -8,7 +8,7 @@ def main():
 
     filepaths = yield_model_paths()
 
-    data = extract_data(filepaths, parser=species_parser)
+    data = extract_data(filepaths, parser=SpeciesParser())
     graph = build_graph(data)
     networkx.write_graphml(graph, "../graphs/species.graphml")
 

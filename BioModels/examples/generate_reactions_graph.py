@@ -14,7 +14,7 @@ def main():
         "numMultipleURIReactions": 0
     }
     data = extract_data(filepaths,
-                        parser=reactions_parser,
+                        parser=ReactionsParser(),
                         counter=reaction_metadata)
     graph = build_graph(data)
 
