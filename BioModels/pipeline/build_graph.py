@@ -6,12 +6,16 @@ __all__ = ['build_graph']
 
 def build_graph(data: Iterable[Tuple[dict, str, dict]]):
     """
-    Builds a NetworkX DiGraph object from (Child, Edge, Parent) 3-tuples.
+    Builds a NetworkX DiGraph object from (Child, Edge, Parent) triples.
+    Each triple is represented as a directed edge from Child to Parent
+    in the DiGraph.
 
     Child and Parent must be dictionaries containing all hashable values
     and a 'name' key (this is the name of the node in the DiGraph).
 
-    :param data: Iterable of (Child, Edge, Parent) 3-tuples.
+    Edge must be a string representing an edge label from Child to Parent.
+
+    :param data: Iterable of (Child, Edge, Parent) triples.
     :rtype: networkx.DiGraph
     """
     g = networkx.DiGraph()
