@@ -116,7 +116,7 @@ test.py
 parser.py
 .idea
 BioModels/exploration.py
-local.py
+BioModels/local.py
 
 # under development
 pipeline/validator.py
