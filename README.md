@@ -13,7 +13,8 @@ Example network (visualized with Cytoscape):
 
 ![](BioModelsETL/docs/images/derived_model_graph.png)
 <sub><sup>
-Network showing parent-child relationships between BioModels from various providers.
+Network showing parent-child relationships between derived BioModels 
+(BioModels that name another model as its predecessor).
 PubMed models are displayed in red, EBI models in green.
 </sup></sub>
 
