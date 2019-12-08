@@ -10,7 +10,7 @@ def main():
 
     data = extract_data(filepaths, parser=DerivedModelParser())
     graph = build_graph(data)
-    networkx.write_graphml(graph, "data/derived_models.graphml")
+    networkx.write_graphml(graph, "graphs/derived_models.graphml")
 
 
 if __name__ == '__main__':

@@ -19,7 +19,7 @@ def main():
     graph = build_graph(data)
 
     print(reaction_metadata)
-    networkx.write_graphml(graph, "../graphs/reactions.graphml")
+    networkx.write_graphml(graph, "graphs/reactions.graphml")
 
 
 if __name__ == '__main__':
