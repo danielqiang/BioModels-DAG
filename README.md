@@ -30,7 +30,7 @@ The following flowchart illustrates this process:
 
 ![](BioModelsETL/docs/images/etl-flowchart.png)
 
-Completed example networks are available [here](BioModelsETL/graphs).
+Completed example networks are available [here](BioModelsETL/examples/graphs).
 
 ## Dependencies
 
