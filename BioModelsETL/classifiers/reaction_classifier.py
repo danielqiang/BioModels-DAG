@@ -1,4 +1,4 @@
-from BioModels import extract_annotation_identifiers
+from BioModelsETL import extract_annotation_identifiers
 import libsbml
 
 __all__ = [

@@ -7,9 +7,9 @@ def yield_model_paths(dirpath: Path = None):
     Uses dirpath as the curated model directory if provided;
     otherwise, assumes the following project structure:
 
-        BioModels
+        BioModelsETL
         |
-        └───BioModels
+        └───BioModelsETL
             |
             └───curated
                 |   BIOMD0000000001.xml   # curated model
@@ -19,12 +19,12 @@ def yield_model_paths(dirpath: Path = None):
 
     :param dirpath: Path to directory containing curated models.
     :raises FileExistsError if dirpath is invalid (if provided) or the "curated"
-                            directory is not present at "~/BioModels/BioModels/curated".
+                            directory is not present at "~/BioModelsETL/BioModelsETL/curated".
     :rtype: generator
     """
     if dirpath is None:
         from . import PROJECT_ROOT
-        dirpath = PROJECT_ROOT / "BioModels" / "curated"
+        dirpath = PROJECT_ROOT / "BioModelsETL" / "curated"
     if not dirpath.exists():
         raise FileExistsError("'{}' is not a valid directory path.".format(dirpath))
 

@@ -11,7 +11,7 @@ def extract_data(filepaths: Iterable[str], parser: BaseParser, print_fpath=True,
     from local SBML files using the provided 'parser' object.
 
     :param filepaths: Paths to SBML files.
-    :param parser: Parser instance. Must inherit from BioModels.BaseParser.
+    :param parser: Parser instance. Must inherit from BioModelsETL.BaseParser.
     :param print_fpath: If True, print each filename before parsing it.
     :param kwargs: Additional keyword arguments to pass to parser.
     :rtype: generator

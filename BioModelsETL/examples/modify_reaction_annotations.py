@@ -1,4 +1,4 @@
-from BioModels import yield_model_paths, classify, extract_annotation_identifiers
+from BioModelsETL import yield_model_paths, classify, extract_annotation_identifiers
 from bs4 import BeautifulSoup
 import libsbml
 

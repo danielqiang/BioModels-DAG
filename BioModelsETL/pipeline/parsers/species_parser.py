@@ -14,7 +14,7 @@ class SpeciesParser(BaseParser):
         :rtype: generator
         """
         import libsbml
-        from BioModels.utils import extract_annotation_identifiers, extract_model_data
+        from BioModelsETL.utils import extract_annotation_identifiers, extract_model_data
 
         model = libsbml.readSBMLFromFile(sbml_file.name).getModel()
 

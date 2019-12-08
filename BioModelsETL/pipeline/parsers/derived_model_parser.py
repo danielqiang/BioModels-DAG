@@ -14,7 +14,7 @@ class DerivedModelParser(BaseParser):
         :param sbml_file: SBML file handle.
         :rtype: generator
         """
-        from BioModels.utils import extract_model_data
+        from BioModelsETL.utils import extract_model_data
 
         soup = BeautifulSoup(sbml_file, features='lxml')
 

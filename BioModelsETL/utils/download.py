@@ -11,7 +11,7 @@ def download_curated_models(dirpath, chunk_size=20):
     :param dirpath: Path to directory to store curated model files in. The directory
                     will be created if it does not exist.
     :param chunk_size: Number of files to download with each download request.
-                    Note that the BioModels search API allows a maximum of 100
+                    Note that the BioModelsETL search API allows a maximum of 100
                     files with each request.
     """
     # Biomodels API documentation can be found at https://www.ebi.ac.uk/biomodels/docs.
@@ -56,10 +56,10 @@ def download_curated_models(dirpath, chunk_size=20):
 
 
 def main():
-    from BioModels.utils import PROJECT_ROOT
+    from BioModelsETL.utils import PROJECT_ROOT
 
     # Saves all SBML files in a local directory named "curated"
-    dirpath = PROJECT_ROOT / "BioModels" / "curated"
+    dirpath = PROJECT_ROOT / "BioModelsETL" / "curated"
     download_curated_models(dirpath)
 
 

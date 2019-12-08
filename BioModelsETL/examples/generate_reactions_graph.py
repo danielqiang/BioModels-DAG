@@ -1,5 +1,5 @@
-from BioModels import *
-from BioModels.utils import timeit, yield_model_paths
+from BioModelsETL import *
+from BioModelsETL.utils import timeit, yield_model_paths
 
 
 @timeit
