@@ -6,7 +6,7 @@ _**This project is under active development as part of semantic data research wi
 
 Biomodels-ETL is a customizable ETL pipeline and DAG engine for visualizing SBML 
 [BioModels](https://www.ebi.ac.uk/biomodels/) (mathematical models for biological systems). 
-It generates NetworkX DAGs that can be exported (most graph data formats e.g. JSON, YAML, GraphML, etc. are supported) and visualized as semantic data networks.
+It generates NetworkX DAGs that can be exported and visualized as semantic data networks.
 
 Example network (visualized with Cytoscape):
 
@@ -22,9 +22,8 @@ The pipeline:
 - Parses data with user-implemented parsers/classifiers to retrieve semantic data as 
 ordered triples (similar to RDF)
 - Processes and loads ordered triples into a NetworkX DAG
-
-The DAG can then be exported and drawn, and is compatible with most
-network visualization tools.
+- Exports DAG (most graph data formats e.g. JSON, YAML, GraphML, etc. are supported). 
+Compatible with most network visualization tools.
 
 The following flowchart illustrates this process:
 
