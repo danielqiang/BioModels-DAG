@@ -29,7 +29,7 @@ network visualization tools (e.g. Cytoscape).
 
 The following flowchart illustrates this process:
 
-![](BioModelsETL/docs/images/ETL Flowchart.png)
+![](BioModelsETL/docs/images/etl-flowchart.png)
 
 Completed example networks are available [here](BioModelsETL/graphs).
 
