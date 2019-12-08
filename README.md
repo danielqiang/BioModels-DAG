@@ -24,7 +24,7 @@ ordered triples (similar to RDF)
 - Processes and loads ordered triples into a NetworkX DAG
 
 The DAG can then be exported and drawn, and is compatible with most
-network visualization tools (e.g. Cytoscape).
+network visualization tools.
 
 The following flowchart illustrates this process:
 
