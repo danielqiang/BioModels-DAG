@@ -105,6 +105,7 @@ venv.bak/
 
 # local folders
 curated/
+combine/
 local/
 prototyping/
 README_images/
