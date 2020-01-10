@@ -1,5 +1,5 @@
 
-_**This project is under active development as part of semantic data research with
+_**Developed as part of semantic data research with
 [UW BIME](http://bime.uw.edu/).**_
 
 # BioModels-ETL
