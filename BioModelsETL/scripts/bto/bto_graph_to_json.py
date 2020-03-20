@@ -13,7 +13,6 @@ def pickle_bto_graph():
 
 
 def main():
-    # pickle_bto_graph()
     with open("bto_graph.pickle", mode="rb") as f:
         g = pickle.load(f)
 
@@ -30,9 +29,6 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
     # pickle_bto_graph()
-    # with open("bto_lookup.json") as f:
-    #     data = json.load(f)
-    #     print(len(data))
+    main()
 

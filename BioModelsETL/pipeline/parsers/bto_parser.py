@@ -21,5 +21,4 @@ class BTOParser(BaseParser):
                 if bto_id in bto_lookup:
                     yield model_data, "", {"name": bto_lookup[bto_id], "id": bto_id, "color": "red"}
                 else:
-                    print(f"BTO ID NOT FOUND: {bto_id}")
                     yield model_data, "", {"name": bto_id, "color": "red"}
