@@ -5,7 +5,7 @@ __all__ = ['ReactionsParser']
 
 
 class ReactionsParser(BaseParser):
-    def parser(self, sbml_file, counter: defaultdict = None, **kwargs):
+    def parser(self, sbml_file, counter: dict = None, **kwargs):
         """
         Extracts all reactions from an SBML file and returns a generator of
         (Model, Edge, Parent Model) 3-tuples each representing a relationship
@@ -20,7 +20,7 @@ class ReactionsParser(BaseParser):
         import libsbml
         from BioModelsETL.utils import extract_annotation_identifiers, extract_model_data
 
-        if type(counter) is dict:
+        if isinstance(counter, dict):
             counter = defaultdict(int, counter)
 
         model_data = extract_model_data(sbml_file)

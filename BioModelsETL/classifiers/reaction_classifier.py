@@ -33,8 +33,12 @@ def is_transport(reaction: libsbml.Reaction, model: libsbml.Model):
     reactant_compartment = model.getCompartment(reactant_species.getCompartment())
     product_compartment = model.getCompartment(product_species.getCompartment())
 
-    reactant_identifiers = set(extract_annotation_identifiers(reactant_species.getAnnotationString()))
-    product_identifiers = set(extract_annotation_identifiers(product_species.getAnnotationString()))
+    reactant_identifiers = set(
+        extract_annotation_identifiers(reactant_species.getAnnotationString())
+    )
+    product_identifiers = set(
+        extract_annotation_identifiers(product_species.getAnnotationString())
+    )
 
     return (
             len(reactant_identifiers) > 0
@@ -64,7 +68,8 @@ def is_complex_assembly(reaction: libsbml.Reaction, model: libsbml.Model):
     reactant_identifiers = set()
     for reactant in reaction.getListOfReactants():
         reactant_species = model.getSpecies(reactant.toXMLNode().getAttrValue('species'))
-        reactant_identifiers.update(extract_annotation_identifiers(reactant_species.getAnnotationString()))
+        reactant_identifiers.update(
+            extract_annotation_identifiers(reactant_species.getAnnotationString()))
 
     product = reaction.getListOfProducts()[0]
     product_species = model.getSpecies(product.toXMLNode().getAttrValue('species'))
@@ -89,8 +94,9 @@ def classify(reaction: libsbml.Reaction, model: libsbml.Model):
     """
     if is_transport(reaction, model):
         return 'transport'
-    if is_complex_assembly(reaction, model):
+    elif is_complex_assembly(reaction, model):
         return 'complex assembly'
-    # All reactions that are not transports or complex assemblies
-    # are classified as biochemical reactions
-    return 'biochemical reaction'
+    else:
+        # All reactions that are not transports or complex assemblies
+        # are classified as biochemical reactions
+        return 'biochemical reaction'

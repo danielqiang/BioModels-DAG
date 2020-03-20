@@ -26,7 +26,7 @@ def get_go_json(go_id: str, session: requests.Session = None):
         return s.get("http://golr-aux.geneontology.io/solr/select", params=params).json()
 
 
-def go_id_is_valid(go_id: str):
+def go_id_is_valid(go_id: str) -> bool:
     """
     Returns True if a go_id is correctly formatted. Returns False otherwise.
     :param go_id: Seven digit identifier prefixed by GO (e.g. GO:0005634) that
@@ -34,11 +34,10 @@ def go_id_is_valid(go_id: str):
 
                 See http://geneontology.org/docs/GO-term-elements for more
                 information.
-    :rtype: bool
     """
     import re
 
-    return re.match(r"GO:[0-9]{7}$", go_id)
+    return bool(re.match(r"GO:[0-9]{7}$", go_id))
 
 
 if __name__ == '__main__':
