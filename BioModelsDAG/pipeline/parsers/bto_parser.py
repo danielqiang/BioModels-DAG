@@ -6,7 +6,7 @@ import libsbml
 
 class BTOParser(BaseParser):
     def parser(self, sbml_file, **kwargs):
-        from BioModelsETL.utils import extract_model_data
+        from BioModelsDAG.utils import extract_model_data
 
         with open("bto_lookup.json") as f:
             bto_lookup = json.load(f)

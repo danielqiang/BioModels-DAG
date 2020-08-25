@@ -2,9 +2,9 @@
 _**Developed as part of semantic data research with
 [UW BIME](http://bime.uw.edu/).**_
 
-# BioModelsDAG
+# BioModels-DAG
 
-BioModelsDAG is a DAG engine for visualizing SBML 
+BioModels-DAG is a DAG engine for visualizing SBML 
 [BioModels](https://www.ebi.ac.uk/biomodels/) (mathematical models for biological systems). 
 It generates NetworkX DAGs that can be exported and visualized as semantic data networks.
 

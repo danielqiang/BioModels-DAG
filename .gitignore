@@ -116,8 +116,8 @@ xmlschema/
 test.py
 parser.py
 .idea
-BioModelsETL/exploration.py
-BioModelsETL/local.py
+BioModelsDAG/exploration.py
+local.py
 
 # under development
 pipeline/validator.py
