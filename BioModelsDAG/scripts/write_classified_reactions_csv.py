@@ -1,4 +1,4 @@
-from BioModelsETL import yield_model_paths, classify, extract_model_data, to_csv
+from BioModelsDAG import yield_model_paths, classify, extract_model_data, to_csv
 import libsbml
 
 

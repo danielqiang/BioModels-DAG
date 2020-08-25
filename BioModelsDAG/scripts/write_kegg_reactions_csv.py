@@ -1,5 +1,5 @@
-from BioModelsETL import *
-from BioModelsETL.utils import timeit, yield_model_paths, to_csv
+from BioModelsDAG import *
+from BioModelsDAG.utils import timeit, yield_model_paths, to_csv
 
 
 def flatten_reaction_data(data):
@@ -8,7 +8,7 @@ def flatten_reaction_data(data):
     into relevant information to write to a CSV file.
 
     :param data: Generator of (Child, Edge, Parent) 3-tuples returned
-                from BioModelsETL.pipeline.parsers.reactions_parser.
+                from BioModelsDAG.pipeline.parsers.reactions_parser.
     :rtype: generator
     """
     for child, edge, parent in data:

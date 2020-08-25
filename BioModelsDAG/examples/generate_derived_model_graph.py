@@ -1,5 +1,5 @@
-from BioModelsETL import extract_data, build_graph, DerivedModelParser
-from BioModelsETL.utils import timeit, yield_model_paths
+from BioModelsDAG import extract_data, build_graph, DerivedModelParser
+from BioModelsDAG.utils import timeit, yield_model_paths
 
 
 @timeit

@@ -18,7 +18,7 @@ class ReactionsParser(BaseParser):
         :rtype: generator
         """
         import libsbml
-        from BioModelsETL.utils import extract_annotation_identifiers, extract_model_data
+        from BioModelsDAG.utils import extract_annotation_identifiers, extract_model_data
 
         if isinstance(counter, dict):
             counter = defaultdict(int, counter)

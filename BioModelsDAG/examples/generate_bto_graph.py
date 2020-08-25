@@ -1,5 +1,5 @@
-from BioModelsETL import *
-from BioModelsETL.utils import timeit, yield_model_paths
+from BioModelsDAG import *
+from BioModelsDAG.utils import timeit, yield_model_paths
 import networkx
 
 

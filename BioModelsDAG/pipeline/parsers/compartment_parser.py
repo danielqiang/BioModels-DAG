@@ -22,7 +22,7 @@ class CompartmentParser(BaseParser):
                                 is a single compartment model.
         :rtype: generator
         """
-        from BioModelsETL.utils import extract_model_data
+        from BioModelsDAG.utils import extract_model_data
 
         soup = BeautifulSoup(sbml_file, features='lxml')
         compartment_tags = soup.find_all("compartment")
@@ -80,7 +80,7 @@ class CompartmentParser(BaseParser):
                                 get_all_go_compartments()
         :rtype: str
         """
-        from BioModelsETL.utils import get_go_json, go_id_is_valid
+        from BioModelsDAG.utils import get_go_json, go_id_is_valid
         from difflib import get_close_matches
 
         # Try to extract the Gene Ontology id (GO id)

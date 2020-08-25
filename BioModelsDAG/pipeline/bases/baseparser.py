@@ -4,7 +4,7 @@ __all__ = ['BaseParser']
 
 
 class BaseParser(ABC):
-    """Abstract base class for BioModelsETL parsers. All parsers must inherit from this class.
+    """Abstract base class for BioModelsDAG parsers. All parsers must inherit from this class.
     """
 
     @abstractmethod
@@ -21,7 +21,7 @@ class BaseParser(ABC):
 
         parser() implementations may accept additional keyword arguments.
         Add keyword arguments to the method signature and pass them to
-        BioModelsETL.extract_data() to use them.
+        BioModelsDAG.extract_data() to use them.
 
         :param sbml_file: (typing.TextIO) SBML file handle.
         """

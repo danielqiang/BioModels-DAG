@@ -2,23 +2,23 @@
 _**Developed as part of semantic data research with
 [UW BIME](http://bime.uw.edu/).**_
 
-# BioModels-ETL
+# BioModelsDAG
 
-Biomodels-ETL is a customizable ETL pipeline and DAG engine for visualizing SBML 
+BioModelsDAG is a DAG engine for visualizing SBML 
 [BioModels](https://www.ebi.ac.uk/biomodels/) (mathematical models for biological systems). 
 It generates NetworkX DAGs that can be exported and visualized as semantic data networks.
 
 Example network (visualized with Cytoscape):
 
 
-![](BioModelsETL/docs/images/derived_model_graph.png)
+![](BioModelsDAG/docs/images/derived_model_graph.png)
 <sub><sup>
 Network showing parent-child relationships between derived BioModels 
 (BioModels that name another model as its predecessor).
 PubMed models are displayed in red, EBI models in green.
 </sup></sub>
 
-The pipeline:
+The engine:
 - Extracts SBML data from SBML BioModels
 - Parses data with user-implemented parsers/classifiers to retrieve semantic data as 
 ordered triples (similar to RDF)
@@ -28,9 +28,9 @@ Compatible with most network visualization tools.
 
 The following flowchart illustrates this process:
 
-![](BioModelsETL/docs/images/etl-flowchart.png)
+![](BioModelsDAG/docs/images/etl-flowchart.png)
 
-Completed example networks are available [here](BioModelsETL/examples/graphs).
+Completed example networks are available [here](BioModelsDAG/examples/graphs).
 
 ## Dependencies
 
